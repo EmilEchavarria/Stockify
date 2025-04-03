@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\emile\\source\\Final Project\\Final Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|c:\\users\\emile\\source\\final project\\final project\\forms\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|C:\\Users\\emile\\source\\Final Project\\Final Project\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|c:\\users\\emile\\source\\final project\\final project\\forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD34673-7059-4175-930B-75317D29E3AA}|..\\BusinessLayer\\BusinessLayer.csproj|c:\\users\\emile\\source\\final project\\businesslayer\\implementations\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86432C1-D5ED-4E87-8071-A79E47EAEE6C}|..\\DataLayer\\DataLayer.csproj|c:\\users\\emile\\source\\final project\\datalayer\\implementations\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918090E4-BD50-4BDD-8CBF-CC2A847F9E4A}|..\\FeatureLayer\\EntitiesLayer.csproj|c:\\users\\emile\\source\\final project\\featurelayer\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|C:\\Users\\emile\\source\\Final Project\\Final Project\\forms\\frmadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|C:\\Users\\emile\\source\\Final Project\\Final Project\\forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|c:\\users\\emile\\source\\final project\\final project\\forms\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmRegister.cs",
+              "DocumentMoniker": "C:\\Users\\emile\\source\\Final Project\\Final Project\\Forms\\FrmRegister.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmRegister.cs",
+              "ToolTip": "C:\\Users\\emile\\source\\Final Project\\Final Project\\Forms\\FrmRegister.cs",
+              "RelativeToolTip": "Forms\\FrmRegister.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T01:48:54.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\emile\\source\\Final Project\\Final Project\\Forms\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmLogin.cs",
+              "ToolTip": "C:\\Users\\emile\\source\\Final Project\\Final Project\\Forms\\FrmLogin.cs",
+              "RelativeToolTip": "Forms\\FrmLogin.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T01:44:54.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "C:\\Users\\emile\\source\\Final Project\\BusinessLayer\\Implementations\\ClientService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLayer\\Implementations\\ClientService.cs",
+              "ToolTip": "C:\\Users\\emile\\source\\Final Project\\BusinessLayer\\Implementations\\ClientService.cs",
+              "RelativeToolTip": "..\\BusinessLayer\\Implementations\\ClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T01:25:40.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\emile\\source\\Final Project\\DataLayer\\Implementations\\ClientRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataLayer\\Implementations\\ClientRepository.cs",
+              "ToolTip": "C:\\Users\\emile\\source\\Final Project\\DataLayer\\Implementations\\ClientRepository.cs",
+              "RelativeToolTip": "..\\DataLayer\\Implementations\\ClientRepository.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T01:21:21.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\emile\\source\\Final Project\\FeatureLayer\\User.cs",
+              "RelativeDocumentMoniker": "..\\FeatureLayer\\User.cs",
+              "ToolTip": "C:\\Users\\emile\\source\\Final Project\\FeatureLayer\\User.cs",
+              "RelativeToolTip": "..\\FeatureLayer\\User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T00:54:18.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmAdminDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\emile\\source\\Final Project\\Final Project\\Forms\\FrmAdminDashboard.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmAdminDashboard.cs",
+              "ToolTip": "C:\\Users\\emile\\source\\Final Project\\Final Project\\Forms\\FrmAdminDashboard.cs",
+              "RelativeToolTip": "Forms\\FrmAdminDashboard.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAawFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T15:18:41.617Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "4f0fed52-6291-42f7-8514-37626e371ebe",
+        "Display": 0,
+        "X": -5,
+        "Y": 215,
+        "Width": 959,
+        "Height": 634,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmHome.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\emile\\source\\Final Project\\Final Project\\Forms\\FrmHome.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmHome.cs",
+              "ToolTip": "C:\\Users\\emile\\source\\Final Project\\Final Project\\Forms\\FrmHome.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\FrmHome.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T23:15:56.953Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\emile\\source\\Final Project\\Final Project\\Forms\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmLogin.cs",
+              "ToolTip": "C:\\Users\\emile\\source\\Final Project\\Final Project\\Forms\\FrmLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\FrmLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T13:39:37.143Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmRegister.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\emile\\source\\Final Project\\Final Project\\Forms\\FrmRegister.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmRegister.cs",
+              "ToolTip": "C:\\Users\\emile\\source\\Final Project\\Final Project\\Forms\\FrmRegister.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\FrmRegister.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T15:14:57.55Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

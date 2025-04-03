@@ -1,0 +1,12 @@
+C:\Users\emile\source\Final Project\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\emile\source\Final Project\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\emile\source\Final Project\BusinessLayer\bin\Debug\DataLayer.dll
+C:\Users\emile\source\Final Project\BusinessLayer\bin\Debug\FeatureLayer.dll
+C:\Users\emile\source\Final Project\BusinessLayer\bin\Debug\DataLayer.pdb
+C:\Users\emile\source\Final Project\BusinessLayer\bin\Debug\FeatureLayer.pdb
+C:\Users\emile\source\Final Project\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\emile\source\Final Project\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\emile\source\Final Project\BusinessLayer\obj\Debug\Business.EA331CBA.Up2Date
+C:\Users\emile\source\Final Project\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\emile\source\Final Project\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\emile\source\Final Project\BusinessLayer\bin\Debug\MySql.Data.dll

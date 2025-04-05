@@ -49,5 +49,42 @@ namespace DataLayer.Implementations
                 }
             }
         }
+
+        // Método para realizar el login del usuario usando el procedimiento almacenado LoginUser
+        public string LoginUser(string username, string password)
+        {
+            // Nombre del procedimiento almacenado
+            string storedProcedure = "LoginUser";
+            string userRole = string.Empty;
+
+            using (var connection = _dbConnection.GetConnection())
+            {
+                // Comando para ejecutar el procedimiento almacenado
+                MySqlCommand command = new MySqlCommand(storedProcedure, connection)
+                {
+                    CommandType = System.Data.CommandType.StoredProcedure
+                };
+
+                // Añadir los parámetros del procedimiento almacenado
+                command.Parameters.AddWithValue("p_username", username);
+                command.Parameters.AddWithValue("p_password", password); // Recuerda que la contraseña ya está cifrada en el procedimiento almacenado
+
+                // Abrir la conexión y ejecutar el procedimiento
+                connection.Open();
+                using (var reader = command.ExecuteReader())
+                {
+                    // Procesar el resultado de la consulta
+                    while (reader.Read())
+                    {
+                        userRole = reader["Role"].ToString(); // Obtener el rol del usuario
+                    }
+                }
+            }
+
+            // Devolver el resultado
+            return userRole;
+        }
     }
 }
+    
+

@@ -44,7 +44,55 @@ namespace Final_Project
 
         private void BtnLogin_Click(object sender, EventArgs e)
         {
-            // Lógica de inicio de sesión aquí
+            if (_clientService == null)
+            {
+                MessageBox.Show("No se pudo inicializar el servicio de clientes.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // Obtener el nombre de usuario y la contraseña desde los campos de texto
+            string username = TxtUsername.Text;
+            string password = TxtPassword.Text;
+
+            try
+            {
+                // Llamar al método de login del servicio de clientes
+                string userRole = _clientService.LoginUser(username, password);
+
+                // Verificar el rol del usuario
+                if (userRole == "admin")
+                {
+                    // Si el rol es admin, redirigir al Admin Dashboard
+                    MessageBox.Show($"Bienvenido administrador, {username}", "Login Exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    FrmAdminDashboard adminDashboard = new FrmAdminDashboard();
+                    adminDashboard.Show();
+                    this.Hide(); // Ocultar el formulario de login
+                }
+                else if (userRole == "user")
+                {
+                    // Si el rol es un usuario normal, redirigir al formulario principal
+                    MessageBox.Show($"Bienvenido, {username}", "Login Exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    FrmHome mainForm = new FrmHome();
+                    mainForm.Show();
+                    this.Hide(); // Ocultar el formulario de login
+                }
+                else
+                {
+                    // Si el login es inválido o el usuario está inactivo
+                    MessageBox.Show("Credenciales inválidas o el usuario está inactivo.", "Error de Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                // Mostrar el error si el login es inválido o si el usuario está inactivo
+                MessageBox.Show(ex.Message, "Error de Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception ex)
+            {
+                // Mostrar un mensaje de error general
+                MessageBox.Show($"Ocurrió un error inesperado: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
+
     }
 }

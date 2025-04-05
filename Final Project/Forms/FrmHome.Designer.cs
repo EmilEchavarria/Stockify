@@ -28,18 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHome));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.siticoneTabControl1 = new Siticone.Desktop.UI.WinForms.SiticoneTabControl();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.siticoneCustomGradientPanel4 = new Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel();
             this.siticoneHtmlLabel13 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel11 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.siticoneCirclePictureBox4 = new Siticone.Desktop.UI.WinForms.SiticoneCirclePictureBox();
             this.siticoneHtmlLabel12 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.siticoneHtmlLabel4 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
@@ -47,13 +48,16 @@
             this.siticoneCustomGradientPanel3 = new Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel();
             this.siticoneHtmlLabel10 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel8 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.siticoneCirclePictureBox3 = new Siticone.Desktop.UI.WinForms.SiticoneCirclePictureBox();
             this.siticoneHtmlLabel9 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneCustomGradientPanel2 = new Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel();
             this.siticoneHtmlLabel7 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel5 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.siticoneCirclePictureBox2 = new Siticone.Desktop.UI.WinForms.SiticoneCirclePictureBox();
             this.siticoneHtmlLabel6 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneCustomGradientPanel1 = new Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel();
             this.siticoneHtmlLabel1 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.siticoneCirclePictureBox1 = new Siticone.Desktop.UI.WinForms.SiticoneCirclePictureBox();
             this.siticoneHtmlLabel3 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.LblTotalUsers = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.tabPage3 = new System.Windows.Forms.TabPage();
@@ -63,14 +67,23 @@
             this.panel14 = new System.Windows.Forms.Panel();
             this.siticoneHtmlLabel21 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel22 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.LblDescription = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel24 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel25 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneTextBox8 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.bunifuThinButton25 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuThinButton26 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel11 = new System.Windows.Forms.Panel();
             this.siticoneHtmlLabel18 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel16 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel19 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.PbProducts = new System.Windows.Forms.PictureBox();
+            this.BtnPSearch = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.TxtPName = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.DgvProducts = new Siticone.Desktop.UI.WinForms.SiticoneDataGridView();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.siticoneHtmlLabel17 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.panel15 = new System.Windows.Forms.Panel();
             this.panel16 = new System.Windows.Forms.Panel();
@@ -82,12 +95,15 @@
             this.siticoneHtmlLabel30 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel31 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneTextBox1 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.bunifuThinButton27 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuThinButton28 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel18 = new System.Windows.Forms.Panel();
             this.siticoneHtmlLabel32 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel33 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel34 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.panel19 = new System.Windows.Forms.Panel();
             this.panel20 = new System.Windows.Forms.Panel();
+            this.bunifuThinButton29 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.siticoneTextBox2 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.siticoneDataGridView2 = new Siticone.Desktop.UI.WinForms.SiticoneDataGridView();
             this.panel21 = new System.Windows.Forms.Panel();
@@ -102,13 +118,17 @@
             this.siticoneHtmlLabel40 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel41 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneTextBox3 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.bunifuThinButton210 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuThinButton211 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.panel25 = new System.Windows.Forms.Panel();
             this.panel26 = new System.Windows.Forms.Panel();
             this.siticoneHtmlLabel42 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.panel27 = new System.Windows.Forms.Panel();
             this.siticoneTextBox4 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.bunifuThinButton212 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.siticoneTextBox9 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.siticoneTextBox10 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.bunifuThinButton213 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.siticoneTextBox11 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.siticoneTextBox12 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.siticoneTextBox13 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
@@ -119,39 +139,27 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.siticoneCirclePictureBox4 = new Siticone.Desktop.UI.WinForms.SiticoneCirclePictureBox();
-            this.siticoneCirclePictureBox3 = new Siticone.Desktop.UI.WinForms.SiticoneCirclePictureBox();
-            this.siticoneCirclePictureBox2 = new Siticone.Desktop.UI.WinForms.SiticoneCirclePictureBox();
-            this.siticoneCirclePictureBox1 = new Siticone.Desktop.UI.WinForms.SiticoneCirclePictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.bunifuThinButton25 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton26 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton27 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton28 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton29 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton210 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton211 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton212 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton213 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.siticoneDataGridView1 = new Siticone.Desktop.UI.WinForms.SiticoneDataGridView();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.siticoneTextBox7 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.siticoneHtmlLabel17 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneTabControl1.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.siticoneCustomGradientPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox4)).BeginInit();
             this.panel1.SuspendLayout();
             this.siticoneCustomGradientPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox3)).BeginInit();
             this.siticoneCustomGradientPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox2)).BeginInit();
             this.siticoneCustomGradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox1)).BeginInit();
             this.tabPage3.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel14.SuspendLayout();
             this.panel11.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PbProducts)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvProducts)).BeginInit();
+            this.panel9.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.panel15.SuspendLayout();
             this.panel16.SuspendLayout();
@@ -169,15 +177,6 @@
             this.panel27.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.siticoneDataGridView1)).BeginInit();
-            this.panel10.SuspendLayout();
-            this.panel8.SuspendLayout();
             this.SuspendLayout();
             // 
             // siticoneTabControl1
@@ -265,6 +264,19 @@
             this.siticoneHtmlLabel11.TabIndex = 13;
             this.siticoneHtmlLabel11.Text = null;
             // 
+            // siticoneCirclePictureBox4
+            // 
+            this.siticoneCirclePictureBox4.FillColor = System.Drawing.Color.Transparent;
+            this.siticoneCirclePictureBox4.Image = global::Final_Project.Properties.Resources.user__1_;
+            this.siticoneCirclePictureBox4.ImageRotate = 0F;
+            this.siticoneCirclePictureBox4.Location = new System.Drawing.Point(30, 22);
+            this.siticoneCirclePictureBox4.Name = "siticoneCirclePictureBox4";
+            this.siticoneCirclePictureBox4.ShadowDecoration.Mode = Siticone.Desktop.UI.WinForms.Enums.ShadowMode.Circle;
+            this.siticoneCirclePictureBox4.Size = new System.Drawing.Size(70, 70);
+            this.siticoneCirclePictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.siticoneCirclePictureBox4.TabIndex = 0;
+            this.siticoneCirclePictureBox4.TabStop = false;
+            // 
             // siticoneHtmlLabel12
             // 
             this.siticoneHtmlLabel12.BackColor = System.Drawing.Color.Transparent;
@@ -346,6 +358,19 @@
             this.siticoneHtmlLabel8.TabIndex = 13;
             this.siticoneHtmlLabel8.Text = null;
             // 
+            // siticoneCirclePictureBox3
+            // 
+            this.siticoneCirclePictureBox3.FillColor = System.Drawing.Color.Transparent;
+            this.siticoneCirclePictureBox3.Image = global::Final_Project.Properties.Resources.user__1_;
+            this.siticoneCirclePictureBox3.ImageRotate = 0F;
+            this.siticoneCirclePictureBox3.Location = new System.Drawing.Point(30, 22);
+            this.siticoneCirclePictureBox3.Name = "siticoneCirclePictureBox3";
+            this.siticoneCirclePictureBox3.ShadowDecoration.Mode = Siticone.Desktop.UI.WinForms.Enums.ShadowMode.Circle;
+            this.siticoneCirclePictureBox3.Size = new System.Drawing.Size(70, 70);
+            this.siticoneCirclePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.siticoneCirclePictureBox3.TabIndex = 0;
+            this.siticoneCirclePictureBox3.TabStop = false;
+            // 
             // siticoneHtmlLabel9
             // 
             this.siticoneHtmlLabel9.BackColor = System.Drawing.Color.Transparent;
@@ -394,6 +419,19 @@
             this.siticoneHtmlLabel5.TabIndex = 13;
             this.siticoneHtmlLabel5.Text = null;
             // 
+            // siticoneCirclePictureBox2
+            // 
+            this.siticoneCirclePictureBox2.FillColor = System.Drawing.Color.Transparent;
+            this.siticoneCirclePictureBox2.Image = global::Final_Project.Properties.Resources.user__1_;
+            this.siticoneCirclePictureBox2.ImageRotate = 0F;
+            this.siticoneCirclePictureBox2.Location = new System.Drawing.Point(30, 22);
+            this.siticoneCirclePictureBox2.Name = "siticoneCirclePictureBox2";
+            this.siticoneCirclePictureBox2.ShadowDecoration.Mode = Siticone.Desktop.UI.WinForms.Enums.ShadowMode.Circle;
+            this.siticoneCirclePictureBox2.Size = new System.Drawing.Size(70, 70);
+            this.siticoneCirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.siticoneCirclePictureBox2.TabIndex = 0;
+            this.siticoneCirclePictureBox2.TabStop = false;
+            // 
             // siticoneHtmlLabel6
             // 
             this.siticoneHtmlLabel6.BackColor = System.Drawing.Color.Transparent;
@@ -431,6 +469,19 @@
             this.siticoneHtmlLabel1.TabIndex = 13;
             this.siticoneHtmlLabel1.Text = null;
             // 
+            // siticoneCirclePictureBox1
+            // 
+            this.siticoneCirclePictureBox1.FillColor = System.Drawing.Color.Transparent;
+            this.siticoneCirclePictureBox1.Image = global::Final_Project.Properties.Resources.user__1_;
+            this.siticoneCirclePictureBox1.ImageRotate = 0F;
+            this.siticoneCirclePictureBox1.Location = new System.Drawing.Point(30, 22);
+            this.siticoneCirclePictureBox1.Name = "siticoneCirclePictureBox1";
+            this.siticoneCirclePictureBox1.ShadowDecoration.Mode = Siticone.Desktop.UI.WinForms.Enums.ShadowMode.Circle;
+            this.siticoneCirclePictureBox1.Size = new System.Drawing.Size(70, 70);
+            this.siticoneCirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.siticoneCirclePictureBox1.TabIndex = 0;
+            this.siticoneCirclePictureBox1.TabStop = false;
+            // 
             // siticoneHtmlLabel3
             // 
             this.siticoneHtmlLabel3.BackColor = System.Drawing.Color.Transparent;
@@ -456,9 +507,7 @@
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
-            this.tabPage3.Controls.Add(this.pictureBox2);
             this.tabPage3.Controls.Add(this.panel12);
-            this.tabPage3.Controls.Add(this.LblDescription);
             this.tabPage3.Controls.Add(this.panel11);
             this.tabPage3.Controls.Add(this.panel8);
             this.tabPage3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -546,20 +595,6 @@
             this.siticoneHtmlLabel22.Text = null;
             this.siticoneHtmlLabel22.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblDescription
-            // 
-            this.LblDescription.AutoSize = false;
-            this.LblDescription.BackColor = System.Drawing.Color.White;
-            this.LblDescription.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblDescription.Font = new System.Drawing.Font("Segoe UI", 14.25F);
-            this.LblDescription.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.LblDescription.Location = new System.Drawing.Point(360, 269);
-            this.LblDescription.Name = "LblDescription";
-            this.LblDescription.Size = new System.Drawing.Size(346, 300);
-            this.LblDescription.TabIndex = 31;
-            this.LblDescription.Text = null;
-            this.LblDescription.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // siticoneHtmlLabel24
             // 
             this.siticoneHtmlLabel24.AutoSize = false;
@@ -610,6 +645,58 @@
             this.siticoneTextBox8.Size = new System.Drawing.Size(46, 39);
             this.siticoneTextBox8.TabIndex = 26;
             // 
+            // bunifuThinButton25
+            // 
+            this.bunifuThinButton25.ActiveBorderThickness = 1;
+            this.bunifuThinButton25.ActiveCornerRadius = 20;
+            this.bunifuThinButton25.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton25.ActiveForecolor = System.Drawing.Color.Wheat;
+            this.bunifuThinButton25.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton25.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bunifuThinButton25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton25.BackgroundImage")));
+            this.bunifuThinButton25.ButtonText = "Eliminar";
+            this.bunifuThinButton25.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton25.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton25.IdleBorderThickness = 1;
+            this.bunifuThinButton25.IdleCornerRadius = 20;
+            this.bunifuThinButton25.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.bunifuThinButton25.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton25.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton25.Location = new System.Drawing.Point(1463, 8);
+            this.bunifuThinButton25.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton25.Name = "bunifuThinButton25";
+            this.bunifuThinButton25.Size = new System.Drawing.Size(123, 55);
+            this.bunifuThinButton25.TabIndex = 24;
+            this.bunifuThinButton25.TabStop = false;
+            this.bunifuThinButton25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuThinButton26
+            // 
+            this.bunifuThinButton26.ActiveBorderThickness = 1;
+            this.bunifuThinButton26.ActiveCornerRadius = 20;
+            this.bunifuThinButton26.ActiveFillColor = System.Drawing.Color.White;
+            this.bunifuThinButton26.ActiveForecolor = System.Drawing.Color.Wheat;
+            this.bunifuThinButton26.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton26.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bunifuThinButton26.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton26.BackgroundImage")));
+            this.bunifuThinButton26.ButtonText = "Buscar";
+            this.bunifuThinButton26.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton26.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton26.IdleBorderThickness = 1;
+            this.bunifuThinButton26.IdleCornerRadius = 20;
+            this.bunifuThinButton26.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.bunifuThinButton26.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton26.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton26.Location = new System.Drawing.Point(1324, 7);
+            this.bunifuThinButton26.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton26.Name = "bunifuThinButton26";
+            this.bunifuThinButton26.Size = new System.Drawing.Size(123, 55);
+            this.bunifuThinButton26.TabIndex = 23;
+            this.bunifuThinButton26.TabStop = false;
+            this.bunifuThinButton26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -655,6 +742,159 @@
             this.siticoneHtmlLabel19.Size = new System.Drawing.Size(235, 22);
             this.siticoneHtmlLabel19.TabIndex = 17;
             this.siticoneHtmlLabel19.Text = "Dashboard > Gestion de clientes";
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.Black;
+            this.panel8.Controls.Add(this.panel10);
+            this.panel8.Controls.Add(this.DgvProducts);
+            this.panel8.Controls.Add(this.panel9);
+            this.panel8.ForeColor = System.Drawing.Color.White;
+            this.panel8.Location = new System.Drawing.Point(3, 251);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(1593, 330);
+            this.panel8.TabIndex = 19;
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel10.Controls.Add(this.PbProducts);
+            this.panel10.Controls.Add(this.BtnPSearch);
+            this.panel10.Controls.Add(this.TxtPName);
+            this.panel10.ForeColor = System.Drawing.Color.White;
+            this.panel10.Location = new System.Drawing.Point(0, 65);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(1593, 65);
+            this.panel10.TabIndex = 27;
+            // 
+            // PbProducts
+            // 
+            this.PbProducts.Location = new System.Drawing.Point(439, -124);
+            this.PbProducts.Name = "PbProducts";
+            this.PbProducts.Size = new System.Drawing.Size(449, 349);
+            this.PbProducts.TabIndex = 28;
+            this.PbProducts.TabStop = false;
+            // 
+            // BtnPSearch
+            // 
+            this.BtnPSearch.ActiveBorderThickness = 1;
+            this.BtnPSearch.ActiveCornerRadius = 20;
+            this.BtnPSearch.ActiveFillColor = System.Drawing.Color.White;
+            this.BtnPSearch.ActiveForecolor = System.Drawing.Color.Wheat;
+            this.BtnPSearch.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.BtnPSearch.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnPSearch.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnPSearch.BackgroundImage")));
+            this.BtnPSearch.ButtonText = "Buscar";
+            this.BtnPSearch.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnPSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnPSearch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.BtnPSearch.IdleBorderThickness = 1;
+            this.BtnPSearch.IdleCornerRadius = 20;
+            this.BtnPSearch.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.BtnPSearch.IdleForecolor = System.Drawing.Color.White;
+            this.BtnPSearch.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.BtnPSearch.Location = new System.Drawing.Point(1459, 5);
+            this.BtnPSearch.Margin = new System.Windows.Forms.Padding(5);
+            this.BtnPSearch.Name = "BtnPSearch";
+            this.BtnPSearch.Size = new System.Drawing.Size(123, 55);
+            this.BtnPSearch.TabIndex = 26;
+            this.BtnPSearch.TabStop = false;
+            this.BtnPSearch.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.BtnPSearch.Click += new System.EventHandler(this.BtnPSearch_Click);
+            // 
+            // TxtPName
+            // 
+            this.TxtPName.BorderColor = System.Drawing.Color.Silver;
+            this.TxtPName.BorderThickness = 2;
+            this.TxtPName.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TxtPName.DefaultText = "";
+            this.TxtPName.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TxtPName.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TxtPName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtPName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtPName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtPName.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtPName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtPName.Location = new System.Drawing.Point(1247, 14);
+            this.TxtPName.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtPName.Name = "TxtPName";
+            this.TxtPName.PasswordChar = '\0';
+            this.TxtPName.PlaceholderText = "Escriba el nombre";
+            this.TxtPName.SelectedText = "";
+            this.TxtPName.Size = new System.Drawing.Size(203, 39);
+            this.TxtPName.TabIndex = 25;
+            // 
+            // DgvProducts
+            // 
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.DgvProducts.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvProducts.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.DgvProducts.ColumnHeadersHeight = 4;
+            this.DgvProducts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DgvProducts.DefaultCellStyle = dataGridViewCellStyle3;
+            this.DgvProducts.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DgvProducts.Location = new System.Drawing.Point(-3, 125);
+            this.DgvProducts.Name = "DgvProducts";
+            this.DgvProducts.RowHeadersVisible = false;
+            this.DgvProducts.Size = new System.Drawing.Size(1596, 205);
+            this.DgvProducts.TabIndex = 26;
+            this.DgvProducts.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.DgvProducts.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.DgvProducts.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.DgvProducts.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.DgvProducts.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.DgvProducts.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.DgvProducts.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DgvProducts.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.DgvProducts.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.DgvProducts.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DgvProducts.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.DgvProducts.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.DgvProducts.ThemeStyle.HeaderStyle.Height = 4;
+            this.DgvProducts.ThemeStyle.ReadOnly = false;
+            this.DgvProducts.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.DgvProducts.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.DgvProducts.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DgvProducts.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.White;
+            this.DgvProducts.ThemeStyle.RowsStyle.Height = 22;
+            this.DgvProducts.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DgvProducts.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
+            this.panel9.Controls.Add(this.siticoneHtmlLabel17);
+            this.panel9.ForeColor = System.Drawing.Color.White;
+            this.panel9.Location = new System.Drawing.Point(0, 0);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(1593, 65);
+            this.panel9.TabIndex = 16;
+            // 
+            // siticoneHtmlLabel17
+            // 
+            this.siticoneHtmlLabel17.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneHtmlLabel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel17.ForeColor = System.Drawing.Color.White;
+            this.siticoneHtmlLabel17.Location = new System.Drawing.Point(36, 15);
+            this.siticoneHtmlLabel17.Name = "siticoneHtmlLabel17";
+            this.siticoneHtmlLabel17.Size = new System.Drawing.Size(154, 27);
+            this.siticoneHtmlLabel17.TabIndex = 4;
+            this.siticoneHtmlLabel17.Text = "Buscar Clientes";
+            this.siticoneHtmlLabel17.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // tabPage4
             // 
@@ -813,6 +1053,58 @@
             this.siticoneTextBox1.Size = new System.Drawing.Size(46, 39);
             this.siticoneTextBox1.TabIndex = 26;
             // 
+            // bunifuThinButton27
+            // 
+            this.bunifuThinButton27.ActiveBorderThickness = 1;
+            this.bunifuThinButton27.ActiveCornerRadius = 20;
+            this.bunifuThinButton27.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton27.ActiveForecolor = System.Drawing.Color.Wheat;
+            this.bunifuThinButton27.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton27.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bunifuThinButton27.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton27.BackgroundImage")));
+            this.bunifuThinButton27.ButtonText = "Eliminar";
+            this.bunifuThinButton27.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton27.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton27.IdleBorderThickness = 1;
+            this.bunifuThinButton27.IdleCornerRadius = 20;
+            this.bunifuThinButton27.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.bunifuThinButton27.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton27.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton27.Location = new System.Drawing.Point(1463, 8);
+            this.bunifuThinButton27.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton27.Name = "bunifuThinButton27";
+            this.bunifuThinButton27.Size = new System.Drawing.Size(123, 55);
+            this.bunifuThinButton27.TabIndex = 24;
+            this.bunifuThinButton27.TabStop = false;
+            this.bunifuThinButton27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuThinButton28
+            // 
+            this.bunifuThinButton28.ActiveBorderThickness = 1;
+            this.bunifuThinButton28.ActiveCornerRadius = 20;
+            this.bunifuThinButton28.ActiveFillColor = System.Drawing.Color.White;
+            this.bunifuThinButton28.ActiveForecolor = System.Drawing.Color.Wheat;
+            this.bunifuThinButton28.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton28.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bunifuThinButton28.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton28.BackgroundImage")));
+            this.bunifuThinButton28.ButtonText = "Buscar";
+            this.bunifuThinButton28.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton28.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton28.IdleBorderThickness = 1;
+            this.bunifuThinButton28.IdleCornerRadius = 20;
+            this.bunifuThinButton28.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.bunifuThinButton28.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton28.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton28.Location = new System.Drawing.Point(1324, 7);
+            this.bunifuThinButton28.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton28.Name = "bunifuThinButton28";
+            this.bunifuThinButton28.Size = new System.Drawing.Size(123, 55);
+            this.bunifuThinButton28.TabIndex = 23;
+            this.bunifuThinButton28.TabStop = false;
+            this.bunifuThinButton28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // panel18
             // 
             this.panel18.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -881,6 +1173,32 @@
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(1593, 65);
             this.panel20.TabIndex = 27;
+            // 
+            // bunifuThinButton29
+            // 
+            this.bunifuThinButton29.ActiveBorderThickness = 1;
+            this.bunifuThinButton29.ActiveCornerRadius = 20;
+            this.bunifuThinButton29.ActiveFillColor = System.Drawing.Color.White;
+            this.bunifuThinButton29.ActiveForecolor = System.Drawing.Color.Wheat;
+            this.bunifuThinButton29.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton29.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bunifuThinButton29.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton29.BackgroundImage")));
+            this.bunifuThinButton29.ButtonText = "Buscar";
+            this.bunifuThinButton29.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton29.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton29.IdleBorderThickness = 1;
+            this.bunifuThinButton29.IdleCornerRadius = 20;
+            this.bunifuThinButton29.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.bunifuThinButton29.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton29.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton29.Location = new System.Drawing.Point(1459, 5);
+            this.bunifuThinButton29.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton29.Name = "bunifuThinButton29";
+            this.bunifuThinButton29.Size = new System.Drawing.Size(123, 55);
+            this.bunifuThinButton29.TabIndex = 26;
+            this.bunifuThinButton29.TabStop = false;
+            this.bunifuThinButton29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // siticoneTextBox2
             // 
@@ -1118,6 +1436,58 @@
             this.siticoneTextBox3.Size = new System.Drawing.Size(46, 39);
             this.siticoneTextBox3.TabIndex = 26;
             // 
+            // bunifuThinButton210
+            // 
+            this.bunifuThinButton210.ActiveBorderThickness = 1;
+            this.bunifuThinButton210.ActiveCornerRadius = 20;
+            this.bunifuThinButton210.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton210.ActiveForecolor = System.Drawing.Color.Wheat;
+            this.bunifuThinButton210.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton210.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bunifuThinButton210.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton210.BackgroundImage")));
+            this.bunifuThinButton210.ButtonText = "Eliminar";
+            this.bunifuThinButton210.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton210.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton210.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton210.IdleBorderThickness = 1;
+            this.bunifuThinButton210.IdleCornerRadius = 20;
+            this.bunifuThinButton210.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.bunifuThinButton210.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton210.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton210.Location = new System.Drawing.Point(1463, 8);
+            this.bunifuThinButton210.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton210.Name = "bunifuThinButton210";
+            this.bunifuThinButton210.Size = new System.Drawing.Size(123, 55);
+            this.bunifuThinButton210.TabIndex = 24;
+            this.bunifuThinButton210.TabStop = false;
+            this.bunifuThinButton210.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuThinButton211
+            // 
+            this.bunifuThinButton211.ActiveBorderThickness = 1;
+            this.bunifuThinButton211.ActiveCornerRadius = 20;
+            this.bunifuThinButton211.ActiveFillColor = System.Drawing.Color.White;
+            this.bunifuThinButton211.ActiveForecolor = System.Drawing.Color.Wheat;
+            this.bunifuThinButton211.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton211.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bunifuThinButton211.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton211.BackgroundImage")));
+            this.bunifuThinButton211.ButtonText = "Buscar";
+            this.bunifuThinButton211.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton211.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton211.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton211.IdleBorderThickness = 1;
+            this.bunifuThinButton211.IdleCornerRadius = 20;
+            this.bunifuThinButton211.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.bunifuThinButton211.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton211.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton211.Location = new System.Drawing.Point(1324, 7);
+            this.bunifuThinButton211.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton211.Name = "bunifuThinButton211";
+            this.bunifuThinButton211.Size = new System.Drawing.Size(123, 55);
+            this.bunifuThinButton211.TabIndex = 23;
+            this.bunifuThinButton211.TabStop = false;
+            this.bunifuThinButton211.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // panel25
             // 
             this.panel25.BackColor = System.Drawing.Color.Black;
@@ -1190,6 +1560,32 @@
             this.siticoneTextBox4.Size = new System.Drawing.Size(46, 39);
             this.siticoneTextBox4.TabIndex = 25;
             // 
+            // bunifuThinButton212
+            // 
+            this.bunifuThinButton212.ActiveBorderThickness = 1;
+            this.bunifuThinButton212.ActiveCornerRadius = 20;
+            this.bunifuThinButton212.ActiveFillColor = System.Drawing.Color.White;
+            this.bunifuThinButton212.ActiveForecolor = System.Drawing.Color.Wheat;
+            this.bunifuThinButton212.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton212.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bunifuThinButton212.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton212.BackgroundImage")));
+            this.bunifuThinButton212.ButtonText = "Buscar";
+            this.bunifuThinButton212.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton212.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton212.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton212.IdleBorderThickness = 1;
+            this.bunifuThinButton212.IdleCornerRadius = 20;
+            this.bunifuThinButton212.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.bunifuThinButton212.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton212.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton212.Location = new System.Drawing.Point(1324, 5);
+            this.bunifuThinButton212.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton212.Name = "bunifuThinButton212";
+            this.bunifuThinButton212.Size = new System.Drawing.Size(123, 55);
+            this.bunifuThinButton212.TabIndex = 23;
+            this.bunifuThinButton212.TabStop = false;
+            this.bunifuThinButton212.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // siticoneTextBox9
             // 
             this.siticoneTextBox9.BorderColor = System.Drawing.Color.Silver;
@@ -1233,6 +1629,32 @@
             this.siticoneTextBox10.SelectedText = "";
             this.siticoneTextBox10.Size = new System.Drawing.Size(238, 39);
             this.siticoneTextBox10.TabIndex = 21;
+            // 
+            // bunifuThinButton213
+            // 
+            this.bunifuThinButton213.ActiveBorderThickness = 1;
+            this.bunifuThinButton213.ActiveCornerRadius = 20;
+            this.bunifuThinButton213.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton213.ActiveForecolor = System.Drawing.Color.Wheat;
+            this.bunifuThinButton213.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton213.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bunifuThinButton213.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton213.BackgroundImage")));
+            this.bunifuThinButton213.ButtonText = "Editar";
+            this.bunifuThinButton213.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton213.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton213.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton213.IdleBorderThickness = 1;
+            this.bunifuThinButton213.IdleCornerRadius = 20;
+            this.bunifuThinButton213.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(163)))), ((int)(((byte)(68)))));
+            this.bunifuThinButton213.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton213.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.bunifuThinButton213.Location = new System.Drawing.Point(1457, 5);
+            this.bunifuThinButton213.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton213.Name = "bunifuThinButton213";
+            this.bunifuThinButton213.Size = new System.Drawing.Size(123, 55);
+            this.bunifuThinButton213.TabIndex = 19;
+            this.bunifuThinButton213.TabStop = false;
+            this.bunifuThinButton213.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // siticoneTextBox11
             // 
@@ -1379,446 +1801,6 @@
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
-            // siticoneCirclePictureBox4
-            // 
-            this.siticoneCirclePictureBox4.FillColor = System.Drawing.Color.Transparent;
-            this.siticoneCirclePictureBox4.Image = global::Final_Project.Properties.Resources.user__1_;
-            this.siticoneCirclePictureBox4.ImageRotate = 0F;
-            this.siticoneCirclePictureBox4.Location = new System.Drawing.Point(30, 22);
-            this.siticoneCirclePictureBox4.Name = "siticoneCirclePictureBox4";
-            this.siticoneCirclePictureBox4.ShadowDecoration.Mode = Siticone.Desktop.UI.WinForms.Enums.ShadowMode.Circle;
-            this.siticoneCirclePictureBox4.Size = new System.Drawing.Size(70, 70);
-            this.siticoneCirclePictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.siticoneCirclePictureBox4.TabIndex = 0;
-            this.siticoneCirclePictureBox4.TabStop = false;
-            // 
-            // siticoneCirclePictureBox3
-            // 
-            this.siticoneCirclePictureBox3.FillColor = System.Drawing.Color.Transparent;
-            this.siticoneCirclePictureBox3.Image = global::Final_Project.Properties.Resources.user__1_;
-            this.siticoneCirclePictureBox3.ImageRotate = 0F;
-            this.siticoneCirclePictureBox3.Location = new System.Drawing.Point(30, 22);
-            this.siticoneCirclePictureBox3.Name = "siticoneCirclePictureBox3";
-            this.siticoneCirclePictureBox3.ShadowDecoration.Mode = Siticone.Desktop.UI.WinForms.Enums.ShadowMode.Circle;
-            this.siticoneCirclePictureBox3.Size = new System.Drawing.Size(70, 70);
-            this.siticoneCirclePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.siticoneCirclePictureBox3.TabIndex = 0;
-            this.siticoneCirclePictureBox3.TabStop = false;
-            // 
-            // siticoneCirclePictureBox2
-            // 
-            this.siticoneCirclePictureBox2.FillColor = System.Drawing.Color.Transparent;
-            this.siticoneCirclePictureBox2.Image = global::Final_Project.Properties.Resources.user__1_;
-            this.siticoneCirclePictureBox2.ImageRotate = 0F;
-            this.siticoneCirclePictureBox2.Location = new System.Drawing.Point(30, 22);
-            this.siticoneCirclePictureBox2.Name = "siticoneCirclePictureBox2";
-            this.siticoneCirclePictureBox2.ShadowDecoration.Mode = Siticone.Desktop.UI.WinForms.Enums.ShadowMode.Circle;
-            this.siticoneCirclePictureBox2.Size = new System.Drawing.Size(70, 70);
-            this.siticoneCirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.siticoneCirclePictureBox2.TabIndex = 0;
-            this.siticoneCirclePictureBox2.TabStop = false;
-            // 
-            // siticoneCirclePictureBox1
-            // 
-            this.siticoneCirclePictureBox1.FillColor = System.Drawing.Color.Transparent;
-            this.siticoneCirclePictureBox1.Image = global::Final_Project.Properties.Resources.user__1_;
-            this.siticoneCirclePictureBox1.ImageRotate = 0F;
-            this.siticoneCirclePictureBox1.Location = new System.Drawing.Point(30, 22);
-            this.siticoneCirclePictureBox1.Name = "siticoneCirclePictureBox1";
-            this.siticoneCirclePictureBox1.ShadowDecoration.Mode = Siticone.Desktop.UI.WinForms.Enums.ShadowMode.Circle;
-            this.siticoneCirclePictureBox1.Size = new System.Drawing.Size(70, 70);
-            this.siticoneCirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.siticoneCirclePictureBox1.TabIndex = 0;
-            this.siticoneCirclePictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.White;
-            this.pictureBox2.BackgroundImage = global::Final_Project.Properties.Resources.brownies3;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(23, 269);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(300, 300);
-            this.pictureBox2.TabIndex = 27;
-            this.pictureBox2.TabStop = false;
-            // 
-            // bunifuThinButton25
-            // 
-            this.bunifuThinButton25.ActiveBorderThickness = 1;
-            this.bunifuThinButton25.ActiveCornerRadius = 20;
-            this.bunifuThinButton25.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton25.ActiveForecolor = System.Drawing.Color.Wheat;
-            this.bunifuThinButton25.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton25.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuThinButton25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton25.BackgroundImage")));
-            this.bunifuThinButton25.ButtonText = "Eliminar";
-            this.bunifuThinButton25.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton25.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton25.IdleBorderThickness = 1;
-            this.bunifuThinButton25.IdleCornerRadius = 20;
-            this.bunifuThinButton25.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.bunifuThinButton25.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton25.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton25.Location = new System.Drawing.Point(1463, 8);
-            this.bunifuThinButton25.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton25.Name = "bunifuThinButton25";
-            this.bunifuThinButton25.Size = new System.Drawing.Size(123, 55);
-            this.bunifuThinButton25.TabIndex = 24;
-            this.bunifuThinButton25.TabStop = false;
-            this.bunifuThinButton25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuThinButton26
-            // 
-            this.bunifuThinButton26.ActiveBorderThickness = 1;
-            this.bunifuThinButton26.ActiveCornerRadius = 20;
-            this.bunifuThinButton26.ActiveFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton26.ActiveForecolor = System.Drawing.Color.Wheat;
-            this.bunifuThinButton26.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton26.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuThinButton26.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton26.BackgroundImage")));
-            this.bunifuThinButton26.ButtonText = "Buscar";
-            this.bunifuThinButton26.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton26.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton26.IdleBorderThickness = 1;
-            this.bunifuThinButton26.IdleCornerRadius = 20;
-            this.bunifuThinButton26.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.bunifuThinButton26.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton26.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton26.Location = new System.Drawing.Point(1324, 7);
-            this.bunifuThinButton26.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton26.Name = "bunifuThinButton26";
-            this.bunifuThinButton26.Size = new System.Drawing.Size(123, 55);
-            this.bunifuThinButton26.TabIndex = 23;
-            this.bunifuThinButton26.TabStop = false;
-            this.bunifuThinButton26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuThinButton27
-            // 
-            this.bunifuThinButton27.ActiveBorderThickness = 1;
-            this.bunifuThinButton27.ActiveCornerRadius = 20;
-            this.bunifuThinButton27.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton27.ActiveForecolor = System.Drawing.Color.Wheat;
-            this.bunifuThinButton27.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton27.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuThinButton27.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton27.BackgroundImage")));
-            this.bunifuThinButton27.ButtonText = "Eliminar";
-            this.bunifuThinButton27.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton27.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton27.IdleBorderThickness = 1;
-            this.bunifuThinButton27.IdleCornerRadius = 20;
-            this.bunifuThinButton27.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.bunifuThinButton27.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton27.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton27.Location = new System.Drawing.Point(1463, 8);
-            this.bunifuThinButton27.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton27.Name = "bunifuThinButton27";
-            this.bunifuThinButton27.Size = new System.Drawing.Size(123, 55);
-            this.bunifuThinButton27.TabIndex = 24;
-            this.bunifuThinButton27.TabStop = false;
-            this.bunifuThinButton27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuThinButton28
-            // 
-            this.bunifuThinButton28.ActiveBorderThickness = 1;
-            this.bunifuThinButton28.ActiveCornerRadius = 20;
-            this.bunifuThinButton28.ActiveFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton28.ActiveForecolor = System.Drawing.Color.Wheat;
-            this.bunifuThinButton28.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton28.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuThinButton28.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton28.BackgroundImage")));
-            this.bunifuThinButton28.ButtonText = "Buscar";
-            this.bunifuThinButton28.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton28.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton28.IdleBorderThickness = 1;
-            this.bunifuThinButton28.IdleCornerRadius = 20;
-            this.bunifuThinButton28.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.bunifuThinButton28.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton28.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton28.Location = new System.Drawing.Point(1324, 7);
-            this.bunifuThinButton28.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton28.Name = "bunifuThinButton28";
-            this.bunifuThinButton28.Size = new System.Drawing.Size(123, 55);
-            this.bunifuThinButton28.TabIndex = 23;
-            this.bunifuThinButton28.TabStop = false;
-            this.bunifuThinButton28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuThinButton29
-            // 
-            this.bunifuThinButton29.ActiveBorderThickness = 1;
-            this.bunifuThinButton29.ActiveCornerRadius = 20;
-            this.bunifuThinButton29.ActiveFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton29.ActiveForecolor = System.Drawing.Color.Wheat;
-            this.bunifuThinButton29.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton29.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuThinButton29.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton29.BackgroundImage")));
-            this.bunifuThinButton29.ButtonText = "Buscar";
-            this.bunifuThinButton29.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton29.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton29.IdleBorderThickness = 1;
-            this.bunifuThinButton29.IdleCornerRadius = 20;
-            this.bunifuThinButton29.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.bunifuThinButton29.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton29.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton29.Location = new System.Drawing.Point(1459, 5);
-            this.bunifuThinButton29.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton29.Name = "bunifuThinButton29";
-            this.bunifuThinButton29.Size = new System.Drawing.Size(123, 55);
-            this.bunifuThinButton29.TabIndex = 26;
-            this.bunifuThinButton29.TabStop = false;
-            this.bunifuThinButton29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuThinButton210
-            // 
-            this.bunifuThinButton210.ActiveBorderThickness = 1;
-            this.bunifuThinButton210.ActiveCornerRadius = 20;
-            this.bunifuThinButton210.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton210.ActiveForecolor = System.Drawing.Color.Wheat;
-            this.bunifuThinButton210.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton210.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuThinButton210.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton210.BackgroundImage")));
-            this.bunifuThinButton210.ButtonText = "Eliminar";
-            this.bunifuThinButton210.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton210.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton210.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton210.IdleBorderThickness = 1;
-            this.bunifuThinButton210.IdleCornerRadius = 20;
-            this.bunifuThinButton210.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.bunifuThinButton210.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton210.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton210.Location = new System.Drawing.Point(1463, 8);
-            this.bunifuThinButton210.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton210.Name = "bunifuThinButton210";
-            this.bunifuThinButton210.Size = new System.Drawing.Size(123, 55);
-            this.bunifuThinButton210.TabIndex = 24;
-            this.bunifuThinButton210.TabStop = false;
-            this.bunifuThinButton210.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuThinButton211
-            // 
-            this.bunifuThinButton211.ActiveBorderThickness = 1;
-            this.bunifuThinButton211.ActiveCornerRadius = 20;
-            this.bunifuThinButton211.ActiveFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton211.ActiveForecolor = System.Drawing.Color.Wheat;
-            this.bunifuThinButton211.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton211.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuThinButton211.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton211.BackgroundImage")));
-            this.bunifuThinButton211.ButtonText = "Buscar";
-            this.bunifuThinButton211.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton211.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton211.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton211.IdleBorderThickness = 1;
-            this.bunifuThinButton211.IdleCornerRadius = 20;
-            this.bunifuThinButton211.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.bunifuThinButton211.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton211.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton211.Location = new System.Drawing.Point(1324, 7);
-            this.bunifuThinButton211.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton211.Name = "bunifuThinButton211";
-            this.bunifuThinButton211.Size = new System.Drawing.Size(123, 55);
-            this.bunifuThinButton211.TabIndex = 23;
-            this.bunifuThinButton211.TabStop = false;
-            this.bunifuThinButton211.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuThinButton212
-            // 
-            this.bunifuThinButton212.ActiveBorderThickness = 1;
-            this.bunifuThinButton212.ActiveCornerRadius = 20;
-            this.bunifuThinButton212.ActiveFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton212.ActiveForecolor = System.Drawing.Color.Wheat;
-            this.bunifuThinButton212.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton212.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuThinButton212.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton212.BackgroundImage")));
-            this.bunifuThinButton212.ButtonText = "Buscar";
-            this.bunifuThinButton212.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton212.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton212.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton212.IdleBorderThickness = 1;
-            this.bunifuThinButton212.IdleCornerRadius = 20;
-            this.bunifuThinButton212.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.bunifuThinButton212.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton212.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton212.Location = new System.Drawing.Point(1324, 5);
-            this.bunifuThinButton212.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton212.Name = "bunifuThinButton212";
-            this.bunifuThinButton212.Size = new System.Drawing.Size(123, 55);
-            this.bunifuThinButton212.TabIndex = 23;
-            this.bunifuThinButton212.TabStop = false;
-            this.bunifuThinButton212.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuThinButton213
-            // 
-            this.bunifuThinButton213.ActiveBorderThickness = 1;
-            this.bunifuThinButton213.ActiveCornerRadius = 20;
-            this.bunifuThinButton213.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton213.ActiveForecolor = System.Drawing.Color.Wheat;
-            this.bunifuThinButton213.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton213.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuThinButton213.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton213.BackgroundImage")));
-            this.bunifuThinButton213.ButtonText = "Editar";
-            this.bunifuThinButton213.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton213.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton213.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton213.IdleBorderThickness = 1;
-            this.bunifuThinButton213.IdleCornerRadius = 20;
-            this.bunifuThinButton213.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(163)))), ((int)(((byte)(68)))));
-            this.bunifuThinButton213.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton213.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton213.Location = new System.Drawing.Point(1457, 5);
-            this.bunifuThinButton213.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton213.Name = "bunifuThinButton213";
-            this.bunifuThinButton213.Size = new System.Drawing.Size(123, 55);
-            this.bunifuThinButton213.TabIndex = 19;
-            this.bunifuThinButton213.TabStop = false;
-            this.bunifuThinButton213.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
-            this.panel9.Controls.Add(this.siticoneHtmlLabel17);
-            this.panel9.ForeColor = System.Drawing.Color.White;
-            this.panel9.Location = new System.Drawing.Point(0, 0);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1593, 65);
-            this.panel9.TabIndex = 16;
-            // 
-            // siticoneDataGridView1
-            // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.siticoneDataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.siticoneDataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.siticoneDataGridView1.ColumnHeadersHeight = 4;
-            this.siticoneDataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.siticoneDataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
-            this.siticoneDataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.siticoneDataGridView1.Location = new System.Drawing.Point(-3, 125);
-            this.siticoneDataGridView1.Name = "siticoneDataGridView1";
-            this.siticoneDataGridView1.RowHeadersVisible = false;
-            this.siticoneDataGridView1.Size = new System.Drawing.Size(1596, 205);
-            this.siticoneDataGridView1.TabIndex = 26;
-            this.siticoneDataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.siticoneDataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.siticoneDataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.siticoneDataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.siticoneDataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.siticoneDataGridView1.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.siticoneDataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.siticoneDataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.siticoneDataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.siticoneDataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneDataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.siticoneDataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.siticoneDataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            this.siticoneDataGridView1.ThemeStyle.ReadOnly = false;
-            this.siticoneDataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.siticoneDataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.siticoneDataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneDataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.White;
-            this.siticoneDataGridView1.ThemeStyle.RowsStyle.Height = 22;
-            this.siticoneDataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.siticoneDataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            // 
-            // panel10
-            // 
-            this.panel10.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel10.Controls.Add(this.bunifuThinButton22);
-            this.panel10.Controls.Add(this.siticoneTextBox7);
-            this.panel10.ForeColor = System.Drawing.Color.White;
-            this.panel10.Location = new System.Drawing.Point(0, 65);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(1593, 65);
-            this.panel10.TabIndex = 27;
-            // 
-            // siticoneTextBox7
-            // 
-            this.siticoneTextBox7.BorderColor = System.Drawing.Color.Silver;
-            this.siticoneTextBox7.BorderThickness = 2;
-            this.siticoneTextBox7.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox7.DefaultText = "";
-            this.siticoneTextBox7.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox7.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox7.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox7.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneTextBox7.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox7.Location = new System.Drawing.Point(1247, 14);
-            this.siticoneTextBox7.Margin = new System.Windows.Forms.Padding(4);
-            this.siticoneTextBox7.Name = "siticoneTextBox7";
-            this.siticoneTextBox7.PasswordChar = '\0';
-            this.siticoneTextBox7.PlaceholderText = "Escriba el nombre";
-            this.siticoneTextBox7.SelectedText = "";
-            this.siticoneTextBox7.Size = new System.Drawing.Size(203, 39);
-            this.siticoneTextBox7.TabIndex = 25;
-            // 
-            // bunifuThinButton22
-            // 
-            this.bunifuThinButton22.ActiveBorderThickness = 1;
-            this.bunifuThinButton22.ActiveCornerRadius = 20;
-            this.bunifuThinButton22.ActiveFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.Wheat;
-            this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton22.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuThinButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton22.BackgroundImage")));
-            this.bunifuThinButton22.ButtonText = "Buscar";
-            this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton22.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton22.IdleBorderThickness = 1;
-            this.bunifuThinButton22.IdleCornerRadius = 20;
-            this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.bunifuThinButton22.Location = new System.Drawing.Point(1459, 5);
-            this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton22.Name = "bunifuThinButton22";
-            this.bunifuThinButton22.Size = new System.Drawing.Size(123, 55);
-            this.bunifuThinButton22.TabIndex = 26;
-            this.bunifuThinButton22.TabStop = false;
-            this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.Black;
-            this.panel8.Controls.Add(this.panel10);
-            this.panel8.Controls.Add(this.siticoneDataGridView1);
-            this.panel8.Controls.Add(this.panel9);
-            this.panel8.ForeColor = System.Drawing.Color.White;
-            this.panel8.Location = new System.Drawing.Point(1, 603);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1593, 330);
-            this.panel8.TabIndex = 19;
-            // 
-            // siticoneHtmlLabel17
-            // 
-            this.siticoneHtmlLabel17.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel17.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel17.Location = new System.Drawing.Point(36, 15);
-            this.siticoneHtmlLabel17.Name = "siticoneHtmlLabel17";
-            this.siticoneHtmlLabel17.Size = new System.Drawing.Size(154, 27);
-            this.siticoneHtmlLabel17.TabIndex = 4;
-            this.siticoneHtmlLabel17.Text = "Buscar Clientes";
-            this.siticoneHtmlLabel17.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // FrmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1834,14 +1816,18 @@
             this.tabPage6.ResumeLayout(false);
             this.siticoneCustomGradientPanel4.ResumeLayout(false);
             this.siticoneCustomGradientPanel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox4)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.siticoneCustomGradientPanel3.ResumeLayout(false);
             this.siticoneCustomGradientPanel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox3)).EndInit();
             this.siticoneCustomGradientPanel2.ResumeLayout(false);
             this.siticoneCustomGradientPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox2)).EndInit();
             this.siticoneCustomGradientPanel1.ResumeLayout(false);
             this.siticoneCustomGradientPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox1)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.panel12.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
@@ -1849,6 +1835,12 @@
             this.panel14.ResumeLayout(false);
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
+            this.panel8.ResumeLayout(false);
+            this.panel10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PbProducts)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvProducts)).EndInit();
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
             this.panel16.ResumeLayout(false);
@@ -1872,16 +1864,6 @@
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.siticoneDataGridView1)).EndInit();
-            this.panel10.ResumeLayout(false);
-            this.panel8.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1920,7 +1902,6 @@
         private System.Windows.Forms.Panel panel14;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel21;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel22;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel LblDescription;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel24;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel25;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox siticoneTextBox8;
@@ -1985,13 +1966,13 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel10;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton22;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox siticoneTextBox7;
-        private Siticone.Desktop.UI.WinForms.SiticoneDataGridView siticoneDataGridView1;
+        private Bunifu.Framework.UI.BunifuThinButton2 BtnPSearch;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox TxtPName;
+        private Siticone.Desktop.UI.WinForms.SiticoneDataGridView DgvProducts;
         private System.Windows.Forms.Panel panel9;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel17;
+        private System.Windows.Forms.PictureBox PbProducts;
     }
 }

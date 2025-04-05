@@ -29,5 +29,34 @@ namespace BusinessLayer.Implementations
             // Llamar al método del repositorio de la capa de datos para registrar el cliente
             _clientRepository.RegisterClient(user);
         }
+
+
+        // Método para hacer login de un usuario
+        public string LoginUser(string username, string password)
+        {
+            // Validaciones de negocio antes de intentar el login
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+            {
+                throw new ArgumentException("El nombre de usuario y la contraseña son obligatorios.");
+            }
+
+            // Llamar al método del repositorio de la capa de datos para realizar el login
+            string userRole = _clientRepository.LoginUser(username, password);
+
+            // Validar el resultado del login
+            if (userRole == "Invalid credentials")
+            {
+                throw new UnauthorizedAccessException("Credenciales inválidas.");
+            }
+            else if (userRole == "User is inactive")
+            {
+                throw new UnauthorizedAccessException("El usuario está inactivo.");
+            }
+
+            // Devolver el rol del usuario si el login fue exitoso
+            return userRole;
+        }
     }
 }
+    
+

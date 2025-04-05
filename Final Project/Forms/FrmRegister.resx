@@ -120,21 +120,26 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="BtnRegister.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        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
+        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
 </value>
+  </data>
+  <data name="siticoneHtmlLabel8.Text" xml:space="preserve">
+    <value>Stockify es un sistema de gestión de inventario y ventas diseñado para negocios que buscan eficiencia, control y crecimiento. Con herramientas avanzadas y una interfaz intuitiva, permite gestionar productos de cualquier tipo, registrar ventas de manera automática y generar reportes financieros detallados.
+
+Gracias a su automatización inteligente, Stockify actualiza en tiempo real el stock disponible, emite facturas instantáneamente y proporciona análisis de ventas para optimizar la toma de decisiones. Ya sea que manejes una tienda de tecnología, moda, alimentos o cualquier otro sector, Stockify se adapta a tus necesidades y te ayuda a administrar tu negocio sin complicaciones.</value>
   </data>
 </root>

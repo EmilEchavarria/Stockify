@@ -103,7 +103,43 @@ namespace DataLayer.Implementations
             return products;
         }
 
+        // Método para buscar un producto por su ID (incluye la imagen)
+        public Product SearchProductByID(int productId)
+        {
+            Product product = null;
 
+            using (DbCommand command = _dbConnection.CreateCommand())
+            {
+                command.CommandText = "SearchProductByID"; // Nombre del procedimiento almacenado
+                command.CommandType = CommandType.StoredProcedure;
 
+                var paramProductID = command.CreateParameter();
+                paramProductID.ParameterName = "p_ProductID";
+                paramProductID.Value = productId;
+                command.Parameters.Add(paramProductID);
+
+                if (_dbConnection.State != ConnectionState.Open)
+                    _dbConnection.Open();
+
+                using (var reader = command.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        string productName = reader.GetString(reader.GetOrdinal("ProductName"));
+                        string description = reader.GetString(reader.GetOrdinal("Description"));
+                        decimal price = reader.GetDecimal(reader.GetOrdinal("Price"));
+                        int stock = reader.GetInt32(reader.GetOrdinal("Stock"));
+                        string status = reader.GetString(reader.GetOrdinal("Status"));
+
+                        byte[] image = reader["Image"] as byte[];
+
+                        // Asignamos los valores leídos del reader a un objeto Product
+                        product = new Product(productId, productName, description, price, stock, status, image);
+                    }
+                }
+            }
+
+            return product;
+        }
     }
 }

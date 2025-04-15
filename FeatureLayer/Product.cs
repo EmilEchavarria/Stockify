@@ -19,7 +19,7 @@
             Price = price;
             Stock = stock;
             Status = status;
-            Image = null;
+            Image = image;
         }
 
         // Constructor sin ID (para el insert)

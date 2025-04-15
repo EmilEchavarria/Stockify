@@ -2,6 +2,8 @@
 using BusinessLayer.Interfaces;
 using FeatureLayer.Entities;
 using DataLayer.Implementations;
+using FeatureLayer;
+using System.Collections.Generic;
 
 namespace BusinessLayer.Implementations
 {
@@ -30,7 +32,6 @@ namespace BusinessLayer.Implementations
             _clientRepository.RegisterClient(user);
         }
 
-
         // Método para hacer login de un usuario
         public string LoginUser(string username, string password)
         {
@@ -56,7 +57,27 @@ namespace BusinessLayer.Implementations
             // Devolver el rol del usuario si el login fue exitoso
             return userRole;
         }
+
+        // Método para buscar un cliente por ID
+        public Client SearchClientByID(int clientID)
+        {
+            // Validación de negocio para asegurarse de que el ID es positivo
+            if (clientID <= 0)
+            {
+                throw new ArgumentException("El ID del cliente debe ser un valor positivo.");
+            }
+
+            // Llamar al repositorio para buscar el cliente por ID
+            Client client = _clientRepository.SearchClientByID(clientID);
+
+            // Si no se encuentra el cliente, lanzar una excepción
+            if (client == null)
+            {
+                throw new KeyNotFoundException($"No se encontró un cliente con ID {clientID}.");
+            }
+
+            // Devolver el cliente encontrado
+            return client;
+        }
     }
 }
-    
-

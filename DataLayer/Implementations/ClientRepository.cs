@@ -2,6 +2,8 @@
 using MySql.Data.MySqlClient;
 using FeatureLayer.Entities;
 using DataLayer.Connection;
+using DataLayer.Interfaces; // Importa el espacio de nombres de la interfaz
+using FeatureLayer;
 
 namespace DataLayer.Implementations
 {
@@ -84,7 +86,52 @@ namespace DataLayer.Implementations
             // Devolver el resultado
             return userRole;
         }
+
+
+
+        // Método para buscar un cliente por ID utilizando el procedimiento almacenado
+        public Client SearchClientByID(int clientID)
+        {
+            // Nombre del procedimiento almacenado
+            string storedProcedure = "SearchClientByID";
+
+            Client client = null;
+
+            using (var connection = _dbConnection.GetConnection())
+            {
+                // Comando para ejecutar el procedimiento almacenado
+                MySqlCommand command = new MySqlCommand(storedProcedure, connection)
+                {
+                    CommandType = System.Data.CommandType.StoredProcedure
+                };
+
+                // Añadir el parámetro del procedimiento almacenado
+                command.Parameters.AddWithValue("p_ClientID", clientID);
+
+                // Abrir la conexión y ejecutar el procedimiento
+                connection.Open();
+                using (var reader = command.ExecuteReader())
+                {
+                    // Leer el primer resultado (se espera solo un cliente)
+                    if (reader.Read())
+                    {
+                        client = new Client
+                        {
+                            ClientID = Convert.ToInt32(reader["ClientID"]),
+                            ClientName = reader["ClientName"].ToString(),
+                            Email = reader["Email"].ToString(),
+                            Phone = reader["Phone"].ToString(),
+                            IsActive = Convert.ToBoolean(reader["IsActive"])
+                        };
+                    }
+                }
+            }
+
+            // Devolver el cliente encontrado o null si no se encuentra
+            return client;
+        }
     }
 }
+
     
 

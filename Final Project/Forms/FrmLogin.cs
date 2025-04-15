@@ -63,7 +63,7 @@ namespace Final_Project
                 if (userRole == "admin")
                 {
                     // Si el rol es admin, redirigir al Admin Dashboard
-                    MessageBox.Show($"Bienvenido administrador, {username}", "Login Exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //MessageBox.Show($"Bienvenido administrador, {username}", "Login Exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     FrmAdminDashboard adminDashboard = new FrmAdminDashboard();
                     adminDashboard.Show();
                     this.Hide(); // Ocultar el formulario de login
@@ -71,7 +71,7 @@ namespace Final_Project
                 else if (userRole == "user")
                 {
                     // Si el rol es un usuario normal, redirigir al formulario principal
-                    MessageBox.Show($"Bienvenido, {username}", "Login Exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //MessageBox.Show($"Bienvenido, {username}", "Login Exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     FrmHome mainForm = new FrmHome();
                     mainForm.Show();
                     this.Hide(); // Ocultar el formulario de login

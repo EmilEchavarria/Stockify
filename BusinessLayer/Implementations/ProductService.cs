@@ -28,5 +28,10 @@ namespace BusinessLayer.Implementations
         }
 
 
+        // Método para buscar producto por ID
+        public Product SearchProductByID(int productId)
+        {
+            return _productRepository.SearchProductByID(productId);
+        }
     }
 }

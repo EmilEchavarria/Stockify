@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\emile\\source\\Stockify\\Final Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|c:\\users\\emile\\source\\stockify\\final project\\forms\\frmpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|c:\\users\\emile\\source\\stockify\\final project\\forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|c:\\users\\emile\\source\\stockify\\final project\\forms\\frmpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|c:\\users\\emile\\source\\stockify\\final project\\forms\\frmadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|c:\\users\\emile\\source\\stockify\\final project\\forms\\frmadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|c:\\users\\emile\\source\\stockify\\final project\\forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|c:\\users\\emile\\source\\stockify\\final project\\forms\\frmadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,13 +46,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "FrmHome.cs",
+              "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmHome.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmHome.cs",
+              "ToolTip": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmHome.cs",
+              "RelativeToolTip": "Forms\\FrmHome.cs",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAiwAMBAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T16:34:42.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmPayment.cs",
+              "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmPayment.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmPayment.cs",
+              "ToolTip": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmPayment.cs*",
+              "RelativeToolTip": "Forms\\FrmPayment.cs*",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wCgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T02:07:36.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FrmAdminDashboard.cs",
               "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmAdminDashboard.cs",
               "RelativeDocumentMoniker": "Forms\\FrmAdminDashboard.cs",
               "ToolTip": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmAdminDashboard.cs",
               "RelativeToolTip": "Forms\\FrmAdminDashboard.cs",
-              "ViewState": "AgIAAAUCAAAAAAAAAADwvyMCAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAKMDAAAAAAAAAAAswMICAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T18:28:06.899Z",
               "EditorCaption": ""
@@ -53,41 +91,54 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
-        "Id": "f6f0fde2-3a95-4b22-8dd0-6e44b52f7793",
+        "Id": "6d19bc2b-ae87-4494-a851-1ea87ed586b4",
         "Display": 1,
         "X": -5,
-        "Y": 339,
-        "Width": 944,
-        "Height": 464,
+        "Y": 0,
+        "Width": 970,
+        "Height": 521,
         "WindowState": 2
       },
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "FrmAdminDashboard.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmAdminDashboard.cs",
               "RelativeDocumentMoniker": "Forms\\FrmAdminDashboard.cs",
               "ToolTip": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmAdminDashboard.cs [Dise\u00F1o]",
               "RelativeToolTip": "Forms\\FrmAdminDashboard.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T00:30:21.563Z",
+              "WhenOpened": "2025-04-15T14:45:38.823Z",
+              "IsPinned": true,
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FrmHome.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmHome.cs",
               "RelativeDocumentMoniker": "Forms\\FrmHome.cs",
               "ToolTip": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmHome.cs [Dise\u00F1o]",
               "RelativeToolTip": "Forms\\FrmHome.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T02:27:28.87Z",
+              "WhenOpened": "2025-04-15T14:45:39.779Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmPayment.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmPayment.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmPayment.cs",
+              "ToolTip": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmPayment.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Forms\\FrmPayment.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T01:04:13.965Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

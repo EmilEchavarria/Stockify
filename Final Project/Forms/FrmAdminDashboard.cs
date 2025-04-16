@@ -547,6 +547,412 @@ namespace Final_Project.Forms
             }
         }
 
+        private void BtnSearchProduct_Click(object sender, EventArgs e)
+        {
+            string searchName = TxtSearchProduct.Text.Trim();
+
+            if (string.IsNullOrEmpty(searchName))
+            {
+                MessageBox.Show("Por favor ingrese un nombre de producto a buscar.");
+                return;
+            }
+
+            string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+
+                    MySqlCommand cmd = new MySqlCommand("SearchProductByName", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("p_SearchName", searchName);
+
+                    MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    adapter.Fill(dt);
+
+                    DgvProducts.DataSource = dt;
+
+                    if (dt.Rows.Count == 0)
+                    {
+                        MessageBox.Show("No se encontraron productos con ese nombre.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al buscar productos: " + ex.Message);
+                }
+            }
+        }
+
+        private void BtnSearchProdcut_Click(object sender, EventArgs e)
+        {
+            if (!int.TryParse(TxtSearchProductID.Text.Trim(), out int productId))
+            {
+                MessageBox.Show("Por favor ingrese un ID de producto válido.");
+                return;
+            }
+
+            string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+
+                    MySqlCommand cmd = new MySqlCommand("SearchProductByID", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("p_ProductID", productId);
+
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            TxtProductName.Text = reader["ProductName"].ToString();
+                            TxtProductDescription.Text = reader["Description"].ToString();
+                            TxtProductPrice.Text = reader["Price"].ToString();
+                            TxtProductStock.Text = reader["Stock"].ToString();
+                            CmbProductStatus.SelectedItem = reader["Status"].ToString();
+
+                            if (reader["Image"] != DBNull.Value)
+                            {
+                                byte[] imageData = (byte[])reader["Image"];
+                                using (MemoryStream ms = new MemoryStream(imageData))
+                                {
+                                    PbProductImage.Image = Image.FromStream(ms);
+                                    PbProductImage.SizeMode = PictureBoxSizeMode.StretchImage;
+                                }
+                            }
+                            else
+                            {
+                                PbProductImage.Image = null;
+                            }
+
+                            MessageBox.Show("Producto encontrado.");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Producto no encontrado.");
+                            TxtProductName.Clear();
+                            TxtProductDescription.Clear();
+                            TxtProductPrice.Clear();
+                            TxtProductStock.Clear();
+                            CmbProductStatus.SelectedIndex = -1;
+                            PbProductImage.Image = null;
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al buscar el producto: " + ex.Message);
+                }
+            }
+        }
+
+        private void BtnChangePic_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
+            {
+                openFileDialog.Title = "Seleccionar imagen del producto";
+                openFileDialog.Filter = "Archivos de imagen (*.jpg;*.jpeg;*.png)|*.jpg;*.jpeg;*.png";
+
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    PbProductImage.Image = Image.FromFile(openFileDialog.FileName);
+                    PbProductImage.SizeMode = PictureBoxSizeMode.StretchImage;
+                }
+            }
+        }
+
+
+        private void BtnProductSave_Click(object sender, EventArgs e)
+        {
+            if (!int.TryParse(TxtSearchProductID.Text.Trim(), out int productId))
+            {
+                MessageBox.Show("ID de producto inválido.");
+                return;
+            }
+
+            string productName = TxtProductName.Text.Trim();
+            string description = TxtProductDescription.Text.Trim();
+            if (!decimal.TryParse(TxtProductPrice.Text.Trim(), out decimal price))
+            {
+                MessageBox.Show("Precio inválido.");
+                return;
+            }
+
+            if (!int.TryParse(TxtProductStock.Text.Trim(), out int stock))
+            {
+                MessageBox.Show("Stock inválido.");
+                return;
+            }
+
+            if (CmbProductStatus.SelectedItem == null)
+            {
+                MessageBox.Show("Seleccione un estado para el producto.");
+                return;
+            }
+
+            string status = CmbProductStatus.SelectedItem.ToString();
+
+            // Convertir imagen a byte[]
+            byte[] imageData = null;
+            if (PbProductImage.Image != null)
+            {
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    PbProductImage.Image.Save(ms, PbProductImage.Image.RawFormat);
+                    imageData = ms.ToArray();
+                }
+            }
+
+            string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+
+                    MySqlCommand cmd = new MySqlCommand("UpdateProduct", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    cmd.Parameters.AddWithValue("p_ProductID", productId);
+                    cmd.Parameters.AddWithValue("p_ProductName", productName);
+                    cmd.Parameters.AddWithValue("p_Description", description);
+                    cmd.Parameters.AddWithValue("p_Price", price);
+                    cmd.Parameters.AddWithValue("p_Stock", stock);
+                    cmd.Parameters.AddWithValue("p_Status", status);
+                    cmd.Parameters.AddWithValue("p_Image", imageData);
+
+                    cmd.ExecuteNonQuery();
+
+                    MessageBox.Show("Producto actualizado correctamente.");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al actualizar el producto: " + ex.Message);
+                }
+            }
+        }
+        private void BtnSearchProductE_Click(object sender, EventArgs e)
+        {
+            if (!int.TryParse(TxtSearchProductIDE.Text.Trim(), out int productId))
+            {
+                MessageBox.Show("Por favor ingrese un ID de producto válido.");
+                return;
+            }
+
+            string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    MySqlCommand cmd = new MySqlCommand("SearchProductByID", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("p_ProductID", productId);
+
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            LblProductNameE.Text = reader["ProductName"].ToString();
+                            LblProductDescriptionE.Text = reader["Description"].ToString();
+                            LblProductPriceE.Text = "RD$ " + Convert.ToDecimal(reader["Price"]).ToString("N2");
+                            LblProductStockE.Text = reader["Stock"].ToString();
+                            LblProductStatusE.Text = reader["Status"].ToString();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Producto no encontrado.");
+                            LimpiarLabelsProducto();
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al buscar el producto: " + ex.Message);
+                }
+            }
+        }
+
+        private void BtnDeleteProduct_Click(object sender, EventArgs e)
+        {
+            if (!int.TryParse(TxtSearchProductIDE.Text.Trim(), out int productId))
+            {
+                MessageBox.Show("Por favor ingrese un ID de producto válido.");
+                return;
+            }
+
+            if (!ChkConfirmDelete.Checked)
+            {
+                MessageBox.Show("Debe marcar la casilla de confirmación para eliminar el producto.", "Confirmación requerida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            DialogResult confirm = MessageBox.Show("¿Está seguro que desea eliminar (inactivar) este producto?", "Confirmar eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+            if (confirm != DialogResult.Yes)
+                return;
+
+            string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    MySqlCommand cmd = new MySqlCommand("DeleteProduct", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("p_ProductID", productId);
+
+                    cmd.ExecuteNonQuery();
+
+                    MessageBox.Show("Producto marcado como inactivo correctamente.");
+
+                    LimpiarLabelsProducto();
+                    ChkConfirmDelete.Checked = false;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al eliminar el producto: " + ex.Message);
+                }
+            }
+        }
+
+        private void LimpiarLabelsProducto()
+        {
+            LblProductNameE.Text = "";
+            LblProductDescriptionE.Text = "";
+            LblProductPriceE.Text = "";
+            LblProductStockE.Text = "";
+            LblProductStatusE.Text = "";
+        }
+
+        private void BtnSearchInactives_Click(object sender, EventArgs e)
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    MySqlCommand cmd = new MySqlCommand("GetInactiveProducts", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    DataTable dt = new DataTable();
+                    MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+                    adapter.Fill(dt);
+
+                    DgvInactiveProducts.DataSource = dt;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al buscar productos inactivos: " + ex.Message);
+                }
+            }
+        }
+
+
+        private void BtnActiveProducts_Click(object sender, EventArgs e)
+        {
+            if (!int.TryParse(TxtInactiveID.Text.Trim(), out int productId))
+            {
+                MessageBox.Show("Por favor ingrese un ID de producto válido.");
+                return;
+            }
+
+            string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    MySqlCommand cmd = new MySqlCommand("SearchProductByID", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("p_ProductID", productId);
+
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read() && reader["Status"].ToString() == "Inactivo")
+                        {
+                            LblInactiveName.Text = reader["ProductName"].ToString();
+                            LblInactiveDescription.Text = reader["Description"].ToString();
+                            LblInactivePrice.Text = "RD$ " + Convert.ToDecimal(reader["Price"]).ToString("N2");
+                            LblInactiveStock.Text = reader["Stock"].ToString();
+                            LblInactiveStatus.Text = reader["Status"].ToString();
+
+                            // Se obtiene la imagen desde la base de datos, pero no se muestra
+                            if (reader["Image"] != DBNull.Value)
+                            {
+                                byte[] imageData = (byte[])reader["Image"];
+                                // Podrías guardarla en una variable privada si deseas usarla más adelante
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Producto no encontrado o ya está activo.");
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al buscar el producto: " + ex.Message);
+                }
+            }
+        }
+
+
+        private void BtnActiveProduct_Click(object sender, EventArgs e)
+        {
+            if (!ChkActivateProduct.Checked)
+            {
+                MessageBox.Show("Por favor marque el checkbox para activar el producto.");
+                return;
+            }
+
+            if (!int.TryParse(TxtInactiveID.Text.Trim(), out int productId))
+            {
+                MessageBox.Show("ID inválido.");
+                return;
+            }
+
+            string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    MySqlCommand cmd = new MySqlCommand("ActivateProduct", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("p_ProductID", productId);
+                    cmd.ExecuteNonQuery();
+
+                    MessageBox.Show("Producto activado correctamente.");
+
+                    // Limpiar
+                    LblInactiveName.Text = "";
+                    LblInactiveDescription.Text = "";
+                    LblInactivePrice.Text = "";
+                    LblInactiveStock.Text = "";
+                    LblInactiveStatus.Text = "";
+                    TxtInactiveID.Clear();
+                    ChkActivateProduct.Checked = false;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al activar el producto: " + ex.Message);
+                }
+            }
+        }
 
     }
 }

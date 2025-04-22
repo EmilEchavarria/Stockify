@@ -28,13 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAdminDashboard));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAdminDashboard));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -44,6 +41,9 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -211,7 +211,49 @@
             this.PbProductImage = new System.Windows.Forms.PictureBox();
             this.TxtProductName = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.EliminarProducto = new System.Windows.Forms.TabPage();
+            this.siticonePictureBox3 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
+            this.panel39 = new System.Windows.Forms.Panel();
+            this.panel40 = new System.Windows.Forms.Panel();
+            this.siticoneHtmlLabel46 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.panel41 = new System.Windows.Forms.Panel();
+            this.ChkConfirmDelete = new MaterialSkin.Controls.MaterialCheckbox();
+            this.BtnDeleteProduct = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.panel63 = new System.Windows.Forms.Panel();
+            this.panel64 = new System.Windows.Forms.Panel();
+            this.siticoneHtmlLabel58 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.panel65 = new System.Windows.Forms.Panel();
+            this.siticoneHtmlLabel59 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.LblProductStockE = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.LblProductPriceE = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.LblProductDescriptionE = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.LblProductStatusE = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.LblProductNameE = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.TxtSearchProductIDE = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.BtnSearchProductE = new Bunifu.Framework.UI.BunifuThinButton2();
             this.ActivarProducto = new System.Windows.Forms.TabPage();
+            this.panel69 = new System.Windows.Forms.Panel();
+            this.panel70 = new System.Windows.Forms.Panel();
+            this.siticoneHtmlLabel60 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.panel71 = new System.Windows.Forms.Panel();
+            this.ChkActivateProduct = new MaterialSkin.Controls.MaterialCheckbox();
+            this.BtnActiveProduct = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.panel33 = new System.Windows.Forms.Panel();
+            this.DgvInactiveProducts = new Siticone.Desktop.UI.WinForms.SiticoneDataGridView();
+            this.panel34 = new System.Windows.Forms.Panel();
+            this.siticoneHtmlLabel51 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.panel35 = new System.Windows.Forms.Panel();
+            this.BtnSearchInactives = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.panel66 = new System.Windows.Forms.Panel();
+            this.panel67 = new System.Windows.Forms.Panel();
+            this.siticoneHtmlLabel52 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.panel68 = new System.Windows.Forms.Panel();
+            this.LblInactiveStock = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.LblInactivePrice = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.LblInactiveDescription = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.LblInactiveStatus = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.LblInactiveName = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.TxtInactiveID = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.BtnActiveProducts = new Bunifu.Framework.UI.BunifuThinButton2();
             this.GestionFacturas = new System.Windows.Forms.TabPage();
             this.panel15 = new System.Windows.Forms.Panel();
             this.panel16 = new System.Windows.Forms.Panel();
@@ -269,48 +311,6 @@
             this.siticoneHtmlLabel69 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel67 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.siticonePictureBox3 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
-            this.panel39 = new System.Windows.Forms.Panel();
-            this.panel40 = new System.Windows.Forms.Panel();
-            this.siticoneHtmlLabel46 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.panel41 = new System.Windows.Forms.Panel();
-            this.ChkConfirmDelete = new MaterialSkin.Controls.MaterialCheckbox();
-            this.BtnDeleteProduct = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.panel63 = new System.Windows.Forms.Panel();
-            this.panel64 = new System.Windows.Forms.Panel();
-            this.siticoneHtmlLabel58 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.panel65 = new System.Windows.Forms.Panel();
-            this.siticoneHtmlLabel59 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.LblProductStockE = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.LblProductPriceE = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.LblProductDescriptionE = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.LblProductStatusE = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.LblProductNameE = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.TxtSearchProductIDE = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.BtnSearchProductE = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.panel33 = new System.Windows.Forms.Panel();
-            this.panel34 = new System.Windows.Forms.Panel();
-            this.siticoneHtmlLabel51 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.panel35 = new System.Windows.Forms.Panel();
-            this.BtnSearchInactives = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.panel66 = new System.Windows.Forms.Panel();
-            this.panel67 = new System.Windows.Forms.Panel();
-            this.siticoneHtmlLabel52 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.panel68 = new System.Windows.Forms.Panel();
-            this.LblInactiveStock = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.LblInactivePrice = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.LblInactiveDescription = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.LblInactiveStatus = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.LblInactiveName = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.TxtInactiveID = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.BtnActiveProducts = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.panel69 = new System.Windows.Forms.Panel();
-            this.panel70 = new System.Windows.Forms.Panel();
-            this.siticoneHtmlLabel60 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.panel71 = new System.Windows.Forms.Panel();
-            this.ChkActivateProduct = new MaterialSkin.Controls.MaterialCheckbox();
-            this.BtnActiveProduct = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.DgvInactiveProducts = new Siticone.Desktop.UI.WinForms.SiticoneDataGridView();
             this.siticoneTabControl1.SuspendLayout();
             this.Dashboard.SuspendLayout();
             this.siticoneCustomGradientPanel4.SuspendLayout();
@@ -383,7 +383,24 @@
             this.panel38.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PbProductImage)).BeginInit();
             this.EliminarProducto.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox3)).BeginInit();
+            this.panel39.SuspendLayout();
+            this.panel40.SuspendLayout();
+            this.panel41.SuspendLayout();
+            this.panel63.SuspendLayout();
+            this.panel64.SuspendLayout();
+            this.panel65.SuspendLayout();
             this.ActivarProducto.SuspendLayout();
+            this.panel69.SuspendLayout();
+            this.panel70.SuspendLayout();
+            this.panel71.SuspendLayout();
+            this.panel33.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvInactiveProducts)).BeginInit();
+            this.panel34.SuspendLayout();
+            this.panel35.SuspendLayout();
+            this.panel66.SuspendLayout();
+            this.panel67.SuspendLayout();
+            this.panel68.SuspendLayout();
             this.GestionFacturas.SuspendLayout();
             this.panel15.SuspendLayout();
             this.panel16.SuspendLayout();
@@ -400,23 +417,6 @@
             this.panel26.SuspendLayout();
             this.panel27.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox3)).BeginInit();
-            this.panel39.SuspendLayout();
-            this.panel40.SuspendLayout();
-            this.panel41.SuspendLayout();
-            this.panel63.SuspendLayout();
-            this.panel64.SuspendLayout();
-            this.panel65.SuspendLayout();
-            this.panel33.SuspendLayout();
-            this.panel34.SuspendLayout();
-            this.panel35.SuspendLayout();
-            this.panel66.SuspendLayout();
-            this.panel67.SuspendLayout();
-            this.panel68.SuspendLayout();
-            this.panel69.SuspendLayout();
-            this.panel70.SuspendLayout();
-            this.panel71.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DgvInactiveProducts)).BeginInit();
             this.SuspendLayout();
             // 
             // siticoneTabControl1
@@ -825,25 +825,25 @@
             // 
             // DgvSearchByName
             // 
-            dataGridViewCellStyle19.BackColor = System.Drawing.Color.White;
-            this.DgvSearchByName.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle19;
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DgvSearchByName.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.White;
+            this.DgvSearchByName.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvSearchByName.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle23;
             this.DgvSearchByName.ColumnHeadersHeight = 50;
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle21.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DgvSearchByName.DefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle24.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DgvSearchByName.DefaultCellStyle = dataGridViewCellStyle24;
             this.DgvSearchByName.GridColor = System.Drawing.Color.Black;
             this.DgvSearchByName.Location = new System.Drawing.Point(0, 133);
             this.DgvSearchByName.Name = "DgvSearchByName";
@@ -1592,25 +1592,25 @@
             // 
             // DgvInactives
             // 
-            dataGridViewCellStyle22.BackColor = System.Drawing.Color.White;
-            this.DgvInactives.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle22;
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DgvInactives.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle25.BackColor = System.Drawing.Color.White;
+            this.DgvInactives.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle25;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvInactives.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle26;
             this.DgvInactives.ColumnHeadersHeight = 50;
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle24.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DgvInactives.DefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle27.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DgvInactives.DefaultCellStyle = dataGridViewCellStyle27;
             this.DgvInactives.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.DgvInactives.Location = new System.Drawing.Point(0, 131);
             this.DgvInactives.Name = "DgvInactives";
@@ -2132,26 +2132,26 @@
             // 
             // siticoneDataGridView4
             // 
-            dataGridViewCellStyle25.BackColor = System.Drawing.Color.White;
-            this.siticoneDataGridView4.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle25;
-            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle26.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.siticoneDataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle26;
+            dataGridViewCellStyle28.BackColor = System.Drawing.Color.White;
+            this.siticoneDataGridView4.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle28;
+            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle29.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle29.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.siticoneDataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle29;
             this.siticoneDataGridView4.ColumnHeadersHeight = 4;
             this.siticoneDataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle27.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle27.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.siticoneDataGridView4.DefaultCellStyle = dataGridViewCellStyle27;
+            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle30.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle30.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle30.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.siticoneDataGridView4.DefaultCellStyle = dataGridViewCellStyle30;
             this.siticoneDataGridView4.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.siticoneDataGridView4.Location = new System.Drawing.Point(0, 65);
             this.siticoneDataGridView4.Name = "siticoneDataGridView4";
@@ -2501,25 +2501,25 @@
             // 
             // DgvProducts
             // 
-            dataGridViewCellStyle28.BackColor = System.Drawing.Color.White;
-            this.DgvProducts.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle28;
-            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle29.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle29.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DgvProducts.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle29;
+            dataGridViewCellStyle31.BackColor = System.Drawing.Color.White;
+            this.DgvProducts.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle31;
+            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle32.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle32.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvProducts.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle32;
             this.DgvProducts.ColumnHeadersHeight = 50;
-            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle30.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle30.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle30.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DgvProducts.DefaultCellStyle = dataGridViewCellStyle30;
+            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle33.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle33.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle33.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle33.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            dataGridViewCellStyle33.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DgvProducts.DefaultCellStyle = dataGridViewCellStyle33;
             this.DgvProducts.GridColor = System.Drawing.Color.Black;
             this.DgvProducts.Location = new System.Drawing.Point(1, 134);
             this.DgvProducts.Name = "DgvProducts";
@@ -3029,6 +3029,288 @@
             this.EliminarProducto.Text = "Eliminar Producto";
             this.EliminarProducto.UseVisualStyleBackColor = true;
             // 
+            // siticonePictureBox3
+            // 
+            this.siticonePictureBox3.Image = global::Final_Project.Properties.Resources.borrar;
+            this.siticonePictureBox3.ImageRotate = 0F;
+            this.siticonePictureBox3.Location = new System.Drawing.Point(602, 325);
+            this.siticonePictureBox3.Name = "siticonePictureBox3";
+            this.siticonePictureBox3.Size = new System.Drawing.Size(450, 450);
+            this.siticonePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.siticonePictureBox3.TabIndex = 30;
+            this.siticonePictureBox3.TabStop = false;
+            // 
+            // panel39
+            // 
+            this.panel39.BackColor = System.Drawing.Color.Black;
+            this.panel39.Controls.Add(this.panel40);
+            this.panel39.Controls.Add(this.panel41);
+            this.panel39.ForeColor = System.Drawing.Color.White;
+            this.panel39.Location = new System.Drawing.Point(0, 160);
+            this.panel39.Name = "panel39";
+            this.panel39.Size = new System.Drawing.Size(1593, 129);
+            this.panel39.TabIndex = 29;
+            // 
+            // panel40
+            // 
+            this.panel40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
+            this.panel40.Controls.Add(this.siticoneHtmlLabel46);
+            this.panel40.ForeColor = System.Drawing.Color.White;
+            this.panel40.Location = new System.Drawing.Point(0, 0);
+            this.panel40.Name = "panel40";
+            this.panel40.Size = new System.Drawing.Size(1593, 65);
+            this.panel40.TabIndex = 16;
+            // 
+            // siticoneHtmlLabel46
+            // 
+            this.siticoneHtmlLabel46.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneHtmlLabel46.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel46.ForeColor = System.Drawing.Color.White;
+            this.siticoneHtmlLabel46.Location = new System.Drawing.Point(33, 18);
+            this.siticoneHtmlLabel46.Name = "siticoneHtmlLabel46";
+            this.siticoneHtmlLabel46.Size = new System.Drawing.Size(212, 27);
+            this.siticoneHtmlLabel46.TabIndex = 4;
+            this.siticoneHtmlLabel46.Text = "Confirmar Eliminación";
+            this.siticoneHtmlLabel46.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel41
+            // 
+            this.panel41.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel41.Controls.Add(this.ChkConfirmDelete);
+            this.panel41.Controls.Add(this.BtnDeleteProduct);
+            this.panel41.ForeColor = System.Drawing.Color.White;
+            this.panel41.Location = new System.Drawing.Point(0, 62);
+            this.panel41.Name = "panel41";
+            this.panel41.Size = new System.Drawing.Size(1593, 67);
+            this.panel41.TabIndex = 17;
+            // 
+            // ChkConfirmDelete
+            // 
+            this.ChkConfirmDelete.AutoSize = true;
+            this.ChkConfirmDelete.BackColor = System.Drawing.Color.Snow;
+            this.ChkConfirmDelete.Depth = 0;
+            this.ChkConfirmDelete.Location = new System.Drawing.Point(1245, 15);
+            this.ChkConfirmDelete.Margin = new System.Windows.Forms.Padding(0);
+            this.ChkConfirmDelete.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.ChkConfirmDelete.MouseState = MaterialSkin.MouseState.HOVER;
+            this.ChkConfirmDelete.Name = "ChkConfirmDelete";
+            this.ChkConfirmDelete.ReadOnly = false;
+            this.ChkConfirmDelete.Ripple = true;
+            this.ChkConfirmDelete.Size = new System.Drawing.Size(193, 37);
+            this.ChkConfirmDelete.TabIndex = 20;
+            this.ChkConfirmDelete.Text = "Confirmar Eliminación";
+            this.ChkConfirmDelete.UseVisualStyleBackColor = false;
+            // 
+            // BtnDeleteProduct
+            // 
+            this.BtnDeleteProduct.ActiveBorderThickness = 1;
+            this.BtnDeleteProduct.ActiveCornerRadius = 20;
+            this.BtnDeleteProduct.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.BtnDeleteProduct.ActiveForecolor = System.Drawing.Color.Wheat;
+            this.BtnDeleteProduct.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.BtnDeleteProduct.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnDeleteProduct.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnDeleteProduct.BackgroundImage")));
+            this.BtnDeleteProduct.ButtonText = "Eliminar";
+            this.BtnDeleteProduct.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnDeleteProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnDeleteProduct.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.BtnDeleteProduct.IdleBorderThickness = 1;
+            this.BtnDeleteProduct.IdleCornerRadius = 20;
+            this.BtnDeleteProduct.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.BtnDeleteProduct.IdleForecolor = System.Drawing.Color.White;
+            this.BtnDeleteProduct.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.BtnDeleteProduct.Location = new System.Drawing.Point(1452, 5);
+            this.BtnDeleteProduct.Margin = new System.Windows.Forms.Padding(5);
+            this.BtnDeleteProduct.Name = "BtnDeleteProduct";
+            this.BtnDeleteProduct.Size = new System.Drawing.Size(123, 55);
+            this.BtnDeleteProduct.TabIndex = 24;
+            this.BtnDeleteProduct.TabStop = false;
+            this.BtnDeleteProduct.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.BtnDeleteProduct.Click += new System.EventHandler(this.BtnDeleteProduct_Click);
+            // 
+            // panel63
+            // 
+            this.panel63.BackColor = System.Drawing.Color.Black;
+            this.panel63.Controls.Add(this.panel64);
+            this.panel63.Controls.Add(this.panel65);
+            this.panel63.ForeColor = System.Drawing.Color.White;
+            this.panel63.Location = new System.Drawing.Point(0, 2);
+            this.panel63.Name = "panel63";
+            this.panel63.Size = new System.Drawing.Size(1593, 129);
+            this.panel63.TabIndex = 28;
+            // 
+            // panel64
+            // 
+            this.panel64.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
+            this.panel64.Controls.Add(this.siticoneHtmlLabel58);
+            this.panel64.ForeColor = System.Drawing.Color.White;
+            this.panel64.Location = new System.Drawing.Point(0, 0);
+            this.panel64.Name = "panel64";
+            this.panel64.Size = new System.Drawing.Size(1593, 65);
+            this.panel64.TabIndex = 16;
+            // 
+            // siticoneHtmlLabel58
+            // 
+            this.siticoneHtmlLabel58.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneHtmlLabel58.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel58.ForeColor = System.Drawing.Color.White;
+            this.siticoneHtmlLabel58.Location = new System.Drawing.Point(33, 18);
+            this.siticoneHtmlLabel58.Name = "siticoneHtmlLabel58";
+            this.siticoneHtmlLabel58.Size = new System.Drawing.Size(348, 27);
+            this.siticoneHtmlLabel58.TabIndex = 4;
+            this.siticoneHtmlLabel58.Text = "Buscar producto que desea eliminar";
+            this.siticoneHtmlLabel58.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel65
+            // 
+            this.panel65.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel65.Controls.Add(this.siticoneHtmlLabel59);
+            this.panel65.Controls.Add(this.LblProductStockE);
+            this.panel65.Controls.Add(this.LblProductPriceE);
+            this.panel65.Controls.Add(this.LblProductDescriptionE);
+            this.panel65.Controls.Add(this.LblProductStatusE);
+            this.panel65.Controls.Add(this.LblProductNameE);
+            this.panel65.Controls.Add(this.TxtSearchProductIDE);
+            this.panel65.Controls.Add(this.BtnSearchProductE);
+            this.panel65.ForeColor = System.Drawing.Color.White;
+            this.panel65.Location = new System.Drawing.Point(0, 62);
+            this.panel65.Name = "panel65";
+            this.panel65.Size = new System.Drawing.Size(1593, 67);
+            this.panel65.TabIndex = 17;
+            // 
+            // siticoneHtmlLabel59
+            // 
+            this.siticoneHtmlLabel59.AutoSize = false;
+            this.siticoneHtmlLabel59.BackColor = System.Drawing.Color.White;
+            this.siticoneHtmlLabel59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.siticoneHtmlLabel59.Font = new System.Drawing.Font("Segoe UI", 14.25F);
+            this.siticoneHtmlLabel59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.siticoneHtmlLabel59.Location = new System.Drawing.Point(1253, 14);
+            this.siticoneHtmlLabel59.Name = "siticoneHtmlLabel59";
+            this.siticoneHtmlLabel59.Size = new System.Drawing.Size(114, 39);
+            this.siticoneHtmlLabel59.TabIndex = 37;
+            this.siticoneHtmlLabel59.Text = null;
+            this.siticoneHtmlLabel59.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // LblProductStockE
+            // 
+            this.LblProductStockE.AutoSize = false;
+            this.LblProductStockE.BackColor = System.Drawing.Color.White;
+            this.LblProductStockE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LblProductStockE.Font = new System.Drawing.Font("Segoe UI", 14.25F);
+            this.LblProductStockE.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.LblProductStockE.Location = new System.Drawing.Point(760, 14);
+            this.LblProductStockE.Name = "LblProductStockE";
+            this.LblProductStockE.Size = new System.Drawing.Size(238, 39);
+            this.LblProductStockE.TabIndex = 36;
+            this.LblProductStockE.Text = null;
+            this.LblProductStockE.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // LblProductPriceE
+            // 
+            this.LblProductPriceE.AutoSize = false;
+            this.LblProductPriceE.BackColor = System.Drawing.Color.White;
+            this.LblProductPriceE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LblProductPriceE.Font = new System.Drawing.Font("Segoe UI", 14.25F);
+            this.LblProductPriceE.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.LblProductPriceE.Location = new System.Drawing.Point(514, 14);
+            this.LblProductPriceE.Name = "LblProductPriceE";
+            this.LblProductPriceE.Size = new System.Drawing.Size(238, 39);
+            this.LblProductPriceE.TabIndex = 35;
+            this.LblProductPriceE.Text = null;
+            this.LblProductPriceE.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // LblProductDescriptionE
+            // 
+            this.LblProductDescriptionE.AutoSize = false;
+            this.LblProductDescriptionE.BackColor = System.Drawing.Color.White;
+            this.LblProductDescriptionE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LblProductDescriptionE.Font = new System.Drawing.Font("Segoe UI", 14.25F);
+            this.LblProductDescriptionE.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.LblProductDescriptionE.Location = new System.Drawing.Point(268, 14);
+            this.LblProductDescriptionE.Name = "LblProductDescriptionE";
+            this.LblProductDescriptionE.Size = new System.Drawing.Size(238, 39);
+            this.LblProductDescriptionE.TabIndex = 34;
+            this.LblProductDescriptionE.Text = null;
+            this.LblProductDescriptionE.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // LblProductStatusE
+            // 
+            this.LblProductStatusE.AutoSize = false;
+            this.LblProductStatusE.BackColor = System.Drawing.Color.White;
+            this.LblProductStatusE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LblProductStatusE.Font = new System.Drawing.Font("Segoe UI", 14.25F);
+            this.LblProductStatusE.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.LblProductStatusE.Location = new System.Drawing.Point(1006, 14);
+            this.LblProductStatusE.Name = "LblProductStatusE";
+            this.LblProductStatusE.Size = new System.Drawing.Size(238, 39);
+            this.LblProductStatusE.TabIndex = 33;
+            this.LblProductStatusE.Text = null;
+            this.LblProductStatusE.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // LblProductNameE
+            // 
+            this.LblProductNameE.AutoSize = false;
+            this.LblProductNameE.BackColor = System.Drawing.Color.White;
+            this.LblProductNameE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LblProductNameE.Font = new System.Drawing.Font("Segoe UI", 14.25F);
+            this.LblProductNameE.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.LblProductNameE.Location = new System.Drawing.Point(21, 14);
+            this.LblProductNameE.Name = "LblProductNameE";
+            this.LblProductNameE.Size = new System.Drawing.Size(239, 39);
+            this.LblProductNameE.TabIndex = 31;
+            this.LblProductNameE.Text = null;
+            this.LblProductNameE.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // TxtSearchProductIDE
+            // 
+            this.TxtSearchProductIDE.BorderColor = System.Drawing.Color.Silver;
+            this.TxtSearchProductIDE.BorderThickness = 2;
+            this.TxtSearchProductIDE.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TxtSearchProductIDE.DefaultText = "";
+            this.TxtSearchProductIDE.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TxtSearchProductIDE.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TxtSearchProductIDE.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtSearchProductIDE.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtSearchProductIDE.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtSearchProductIDE.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtSearchProductIDE.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtSearchProductIDE.Location = new System.Drawing.Point(1397, 14);
+            this.TxtSearchProductIDE.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtSearchProductIDE.Name = "TxtSearchProductIDE";
+            this.TxtSearchProductIDE.PasswordChar = '\0';
+            this.TxtSearchProductIDE.PlaceholderText = "ID";
+            this.TxtSearchProductIDE.SelectedText = "";
+            this.TxtSearchProductIDE.Size = new System.Drawing.Size(46, 39);
+            this.TxtSearchProductIDE.TabIndex = 26;
+            // 
+            // BtnSearchProductE
+            // 
+            this.BtnSearchProductE.ActiveBorderThickness = 1;
+            this.BtnSearchProductE.ActiveCornerRadius = 20;
+            this.BtnSearchProductE.ActiveFillColor = System.Drawing.Color.White;
+            this.BtnSearchProductE.ActiveForecolor = System.Drawing.Color.Wheat;
+            this.BtnSearchProductE.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.BtnSearchProductE.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnSearchProductE.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnSearchProductE.BackgroundImage")));
+            this.BtnSearchProductE.ButtonText = "Buscar";
+            this.BtnSearchProductE.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnSearchProductE.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSearchProductE.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.BtnSearchProductE.IdleBorderThickness = 1;
+            this.BtnSearchProductE.IdleCornerRadius = 20;
+            this.BtnSearchProductE.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.BtnSearchProductE.IdleForecolor = System.Drawing.Color.White;
+            this.BtnSearchProductE.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.BtnSearchProductE.Location = new System.Drawing.Point(1452, 5);
+            this.BtnSearchProductE.Margin = new System.Windows.Forms.Padding(5);
+            this.BtnSearchProductE.Name = "BtnSearchProductE";
+            this.BtnSearchProductE.Size = new System.Drawing.Size(123, 55);
+            this.BtnSearchProductE.TabIndex = 23;
+            this.BtnSearchProductE.TabStop = false;
+            this.BtnSearchProductE.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.BtnSearchProductE.Click += new System.EventHandler(this.BtnSearchProductE_Click);
+            // 
             // ActivarProducto
             // 
             this.ActivarProducto.Controls.Add(this.panel69);
@@ -3040,6 +3322,388 @@
             this.ActivarProducto.TabIndex = 3;
             this.ActivarProducto.Text = "Activar Producto";
             this.ActivarProducto.UseVisualStyleBackColor = true;
+            // 
+            // panel69
+            // 
+            this.panel69.BackColor = System.Drawing.Color.Black;
+            this.panel69.Controls.Add(this.panel70);
+            this.panel69.Controls.Add(this.panel71);
+            this.panel69.ForeColor = System.Drawing.Color.White;
+            this.panel69.Location = new System.Drawing.Point(4, 644);
+            this.panel69.Name = "panel69";
+            this.panel69.Size = new System.Drawing.Size(1593, 129);
+            this.panel69.TabIndex = 34;
+            // 
+            // panel70
+            // 
+            this.panel70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
+            this.panel70.Controls.Add(this.siticoneHtmlLabel60);
+            this.panel70.ForeColor = System.Drawing.Color.White;
+            this.panel70.Location = new System.Drawing.Point(0, 0);
+            this.panel70.Name = "panel70";
+            this.panel70.Size = new System.Drawing.Size(1593, 59);
+            this.panel70.TabIndex = 16;
+            // 
+            // siticoneHtmlLabel60
+            // 
+            this.siticoneHtmlLabel60.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneHtmlLabel60.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel60.ForeColor = System.Drawing.Color.White;
+            this.siticoneHtmlLabel60.Location = new System.Drawing.Point(33, 18);
+            this.siticoneHtmlLabel60.Name = "siticoneHtmlLabel60";
+            this.siticoneHtmlLabel60.Size = new System.Drawing.Size(201, 27);
+            this.siticoneHtmlLabel60.TabIndex = 4;
+            this.siticoneHtmlLabel60.Text = "Confirmar Activación";
+            this.siticoneHtmlLabel60.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel71
+            // 
+            this.panel71.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel71.Controls.Add(this.ChkActivateProduct);
+            this.panel71.Controls.Add(this.BtnActiveProduct);
+            this.panel71.ForeColor = System.Drawing.Color.White;
+            this.panel71.Location = new System.Drawing.Point(0, 51);
+            this.panel71.Name = "panel71";
+            this.panel71.Size = new System.Drawing.Size(1593, 78);
+            this.panel71.TabIndex = 17;
+            // 
+            // ChkActivateProduct
+            // 
+            this.ChkActivateProduct.AutoSize = true;
+            this.ChkActivateProduct.BackColor = System.Drawing.Color.Snow;
+            this.ChkActivateProduct.Depth = 0;
+            this.ChkActivateProduct.Location = new System.Drawing.Point(1245, 25);
+            this.ChkActivateProduct.Margin = new System.Windows.Forms.Padding(0);
+            this.ChkActivateProduct.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.ChkActivateProduct.MouseState = MaterialSkin.MouseState.HOVER;
+            this.ChkActivateProduct.Name = "ChkActivateProduct";
+            this.ChkActivateProduct.ReadOnly = false;
+            this.ChkActivateProduct.Ripple = true;
+            this.ChkActivateProduct.Size = new System.Drawing.Size(193, 37);
+            this.ChkActivateProduct.TabIndex = 20;
+            this.ChkActivateProduct.Text = "Confirmar Eliminación";
+            this.ChkActivateProduct.UseVisualStyleBackColor = false;
+            // 
+            // BtnActiveProduct
+            // 
+            this.BtnActiveProduct.ActiveBorderThickness = 1;
+            this.BtnActiveProduct.ActiveCornerRadius = 20;
+            this.BtnActiveProduct.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.BtnActiveProduct.ActiveForecolor = System.Drawing.Color.Wheat;
+            this.BtnActiveProduct.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.BtnActiveProduct.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnActiveProduct.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnActiveProduct.BackgroundImage")));
+            this.BtnActiveProduct.ButtonText = "Activar";
+            this.BtnActiveProduct.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnActiveProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnActiveProduct.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.BtnActiveProduct.IdleBorderThickness = 1;
+            this.BtnActiveProduct.IdleCornerRadius = 20;
+            this.BtnActiveProduct.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.BtnActiveProduct.IdleForecolor = System.Drawing.Color.White;
+            this.BtnActiveProduct.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.BtnActiveProduct.Location = new System.Drawing.Point(1452, 14);
+            this.BtnActiveProduct.Margin = new System.Windows.Forms.Padding(5);
+            this.BtnActiveProduct.Name = "BtnActiveProduct";
+            this.BtnActiveProduct.Size = new System.Drawing.Size(123, 55);
+            this.BtnActiveProduct.TabIndex = 24;
+            this.BtnActiveProduct.TabStop = false;
+            this.BtnActiveProduct.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.BtnActiveProduct.Click += new System.EventHandler(this.BtnActiveProduct_Click);
+            // 
+            // panel33
+            // 
+            this.panel33.BackColor = System.Drawing.Color.Black;
+            this.panel33.Controls.Add(this.DgvInactiveProducts);
+            this.panel33.Controls.Add(this.panel34);
+            this.panel33.Controls.Add(this.panel35);
+            this.panel33.ForeColor = System.Drawing.Color.White;
+            this.panel33.Location = new System.Drawing.Point(1, 2);
+            this.panel33.Name = "panel33";
+            this.panel33.Size = new System.Drawing.Size(1593, 506);
+            this.panel33.TabIndex = 33;
+            // 
+            // DgvInactiveProducts
+            // 
+            dataGridViewCellStyle19.BackColor = System.Drawing.Color.White;
+            this.DgvInactiveProducts.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle20.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvInactiveProducts.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle20;
+            this.DgvInactiveProducts.ColumnHeadersHeight = 50;
+            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle21.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle21.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DgvInactiveProducts.DefaultCellStyle = dataGridViewCellStyle21;
+            this.DgvInactiveProducts.GridColor = System.Drawing.Color.Black;
+            this.DgvInactiveProducts.Location = new System.Drawing.Point(-1, 136);
+            this.DgvInactiveProducts.Name = "DgvInactiveProducts";
+            this.DgvInactiveProducts.ReadOnly = true;
+            this.DgvInactiveProducts.RowHeadersVisible = false;
+            this.DgvInactiveProducts.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.White;
+            this.DgvInactiveProducts.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DgvInactiveProducts.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.DgvInactiveProducts.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.DgvInactiveProducts.RowTemplate.Height = 50;
+            this.DgvInactiveProducts.Size = new System.Drawing.Size(1591, 370);
+            this.DgvInactiveProducts.TabIndex = 30;
+            this.DgvInactiveProducts.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.DgvInactiveProducts.ThemeStyle.AlternatingRowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DgvInactiveProducts.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.DgvInactiveProducts.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.DgvInactiveProducts.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.DgvInactiveProducts.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.DgvInactiveProducts.ThemeStyle.GridColor = System.Drawing.Color.Black;
+            this.DgvInactiveProducts.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.DimGray;
+            this.DgvInactiveProducts.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.DgvInactiveProducts.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DgvInactiveProducts.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.DgvInactiveProducts.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.DgvInactiveProducts.ThemeStyle.HeaderStyle.Height = 50;
+            this.DgvInactiveProducts.ThemeStyle.ReadOnly = true;
+            this.DgvInactiveProducts.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.DgvInactiveProducts.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.DgvInactiveProducts.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DgvInactiveProducts.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.White;
+            this.DgvInactiveProducts.ThemeStyle.RowsStyle.Height = 50;
+            this.DgvInactiveProducts.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DgvInactiveProducts.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            // 
+            // panel34
+            // 
+            this.panel34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
+            this.panel34.Controls.Add(this.siticoneHtmlLabel51);
+            this.panel34.ForeColor = System.Drawing.Color.White;
+            this.panel34.Location = new System.Drawing.Point(0, 0);
+            this.panel34.Name = "panel34";
+            this.panel34.Size = new System.Drawing.Size(1593, 65);
+            this.panel34.TabIndex = 16;
+            // 
+            // siticoneHtmlLabel51
+            // 
+            this.siticoneHtmlLabel51.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneHtmlLabel51.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel51.ForeColor = System.Drawing.Color.White;
+            this.siticoneHtmlLabel51.Location = new System.Drawing.Point(33, 18);
+            this.siticoneHtmlLabel51.Name = "siticoneHtmlLabel51";
+            this.siticoneHtmlLabel51.Size = new System.Drawing.Size(262, 27);
+            this.siticoneHtmlLabel51.TabIndex = 4;
+            this.siticoneHtmlLabel51.Text = "Buscar productos inactivos";
+            this.siticoneHtmlLabel51.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel35
+            // 
+            this.panel35.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel35.Controls.Add(this.BtnSearchInactives);
+            this.panel35.ForeColor = System.Drawing.Color.White;
+            this.panel35.Location = new System.Drawing.Point(0, 64);
+            this.panel35.Name = "panel35";
+            this.panel35.Size = new System.Drawing.Size(1593, 72);
+            this.panel35.TabIndex = 17;
+            // 
+            // BtnSearchInactives
+            // 
+            this.BtnSearchInactives.ActiveBorderThickness = 1;
+            this.BtnSearchInactives.ActiveCornerRadius = 20;
+            this.BtnSearchInactives.ActiveFillColor = System.Drawing.Color.White;
+            this.BtnSearchInactives.ActiveForecolor = System.Drawing.Color.Wheat;
+            this.BtnSearchInactives.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.BtnSearchInactives.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnSearchInactives.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnSearchInactives.BackgroundImage")));
+            this.BtnSearchInactives.ButtonText = "Buscar";
+            this.BtnSearchInactives.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnSearchInactives.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSearchInactives.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.BtnSearchInactives.IdleBorderThickness = 1;
+            this.BtnSearchInactives.IdleCornerRadius = 20;
+            this.BtnSearchInactives.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.BtnSearchInactives.IdleForecolor = System.Drawing.Color.White;
+            this.BtnSearchInactives.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.BtnSearchInactives.Location = new System.Drawing.Point(1452, 4);
+            this.BtnSearchInactives.Margin = new System.Windows.Forms.Padding(5);
+            this.BtnSearchInactives.Name = "BtnSearchInactives";
+            this.BtnSearchInactives.Size = new System.Drawing.Size(123, 55);
+            this.BtnSearchInactives.TabIndex = 23;
+            this.BtnSearchInactives.TabStop = false;
+            this.BtnSearchInactives.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.BtnSearchInactives.Click += new System.EventHandler(this.BtnSearchInactives_Click);
+            // 
+            // panel66
+            // 
+            this.panel66.BackColor = System.Drawing.Color.Black;
+            this.panel66.Controls.Add(this.panel67);
+            this.panel66.Controls.Add(this.panel68);
+            this.panel66.ForeColor = System.Drawing.Color.White;
+            this.panel66.Location = new System.Drawing.Point(1, 514);
+            this.panel66.Name = "panel66";
+            this.panel66.Size = new System.Drawing.Size(1593, 129);
+            this.panel66.TabIndex = 32;
+            // 
+            // panel67
+            // 
+            this.panel67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
+            this.panel67.Controls.Add(this.siticoneHtmlLabel52);
+            this.panel67.ForeColor = System.Drawing.Color.White;
+            this.panel67.Location = new System.Drawing.Point(0, 0);
+            this.panel67.Name = "panel67";
+            this.panel67.Size = new System.Drawing.Size(1593, 65);
+            this.panel67.TabIndex = 16;
+            // 
+            // siticoneHtmlLabel52
+            // 
+            this.siticoneHtmlLabel52.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneHtmlLabel52.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel52.ForeColor = System.Drawing.Color.White;
+            this.siticoneHtmlLabel52.Location = new System.Drawing.Point(33, 18);
+            this.siticoneHtmlLabel52.Name = "siticoneHtmlLabel52";
+            this.siticoneHtmlLabel52.Size = new System.Drawing.Size(337, 27);
+            this.siticoneHtmlLabel52.TabIndex = 4;
+            this.siticoneHtmlLabel52.Text = "Buscar producto que desea activar";
+            this.siticoneHtmlLabel52.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel68
+            // 
+            this.panel68.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel68.Controls.Add(this.LblInactiveStock);
+            this.panel68.Controls.Add(this.LblInactivePrice);
+            this.panel68.Controls.Add(this.LblInactiveDescription);
+            this.panel68.Controls.Add(this.LblInactiveStatus);
+            this.panel68.Controls.Add(this.LblInactiveName);
+            this.panel68.Controls.Add(this.TxtInactiveID);
+            this.panel68.Controls.Add(this.BtnActiveProducts);
+            this.panel68.ForeColor = System.Drawing.Color.White;
+            this.panel68.Location = new System.Drawing.Point(0, 62);
+            this.panel68.Name = "panel68";
+            this.panel68.Size = new System.Drawing.Size(1593, 67);
+            this.panel68.TabIndex = 17;
+            // 
+            // LblInactiveStock
+            // 
+            this.LblInactiveStock.AutoSize = false;
+            this.LblInactiveStock.BackColor = System.Drawing.Color.White;
+            this.LblInactiveStock.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LblInactiveStock.Font = new System.Drawing.Font("Segoe UI", 14.25F);
+            this.LblInactiveStock.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.LblInactiveStock.Location = new System.Drawing.Point(760, 14);
+            this.LblInactiveStock.Name = "LblInactiveStock";
+            this.LblInactiveStock.Size = new System.Drawing.Size(238, 39);
+            this.LblInactiveStock.TabIndex = 36;
+            this.LblInactiveStock.Text = null;
+            this.LblInactiveStock.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // LblInactivePrice
+            // 
+            this.LblInactivePrice.AutoSize = false;
+            this.LblInactivePrice.BackColor = System.Drawing.Color.White;
+            this.LblInactivePrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LblInactivePrice.Font = new System.Drawing.Font("Segoe UI", 14.25F);
+            this.LblInactivePrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.LblInactivePrice.Location = new System.Drawing.Point(514, 14);
+            this.LblInactivePrice.Name = "LblInactivePrice";
+            this.LblInactivePrice.Size = new System.Drawing.Size(238, 39);
+            this.LblInactivePrice.TabIndex = 35;
+            this.LblInactivePrice.Text = null;
+            this.LblInactivePrice.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // LblInactiveDescription
+            // 
+            this.LblInactiveDescription.AutoSize = false;
+            this.LblInactiveDescription.BackColor = System.Drawing.Color.White;
+            this.LblInactiveDescription.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LblInactiveDescription.Font = new System.Drawing.Font("Segoe UI", 14.25F);
+            this.LblInactiveDescription.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.LblInactiveDescription.Location = new System.Drawing.Point(268, 14);
+            this.LblInactiveDescription.Name = "LblInactiveDescription";
+            this.LblInactiveDescription.Size = new System.Drawing.Size(238, 39);
+            this.LblInactiveDescription.TabIndex = 34;
+            this.LblInactiveDescription.Text = null;
+            this.LblInactiveDescription.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // LblInactiveStatus
+            // 
+            this.LblInactiveStatus.AutoSize = false;
+            this.LblInactiveStatus.BackColor = System.Drawing.Color.White;
+            this.LblInactiveStatus.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LblInactiveStatus.Font = new System.Drawing.Font("Segoe UI", 14.25F);
+            this.LblInactiveStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.LblInactiveStatus.Location = new System.Drawing.Point(1006, 14);
+            this.LblInactiveStatus.Name = "LblInactiveStatus";
+            this.LblInactiveStatus.Size = new System.Drawing.Size(238, 39);
+            this.LblInactiveStatus.TabIndex = 33;
+            this.LblInactiveStatus.Text = null;
+            this.LblInactiveStatus.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // LblInactiveName
+            // 
+            this.LblInactiveName.AutoSize = false;
+            this.LblInactiveName.BackColor = System.Drawing.Color.White;
+            this.LblInactiveName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LblInactiveName.Font = new System.Drawing.Font("Segoe UI", 14.25F);
+            this.LblInactiveName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.LblInactiveName.Location = new System.Drawing.Point(21, 14);
+            this.LblInactiveName.Name = "LblInactiveName";
+            this.LblInactiveName.Size = new System.Drawing.Size(239, 39);
+            this.LblInactiveName.TabIndex = 31;
+            this.LblInactiveName.Text = null;
+            this.LblInactiveName.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // TxtInactiveID
+            // 
+            this.TxtInactiveID.BorderColor = System.Drawing.Color.Silver;
+            this.TxtInactiveID.BorderThickness = 2;
+            this.TxtInactiveID.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TxtInactiveID.DefaultText = "";
+            this.TxtInactiveID.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TxtInactiveID.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TxtInactiveID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtInactiveID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TxtInactiveID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtInactiveID.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtInactiveID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TxtInactiveID.Location = new System.Drawing.Point(1397, 14);
+            this.TxtInactiveID.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtInactiveID.Name = "TxtInactiveID";
+            this.TxtInactiveID.PasswordChar = '\0';
+            this.TxtInactiveID.PlaceholderText = "ID";
+            this.TxtInactiveID.SelectedText = "";
+            this.TxtInactiveID.Size = new System.Drawing.Size(46, 39);
+            this.TxtInactiveID.TabIndex = 26;
+            // 
+            // BtnActiveProducts
+            // 
+            this.BtnActiveProducts.ActiveBorderThickness = 1;
+            this.BtnActiveProducts.ActiveCornerRadius = 20;
+            this.BtnActiveProducts.ActiveFillColor = System.Drawing.Color.White;
+            this.BtnActiveProducts.ActiveForecolor = System.Drawing.Color.Wheat;
+            this.BtnActiveProducts.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.BtnActiveProducts.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnActiveProducts.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnActiveProducts.BackgroundImage")));
+            this.BtnActiveProducts.ButtonText = "Buscar";
+            this.BtnActiveProducts.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnActiveProducts.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnActiveProducts.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.BtnActiveProducts.IdleBorderThickness = 1;
+            this.BtnActiveProducts.IdleCornerRadius = 20;
+            this.BtnActiveProducts.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.BtnActiveProducts.IdleForecolor = System.Drawing.Color.White;
+            this.BtnActiveProducts.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.BtnActiveProducts.Location = new System.Drawing.Point(1452, 5);
+            this.BtnActiveProducts.Margin = new System.Windows.Forms.Padding(5);
+            this.BtnActiveProducts.Name = "BtnActiveProducts";
+            this.BtnActiveProducts.Size = new System.Drawing.Size(123, 55);
+            this.BtnActiveProducts.TabIndex = 23;
+            this.BtnActiveProducts.TabStop = false;
+            this.BtnActiveProducts.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.BtnActiveProducts.Click += new System.EventHandler(this.BtnActiveProducts_Click);
             // 
             // GestionFacturas
             // 
@@ -3369,26 +4033,26 @@
             // 
             // siticoneDataGridView2
             // 
-            dataGridViewCellStyle31.BackColor = System.Drawing.Color.White;
-            this.siticoneDataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle31;
-            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle32.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle32.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.siticoneDataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle32;
+            dataGridViewCellStyle34.BackColor = System.Drawing.Color.White;
+            this.siticoneDataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle34;
+            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle35.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle35.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle35.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle35.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.siticoneDataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle35;
             this.siticoneDataGridView2.ColumnHeadersHeight = 4;
             this.siticoneDataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle33.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle33.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle33.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle33.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle33.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.siticoneDataGridView2.DefaultCellStyle = dataGridViewCellStyle33;
+            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle36.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle36.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle36.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle36.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle36.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle36.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.siticoneDataGridView2.DefaultCellStyle = dataGridViewCellStyle36;
             this.siticoneDataGridView2.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.siticoneDataGridView2.Location = new System.Drawing.Point(0, 125);
             this.siticoneDataGridView2.Name = "siticoneDataGridView2";
@@ -3974,670 +4638,6 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // siticonePictureBox3
-            // 
-            this.siticonePictureBox3.Image = global::Final_Project.Properties.Resources.borrar;
-            this.siticonePictureBox3.ImageRotate = 0F;
-            this.siticonePictureBox3.Location = new System.Drawing.Point(602, 325);
-            this.siticonePictureBox3.Name = "siticonePictureBox3";
-            this.siticonePictureBox3.Size = new System.Drawing.Size(450, 450);
-            this.siticonePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.siticonePictureBox3.TabIndex = 30;
-            this.siticonePictureBox3.TabStop = false;
-            // 
-            // panel39
-            // 
-            this.panel39.BackColor = System.Drawing.Color.Black;
-            this.panel39.Controls.Add(this.panel40);
-            this.panel39.Controls.Add(this.panel41);
-            this.panel39.ForeColor = System.Drawing.Color.White;
-            this.panel39.Location = new System.Drawing.Point(0, 160);
-            this.panel39.Name = "panel39";
-            this.panel39.Size = new System.Drawing.Size(1593, 129);
-            this.panel39.TabIndex = 29;
-            // 
-            // panel40
-            // 
-            this.panel40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
-            this.panel40.Controls.Add(this.siticoneHtmlLabel46);
-            this.panel40.ForeColor = System.Drawing.Color.White;
-            this.panel40.Location = new System.Drawing.Point(0, 0);
-            this.panel40.Name = "panel40";
-            this.panel40.Size = new System.Drawing.Size(1593, 65);
-            this.panel40.TabIndex = 16;
-            // 
-            // siticoneHtmlLabel46
-            // 
-            this.siticoneHtmlLabel46.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel46.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel46.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel46.Location = new System.Drawing.Point(33, 18);
-            this.siticoneHtmlLabel46.Name = "siticoneHtmlLabel46";
-            this.siticoneHtmlLabel46.Size = new System.Drawing.Size(212, 27);
-            this.siticoneHtmlLabel46.TabIndex = 4;
-            this.siticoneHtmlLabel46.Text = "Confirmar Eliminación";
-            this.siticoneHtmlLabel46.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // panel41
-            // 
-            this.panel41.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel41.Controls.Add(this.ChkConfirmDelete);
-            this.panel41.Controls.Add(this.BtnDeleteProduct);
-            this.panel41.ForeColor = System.Drawing.Color.White;
-            this.panel41.Location = new System.Drawing.Point(0, 62);
-            this.panel41.Name = "panel41";
-            this.panel41.Size = new System.Drawing.Size(1593, 67);
-            this.panel41.TabIndex = 17;
-            // 
-            // ChkConfirmDelete
-            // 
-            this.ChkConfirmDelete.AutoSize = true;
-            this.ChkConfirmDelete.BackColor = System.Drawing.Color.Snow;
-            this.ChkConfirmDelete.Depth = 0;
-            this.ChkConfirmDelete.Location = new System.Drawing.Point(1245, 15);
-            this.ChkConfirmDelete.Margin = new System.Windows.Forms.Padding(0);
-            this.ChkConfirmDelete.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.ChkConfirmDelete.MouseState = MaterialSkin.MouseState.HOVER;
-            this.ChkConfirmDelete.Name = "ChkConfirmDelete";
-            this.ChkConfirmDelete.ReadOnly = false;
-            this.ChkConfirmDelete.Ripple = true;
-            this.ChkConfirmDelete.Size = new System.Drawing.Size(193, 37);
-            this.ChkConfirmDelete.TabIndex = 20;
-            this.ChkConfirmDelete.Text = "Confirmar Eliminación";
-            this.ChkConfirmDelete.UseVisualStyleBackColor = false;
-            // 
-            // BtnDeleteProduct
-            // 
-            this.BtnDeleteProduct.ActiveBorderThickness = 1;
-            this.BtnDeleteProduct.ActiveCornerRadius = 20;
-            this.BtnDeleteProduct.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.BtnDeleteProduct.ActiveForecolor = System.Drawing.Color.Wheat;
-            this.BtnDeleteProduct.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.BtnDeleteProduct.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnDeleteProduct.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnDeleteProduct.BackgroundImage")));
-            this.BtnDeleteProduct.ButtonText = "Eliminar";
-            this.BtnDeleteProduct.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnDeleteProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnDeleteProduct.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.BtnDeleteProduct.IdleBorderThickness = 1;
-            this.BtnDeleteProduct.IdleCornerRadius = 20;
-            this.BtnDeleteProduct.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.BtnDeleteProduct.IdleForecolor = System.Drawing.Color.White;
-            this.BtnDeleteProduct.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.BtnDeleteProduct.Location = new System.Drawing.Point(1452, 5);
-            this.BtnDeleteProduct.Margin = new System.Windows.Forms.Padding(5);
-            this.BtnDeleteProduct.Name = "BtnDeleteProduct";
-            this.BtnDeleteProduct.Size = new System.Drawing.Size(123, 55);
-            this.BtnDeleteProduct.TabIndex = 24;
-            this.BtnDeleteProduct.TabStop = false;
-            this.BtnDeleteProduct.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.BtnDeleteProduct.Click += new System.EventHandler(this.BtnDeleteProduct_Click);
-            // 
-            // panel63
-            // 
-            this.panel63.BackColor = System.Drawing.Color.Black;
-            this.panel63.Controls.Add(this.panel64);
-            this.panel63.Controls.Add(this.panel65);
-            this.panel63.ForeColor = System.Drawing.Color.White;
-            this.panel63.Location = new System.Drawing.Point(0, 2);
-            this.panel63.Name = "panel63";
-            this.panel63.Size = new System.Drawing.Size(1593, 129);
-            this.panel63.TabIndex = 28;
-            // 
-            // panel64
-            // 
-            this.panel64.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
-            this.panel64.Controls.Add(this.siticoneHtmlLabel58);
-            this.panel64.ForeColor = System.Drawing.Color.White;
-            this.panel64.Location = new System.Drawing.Point(0, 0);
-            this.panel64.Name = "panel64";
-            this.panel64.Size = new System.Drawing.Size(1593, 65);
-            this.panel64.TabIndex = 16;
-            // 
-            // siticoneHtmlLabel58
-            // 
-            this.siticoneHtmlLabel58.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel58.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel58.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel58.Location = new System.Drawing.Point(33, 18);
-            this.siticoneHtmlLabel58.Name = "siticoneHtmlLabel58";
-            this.siticoneHtmlLabel58.Size = new System.Drawing.Size(327, 27);
-            this.siticoneHtmlLabel58.TabIndex = 4;
-            this.siticoneHtmlLabel58.Text = "Buscar cliente que desea eliminar";
-            this.siticoneHtmlLabel58.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // panel65
-            // 
-            this.panel65.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel65.Controls.Add(this.siticoneHtmlLabel59);
-            this.panel65.Controls.Add(this.LblProductStockE);
-            this.panel65.Controls.Add(this.LblProductPriceE);
-            this.panel65.Controls.Add(this.LblProductDescriptionE);
-            this.panel65.Controls.Add(this.LblProductStatusE);
-            this.panel65.Controls.Add(this.LblProductNameE);
-            this.panel65.Controls.Add(this.TxtSearchProductIDE);
-            this.panel65.Controls.Add(this.BtnSearchProductE);
-            this.panel65.ForeColor = System.Drawing.Color.White;
-            this.panel65.Location = new System.Drawing.Point(0, 62);
-            this.panel65.Name = "panel65";
-            this.panel65.Size = new System.Drawing.Size(1593, 67);
-            this.panel65.TabIndex = 17;
-            // 
-            // siticoneHtmlLabel59
-            // 
-            this.siticoneHtmlLabel59.AutoSize = false;
-            this.siticoneHtmlLabel59.BackColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.siticoneHtmlLabel59.Font = new System.Drawing.Font("Segoe UI", 14.25F);
-            this.siticoneHtmlLabel59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.siticoneHtmlLabel59.Location = new System.Drawing.Point(1253, 14);
-            this.siticoneHtmlLabel59.Name = "siticoneHtmlLabel59";
-            this.siticoneHtmlLabel59.Size = new System.Drawing.Size(114, 39);
-            this.siticoneHtmlLabel59.TabIndex = 37;
-            this.siticoneHtmlLabel59.Text = null;
-            this.siticoneHtmlLabel59.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // LblProductStockE
-            // 
-            this.LblProductStockE.AutoSize = false;
-            this.LblProductStockE.BackColor = System.Drawing.Color.White;
-            this.LblProductStockE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblProductStockE.Font = new System.Drawing.Font("Segoe UI", 14.25F);
-            this.LblProductStockE.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.LblProductStockE.Location = new System.Drawing.Point(760, 14);
-            this.LblProductStockE.Name = "LblProductStockE";
-            this.LblProductStockE.Size = new System.Drawing.Size(238, 39);
-            this.LblProductStockE.TabIndex = 36;
-            this.LblProductStockE.Text = null;
-            this.LblProductStockE.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // LblProductPriceE
-            // 
-            this.LblProductPriceE.AutoSize = false;
-            this.LblProductPriceE.BackColor = System.Drawing.Color.White;
-            this.LblProductPriceE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblProductPriceE.Font = new System.Drawing.Font("Segoe UI", 14.25F);
-            this.LblProductPriceE.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.LblProductPriceE.Location = new System.Drawing.Point(514, 14);
-            this.LblProductPriceE.Name = "LblProductPriceE";
-            this.LblProductPriceE.Size = new System.Drawing.Size(238, 39);
-            this.LblProductPriceE.TabIndex = 35;
-            this.LblProductPriceE.Text = null;
-            this.LblProductPriceE.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // LblProductDescriptionE
-            // 
-            this.LblProductDescriptionE.AutoSize = false;
-            this.LblProductDescriptionE.BackColor = System.Drawing.Color.White;
-            this.LblProductDescriptionE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblProductDescriptionE.Font = new System.Drawing.Font("Segoe UI", 14.25F);
-            this.LblProductDescriptionE.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.LblProductDescriptionE.Location = new System.Drawing.Point(268, 14);
-            this.LblProductDescriptionE.Name = "LblProductDescriptionE";
-            this.LblProductDescriptionE.Size = new System.Drawing.Size(238, 39);
-            this.LblProductDescriptionE.TabIndex = 34;
-            this.LblProductDescriptionE.Text = null;
-            this.LblProductDescriptionE.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // LblProductStatusE
-            // 
-            this.LblProductStatusE.AutoSize = false;
-            this.LblProductStatusE.BackColor = System.Drawing.Color.White;
-            this.LblProductStatusE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblProductStatusE.Font = new System.Drawing.Font("Segoe UI", 14.25F);
-            this.LblProductStatusE.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.LblProductStatusE.Location = new System.Drawing.Point(1006, 14);
-            this.LblProductStatusE.Name = "LblProductStatusE";
-            this.LblProductStatusE.Size = new System.Drawing.Size(238, 39);
-            this.LblProductStatusE.TabIndex = 33;
-            this.LblProductStatusE.Text = null;
-            this.LblProductStatusE.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // LblProductNameE
-            // 
-            this.LblProductNameE.AutoSize = false;
-            this.LblProductNameE.BackColor = System.Drawing.Color.White;
-            this.LblProductNameE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblProductNameE.Font = new System.Drawing.Font("Segoe UI", 14.25F);
-            this.LblProductNameE.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.LblProductNameE.Location = new System.Drawing.Point(21, 14);
-            this.LblProductNameE.Name = "LblProductNameE";
-            this.LblProductNameE.Size = new System.Drawing.Size(239, 39);
-            this.LblProductNameE.TabIndex = 31;
-            this.LblProductNameE.Text = null;
-            this.LblProductNameE.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // TxtSearchProductIDE
-            // 
-            this.TxtSearchProductIDE.BorderColor = System.Drawing.Color.Silver;
-            this.TxtSearchProductIDE.BorderThickness = 2;
-            this.TxtSearchProductIDE.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TxtSearchProductIDE.DefaultText = "";
-            this.TxtSearchProductIDE.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TxtSearchProductIDE.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TxtSearchProductIDE.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtSearchProductIDE.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtSearchProductIDE.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtSearchProductIDE.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtSearchProductIDE.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtSearchProductIDE.Location = new System.Drawing.Point(1397, 14);
-            this.TxtSearchProductIDE.Margin = new System.Windows.Forms.Padding(4);
-            this.TxtSearchProductIDE.Name = "TxtSearchProductIDE";
-            this.TxtSearchProductIDE.PasswordChar = '\0';
-            this.TxtSearchProductIDE.PlaceholderText = "ID";
-            this.TxtSearchProductIDE.SelectedText = "";
-            this.TxtSearchProductIDE.Size = new System.Drawing.Size(46, 39);
-            this.TxtSearchProductIDE.TabIndex = 26;
-            // 
-            // BtnSearchProductE
-            // 
-            this.BtnSearchProductE.ActiveBorderThickness = 1;
-            this.BtnSearchProductE.ActiveCornerRadius = 20;
-            this.BtnSearchProductE.ActiveFillColor = System.Drawing.Color.White;
-            this.BtnSearchProductE.ActiveForecolor = System.Drawing.Color.Wheat;
-            this.BtnSearchProductE.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.BtnSearchProductE.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnSearchProductE.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnSearchProductE.BackgroundImage")));
-            this.BtnSearchProductE.ButtonText = "Buscar";
-            this.BtnSearchProductE.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnSearchProductE.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSearchProductE.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.BtnSearchProductE.IdleBorderThickness = 1;
-            this.BtnSearchProductE.IdleCornerRadius = 20;
-            this.BtnSearchProductE.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.BtnSearchProductE.IdleForecolor = System.Drawing.Color.White;
-            this.BtnSearchProductE.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.BtnSearchProductE.Location = new System.Drawing.Point(1452, 5);
-            this.BtnSearchProductE.Margin = new System.Windows.Forms.Padding(5);
-            this.BtnSearchProductE.Name = "BtnSearchProductE";
-            this.BtnSearchProductE.Size = new System.Drawing.Size(123, 55);
-            this.BtnSearchProductE.TabIndex = 23;
-            this.BtnSearchProductE.TabStop = false;
-            this.BtnSearchProductE.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.BtnSearchProductE.Click += new System.EventHandler(this.BtnSearchProductE_Click);
-            // 
-            // panel33
-            // 
-            this.panel33.BackColor = System.Drawing.Color.Black;
-            this.panel33.Controls.Add(this.DgvInactiveProducts);
-            this.panel33.Controls.Add(this.panel34);
-            this.panel33.Controls.Add(this.panel35);
-            this.panel33.ForeColor = System.Drawing.Color.White;
-            this.panel33.Location = new System.Drawing.Point(1, 2);
-            this.panel33.Name = "panel33";
-            this.panel33.Size = new System.Drawing.Size(1593, 506);
-            this.panel33.TabIndex = 33;
-            // 
-            // panel34
-            // 
-            this.panel34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
-            this.panel34.Controls.Add(this.siticoneHtmlLabel51);
-            this.panel34.ForeColor = System.Drawing.Color.White;
-            this.panel34.Location = new System.Drawing.Point(0, 0);
-            this.panel34.Name = "panel34";
-            this.panel34.Size = new System.Drawing.Size(1593, 65);
-            this.panel34.TabIndex = 16;
-            // 
-            // siticoneHtmlLabel51
-            // 
-            this.siticoneHtmlLabel51.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel51.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel51.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel51.Location = new System.Drawing.Point(33, 18);
-            this.siticoneHtmlLabel51.Name = "siticoneHtmlLabel51";
-            this.siticoneHtmlLabel51.Size = new System.Drawing.Size(241, 27);
-            this.siticoneHtmlLabel51.TabIndex = 4;
-            this.siticoneHtmlLabel51.Text = "Buscar clientes inactivos";
-            this.siticoneHtmlLabel51.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // panel35
-            // 
-            this.panel35.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel35.Controls.Add(this.BtnSearchInactives);
-            this.panel35.ForeColor = System.Drawing.Color.White;
-            this.panel35.Location = new System.Drawing.Point(0, 64);
-            this.panel35.Name = "panel35";
-            this.panel35.Size = new System.Drawing.Size(1593, 72);
-            this.panel35.TabIndex = 17;
-            // 
-            // BtnSearchInactives
-            // 
-            this.BtnSearchInactives.ActiveBorderThickness = 1;
-            this.BtnSearchInactives.ActiveCornerRadius = 20;
-            this.BtnSearchInactives.ActiveFillColor = System.Drawing.Color.White;
-            this.BtnSearchInactives.ActiveForecolor = System.Drawing.Color.Wheat;
-            this.BtnSearchInactives.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.BtnSearchInactives.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnSearchInactives.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnSearchInactives.BackgroundImage")));
-            this.BtnSearchInactives.ButtonText = "Buscar";
-            this.BtnSearchInactives.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnSearchInactives.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSearchInactives.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.BtnSearchInactives.IdleBorderThickness = 1;
-            this.BtnSearchInactives.IdleCornerRadius = 20;
-            this.BtnSearchInactives.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.BtnSearchInactives.IdleForecolor = System.Drawing.Color.White;
-            this.BtnSearchInactives.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.BtnSearchInactives.Location = new System.Drawing.Point(1452, 4);
-            this.BtnSearchInactives.Margin = new System.Windows.Forms.Padding(5);
-            this.BtnSearchInactives.Name = "BtnSearchInactives";
-            this.BtnSearchInactives.Size = new System.Drawing.Size(123, 55);
-            this.BtnSearchInactives.TabIndex = 23;
-            this.BtnSearchInactives.TabStop = false;
-            this.BtnSearchInactives.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.BtnSearchInactives.Click += new System.EventHandler(this.BtnSearchInactives_Click);
-            // 
-            // panel66
-            // 
-            this.panel66.BackColor = System.Drawing.Color.Black;
-            this.panel66.Controls.Add(this.panel67);
-            this.panel66.Controls.Add(this.panel68);
-            this.panel66.ForeColor = System.Drawing.Color.White;
-            this.panel66.Location = new System.Drawing.Point(1, 514);
-            this.panel66.Name = "panel66";
-            this.panel66.Size = new System.Drawing.Size(1593, 129);
-            this.panel66.TabIndex = 32;
-            // 
-            // panel67
-            // 
-            this.panel67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
-            this.panel67.Controls.Add(this.siticoneHtmlLabel52);
-            this.panel67.ForeColor = System.Drawing.Color.White;
-            this.panel67.Location = new System.Drawing.Point(0, 0);
-            this.panel67.Name = "panel67";
-            this.panel67.Size = new System.Drawing.Size(1593, 65);
-            this.panel67.TabIndex = 16;
-            // 
-            // siticoneHtmlLabel52
-            // 
-            this.siticoneHtmlLabel52.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel52.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel52.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel52.Location = new System.Drawing.Point(33, 18);
-            this.siticoneHtmlLabel52.Name = "siticoneHtmlLabel52";
-            this.siticoneHtmlLabel52.Size = new System.Drawing.Size(316, 27);
-            this.siticoneHtmlLabel52.TabIndex = 4;
-            this.siticoneHtmlLabel52.Text = "Buscar cliente que desea activar";
-            this.siticoneHtmlLabel52.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // panel68
-            // 
-            this.panel68.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel68.Controls.Add(this.LblInactiveStock);
-            this.panel68.Controls.Add(this.LblInactivePrice);
-            this.panel68.Controls.Add(this.LblInactiveDescription);
-            this.panel68.Controls.Add(this.LblInactiveStatus);
-            this.panel68.Controls.Add(this.LblInactiveName);
-            this.panel68.Controls.Add(this.TxtInactiveID);
-            this.panel68.Controls.Add(this.BtnActiveProducts);
-            this.panel68.ForeColor = System.Drawing.Color.White;
-            this.panel68.Location = new System.Drawing.Point(0, 62);
-            this.panel68.Name = "panel68";
-            this.panel68.Size = new System.Drawing.Size(1593, 67);
-            this.panel68.TabIndex = 17;
-            // 
-            // LblInactiveStock
-            // 
-            this.LblInactiveStock.AutoSize = false;
-            this.LblInactiveStock.BackColor = System.Drawing.Color.White;
-            this.LblInactiveStock.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblInactiveStock.Font = new System.Drawing.Font("Segoe UI", 14.25F);
-            this.LblInactiveStock.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.LblInactiveStock.Location = new System.Drawing.Point(760, 14);
-            this.LblInactiveStock.Name = "LblInactiveStock";
-            this.LblInactiveStock.Size = new System.Drawing.Size(238, 39);
-            this.LblInactiveStock.TabIndex = 36;
-            this.LblInactiveStock.Text = null;
-            this.LblInactiveStock.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // LblInactivePrice
-            // 
-            this.LblInactivePrice.AutoSize = false;
-            this.LblInactivePrice.BackColor = System.Drawing.Color.White;
-            this.LblInactivePrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblInactivePrice.Font = new System.Drawing.Font("Segoe UI", 14.25F);
-            this.LblInactivePrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.LblInactivePrice.Location = new System.Drawing.Point(514, 14);
-            this.LblInactivePrice.Name = "LblInactivePrice";
-            this.LblInactivePrice.Size = new System.Drawing.Size(238, 39);
-            this.LblInactivePrice.TabIndex = 35;
-            this.LblInactivePrice.Text = null;
-            this.LblInactivePrice.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // LblInactiveDescription
-            // 
-            this.LblInactiveDescription.AutoSize = false;
-            this.LblInactiveDescription.BackColor = System.Drawing.Color.White;
-            this.LblInactiveDescription.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblInactiveDescription.Font = new System.Drawing.Font("Segoe UI", 14.25F);
-            this.LblInactiveDescription.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.LblInactiveDescription.Location = new System.Drawing.Point(268, 14);
-            this.LblInactiveDescription.Name = "LblInactiveDescription";
-            this.LblInactiveDescription.Size = new System.Drawing.Size(238, 39);
-            this.LblInactiveDescription.TabIndex = 34;
-            this.LblInactiveDescription.Text = null;
-            this.LblInactiveDescription.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // LblInactiveStatus
-            // 
-            this.LblInactiveStatus.AutoSize = false;
-            this.LblInactiveStatus.BackColor = System.Drawing.Color.White;
-            this.LblInactiveStatus.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblInactiveStatus.Font = new System.Drawing.Font("Segoe UI", 14.25F);
-            this.LblInactiveStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.LblInactiveStatus.Location = new System.Drawing.Point(1006, 14);
-            this.LblInactiveStatus.Name = "LblInactiveStatus";
-            this.LblInactiveStatus.Size = new System.Drawing.Size(238, 39);
-            this.LblInactiveStatus.TabIndex = 33;
-            this.LblInactiveStatus.Text = null;
-            this.LblInactiveStatus.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // LblInactiveName
-            // 
-            this.LblInactiveName.AutoSize = false;
-            this.LblInactiveName.BackColor = System.Drawing.Color.White;
-            this.LblInactiveName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblInactiveName.Font = new System.Drawing.Font("Segoe UI", 14.25F);
-            this.LblInactiveName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.LblInactiveName.Location = new System.Drawing.Point(21, 14);
-            this.LblInactiveName.Name = "LblInactiveName";
-            this.LblInactiveName.Size = new System.Drawing.Size(239, 39);
-            this.LblInactiveName.TabIndex = 31;
-            this.LblInactiveName.Text = null;
-            this.LblInactiveName.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // TxtInactiveID
-            // 
-            this.TxtInactiveID.BorderColor = System.Drawing.Color.Silver;
-            this.TxtInactiveID.BorderThickness = 2;
-            this.TxtInactiveID.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TxtInactiveID.DefaultText = "";
-            this.TxtInactiveID.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TxtInactiveID.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TxtInactiveID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtInactiveID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TxtInactiveID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtInactiveID.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtInactiveID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TxtInactiveID.Location = new System.Drawing.Point(1397, 14);
-            this.TxtInactiveID.Margin = new System.Windows.Forms.Padding(4);
-            this.TxtInactiveID.Name = "TxtInactiveID";
-            this.TxtInactiveID.PasswordChar = '\0';
-            this.TxtInactiveID.PlaceholderText = "ID";
-            this.TxtInactiveID.SelectedText = "";
-            this.TxtInactiveID.Size = new System.Drawing.Size(46, 39);
-            this.TxtInactiveID.TabIndex = 26;
-            // 
-            // BtnActiveProducts
-            // 
-            this.BtnActiveProducts.ActiveBorderThickness = 1;
-            this.BtnActiveProducts.ActiveCornerRadius = 20;
-            this.BtnActiveProducts.ActiveFillColor = System.Drawing.Color.White;
-            this.BtnActiveProducts.ActiveForecolor = System.Drawing.Color.Wheat;
-            this.BtnActiveProducts.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.BtnActiveProducts.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnActiveProducts.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnActiveProducts.BackgroundImage")));
-            this.BtnActiveProducts.ButtonText = "Buscar";
-            this.BtnActiveProducts.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnActiveProducts.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnActiveProducts.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.BtnActiveProducts.IdleBorderThickness = 1;
-            this.BtnActiveProducts.IdleCornerRadius = 20;
-            this.BtnActiveProducts.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.BtnActiveProducts.IdleForecolor = System.Drawing.Color.White;
-            this.BtnActiveProducts.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.BtnActiveProducts.Location = new System.Drawing.Point(1452, 5);
-            this.BtnActiveProducts.Margin = new System.Windows.Forms.Padding(5);
-            this.BtnActiveProducts.Name = "BtnActiveProducts";
-            this.BtnActiveProducts.Size = new System.Drawing.Size(123, 55);
-            this.BtnActiveProducts.TabIndex = 23;
-            this.BtnActiveProducts.TabStop = false;
-            this.BtnActiveProducts.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.BtnActiveProducts.Click += new System.EventHandler(this.BtnActiveProducts_Click);
-            // 
-            // panel69
-            // 
-            this.panel69.BackColor = System.Drawing.Color.Black;
-            this.panel69.Controls.Add(this.panel70);
-            this.panel69.Controls.Add(this.panel71);
-            this.panel69.ForeColor = System.Drawing.Color.White;
-            this.panel69.Location = new System.Drawing.Point(4, 644);
-            this.panel69.Name = "panel69";
-            this.panel69.Size = new System.Drawing.Size(1593, 129);
-            this.panel69.TabIndex = 34;
-            // 
-            // panel70
-            // 
-            this.panel70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
-            this.panel70.Controls.Add(this.siticoneHtmlLabel60);
-            this.panel70.ForeColor = System.Drawing.Color.White;
-            this.panel70.Location = new System.Drawing.Point(0, 0);
-            this.panel70.Name = "panel70";
-            this.panel70.Size = new System.Drawing.Size(1593, 59);
-            this.panel70.TabIndex = 16;
-            // 
-            // siticoneHtmlLabel60
-            // 
-            this.siticoneHtmlLabel60.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel60.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel60.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel60.Location = new System.Drawing.Point(33, 18);
-            this.siticoneHtmlLabel60.Name = "siticoneHtmlLabel60";
-            this.siticoneHtmlLabel60.Size = new System.Drawing.Size(201, 27);
-            this.siticoneHtmlLabel60.TabIndex = 4;
-            this.siticoneHtmlLabel60.Text = "Confirmar Activación";
-            this.siticoneHtmlLabel60.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // panel71
-            // 
-            this.panel71.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel71.Controls.Add(this.ChkActivateProduct);
-            this.panel71.Controls.Add(this.BtnActiveProduct);
-            this.panel71.ForeColor = System.Drawing.Color.White;
-            this.panel71.Location = new System.Drawing.Point(0, 51);
-            this.panel71.Name = "panel71";
-            this.panel71.Size = new System.Drawing.Size(1593, 78);
-            this.panel71.TabIndex = 17;
-            // 
-            // ChkActivateProduct
-            // 
-            this.ChkActivateProduct.AutoSize = true;
-            this.ChkActivateProduct.BackColor = System.Drawing.Color.Snow;
-            this.ChkActivateProduct.Depth = 0;
-            this.ChkActivateProduct.Location = new System.Drawing.Point(1245, 25);
-            this.ChkActivateProduct.Margin = new System.Windows.Forms.Padding(0);
-            this.ChkActivateProduct.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.ChkActivateProduct.MouseState = MaterialSkin.MouseState.HOVER;
-            this.ChkActivateProduct.Name = "ChkActivateProduct";
-            this.ChkActivateProduct.ReadOnly = false;
-            this.ChkActivateProduct.Ripple = true;
-            this.ChkActivateProduct.Size = new System.Drawing.Size(193, 37);
-            this.ChkActivateProduct.TabIndex = 20;
-            this.ChkActivateProduct.Text = "Confirmar Eliminación";
-            this.ChkActivateProduct.UseVisualStyleBackColor = false;
-            // 
-            // BtnActiveProduct
-            // 
-            this.BtnActiveProduct.ActiveBorderThickness = 1;
-            this.BtnActiveProduct.ActiveCornerRadius = 20;
-            this.BtnActiveProduct.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.BtnActiveProduct.ActiveForecolor = System.Drawing.Color.Wheat;
-            this.BtnActiveProduct.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.BtnActiveProduct.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnActiveProduct.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnActiveProduct.BackgroundImage")));
-            this.BtnActiveProduct.ButtonText = "Activar";
-            this.BtnActiveProduct.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnActiveProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnActiveProduct.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.BtnActiveProduct.IdleBorderThickness = 1;
-            this.BtnActiveProduct.IdleCornerRadius = 20;
-            this.BtnActiveProduct.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.BtnActiveProduct.IdleForecolor = System.Drawing.Color.White;
-            this.BtnActiveProduct.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.BtnActiveProduct.Location = new System.Drawing.Point(1452, 14);
-            this.BtnActiveProduct.Margin = new System.Windows.Forms.Padding(5);
-            this.BtnActiveProduct.Name = "BtnActiveProduct";
-            this.BtnActiveProduct.Size = new System.Drawing.Size(123, 55);
-            this.BtnActiveProduct.TabIndex = 24;
-            this.BtnActiveProduct.TabStop = false;
-            this.BtnActiveProduct.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.BtnActiveProduct.Click += new System.EventHandler(this.BtnActiveProduct_Click);
-            // 
-            // DgvInactiveProducts
-            // 
-            dataGridViewCellStyle34.BackColor = System.Drawing.Color.White;
-            this.DgvInactiveProducts.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle34;
-            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle35.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle35.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle35.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle35.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DgvInactiveProducts.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle35;
-            this.DgvInactiveProducts.ColumnHeadersHeight = 50;
-            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle36.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle36.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle36.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle36.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            dataGridViewCellStyle36.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle36.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DgvInactiveProducts.DefaultCellStyle = dataGridViewCellStyle36;
-            this.DgvInactiveProducts.GridColor = System.Drawing.Color.Black;
-            this.DgvInactiveProducts.Location = new System.Drawing.Point(-1, 136);
-            this.DgvInactiveProducts.Name = "DgvInactiveProducts";
-            this.DgvInactiveProducts.ReadOnly = true;
-            this.DgvInactiveProducts.RowHeadersVisible = false;
-            this.DgvInactiveProducts.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.White;
-            this.DgvInactiveProducts.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DgvInactiveProducts.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.DgvInactiveProducts.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.DgvInactiveProducts.RowTemplate.Height = 50;
-            this.DgvInactiveProducts.Size = new System.Drawing.Size(1591, 370);
-            this.DgvInactiveProducts.TabIndex = 30;
-            this.DgvInactiveProducts.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.DgvInactiveProducts.ThemeStyle.AlternatingRowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DgvInactiveProducts.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.DgvInactiveProducts.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.DgvInactiveProducts.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.DgvInactiveProducts.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.DgvInactiveProducts.ThemeStyle.GridColor = System.Drawing.Color.Black;
-            this.DgvInactiveProducts.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.DimGray;
-            this.DgvInactiveProducts.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.DgvInactiveProducts.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DgvInactiveProducts.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.DgvInactiveProducts.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.DgvInactiveProducts.ThemeStyle.HeaderStyle.Height = 50;
-            this.DgvInactiveProducts.ThemeStyle.ReadOnly = true;
-            this.DgvInactiveProducts.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.DgvInactiveProducts.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.DgvInactiveProducts.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DgvInactiveProducts.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.White;
-            this.DgvInactiveProducts.ThemeStyle.RowsStyle.Height = 50;
-            this.DgvInactiveProducts.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.DgvInactiveProducts.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            // 
             // FrmAdminDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4747,7 +4747,31 @@
             this.panel38.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PbProductImage)).EndInit();
             this.EliminarProducto.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox3)).EndInit();
+            this.panel39.ResumeLayout(false);
+            this.panel40.ResumeLayout(false);
+            this.panel40.PerformLayout();
+            this.panel41.ResumeLayout(false);
+            this.panel41.PerformLayout();
+            this.panel63.ResumeLayout(false);
+            this.panel64.ResumeLayout(false);
+            this.panel64.PerformLayout();
+            this.panel65.ResumeLayout(false);
             this.ActivarProducto.ResumeLayout(false);
+            this.panel69.ResumeLayout(false);
+            this.panel70.ResumeLayout(false);
+            this.panel70.PerformLayout();
+            this.panel71.ResumeLayout(false);
+            this.panel71.PerformLayout();
+            this.panel33.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.DgvInactiveProducts)).EndInit();
+            this.panel34.ResumeLayout(false);
+            this.panel34.PerformLayout();
+            this.panel35.ResumeLayout(false);
+            this.panel66.ResumeLayout(false);
+            this.panel67.ResumeLayout(false);
+            this.panel67.PerformLayout();
+            this.panel68.ResumeLayout(false);
             this.GestionFacturas.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
             this.panel16.ResumeLayout(false);
@@ -4769,30 +4793,6 @@
             this.panel26.PerformLayout();
             this.panel27.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox3)).EndInit();
-            this.panel39.ResumeLayout(false);
-            this.panel40.ResumeLayout(false);
-            this.panel40.PerformLayout();
-            this.panel41.ResumeLayout(false);
-            this.panel41.PerformLayout();
-            this.panel63.ResumeLayout(false);
-            this.panel64.ResumeLayout(false);
-            this.panel64.PerformLayout();
-            this.panel65.ResumeLayout(false);
-            this.panel33.ResumeLayout(false);
-            this.panel34.ResumeLayout(false);
-            this.panel34.PerformLayout();
-            this.panel35.ResumeLayout(false);
-            this.panel66.ResumeLayout(false);
-            this.panel67.ResumeLayout(false);
-            this.panel67.PerformLayout();
-            this.panel68.ResumeLayout(false);
-            this.panel69.ResumeLayout(false);
-            this.panel70.ResumeLayout(false);
-            this.panel70.PerformLayout();
-            this.panel71.ResumeLayout(false);
-            this.panel71.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DgvInactiveProducts)).EndInit();
             this.ResumeLayout(false);
 
         }

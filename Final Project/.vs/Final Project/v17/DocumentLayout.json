@@ -3,23 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\emile\\source\\Stockify\\Final Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|c:\\users\\emile\\source\\stockify\\final project\\forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|c:\\users\\emile\\source\\stockify\\final project\\forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|c:\\users\\emile\\source\\stockify\\final project\\forms\\frmpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|c:\\users\\emile\\source\\stockify\\final project\\forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|c:\\users\\emile\\source\\stockify\\final project\\forms\\frmadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|c:\\users\\emile\\source\\stockify\\final project\\forms\\frmadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|C:\\Users\\emile\\source\\Stockify\\Final Project\\forms\\frmadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -30,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,42 +34,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FrmHome.cs",
               "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmHome.cs",
               "RelativeDocumentMoniker": "Forms\\FrmHome.cs",
               "ToolTip": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmHome.cs",
               "RelativeToolTip": "Forms\\FrmHome.cs",
-              "ViewState": "AgIAAPYAAAAAAAAAAAAiwAsBAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEwBAAAAAAAAAAAYwF0BAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T16:34:42.639Z",
+              "WhenOpened": "2025-04-22T03:25:49.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmPayment.cs",
-              "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmPayment.cs",
-              "RelativeDocumentMoniker": "Forms\\FrmPayment.cs",
-              "ToolTip": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmPayment.cs",
-              "RelativeToolTip": "Forms\\FrmPayment.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA1wCgAAABAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "FrmHome.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmHome.cs",
+              "RelativeDocumentMoniker": "Forms\\FrmHome.cs",
+              "ToolTip": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmHome.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\FrmHome.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T02:07:36.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmAdminDashboard.cs",
-              "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmAdminDashboard.cs",
-              "RelativeDocumentMoniker": "Forms\\FrmAdminDashboard.cs",
-              "ToolTip": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmAdminDashboard.cs",
-              "RelativeToolTip": "Forms\\FrmAdminDashboard.cs",
-              "ViewState": "AgIAAKMDAAAAAAAAAAAswMICAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T18:28:06.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T03:25:36.528Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
@@ -87,42 +65,29 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
-        "Id": "6d19bc2b-ae87-4494-a851-1ea87ed586b4",
+        "Id": "82a822a8-95ae-4a10-9ea4-2d4709214197",
         "Display": 1,
-        "X": -5,
-        "Y": 0,
-        "Width": 970,
-        "Height": 521,
+        "X": 40,
+        "Y": 143,
+        "Width": 1374,
+        "Height": 894,
         "WindowState": 2
       },
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "FrmAdminDashboard.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmAdminDashboard.cs",
               "RelativeDocumentMoniker": "Forms\\FrmAdminDashboard.cs",
-              "ToolTip": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmAdminDashboard.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Forms\\FrmAdminDashboard.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmAdminDashboard.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Forms\\FrmAdminDashboard.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T14:45:38.823Z",
-              "IsPinned": true,
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmHome.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmHome.cs",
-              "RelativeDocumentMoniker": "Forms\\FrmHome.cs",
-              "ToolTip": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmHome.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Forms\\FrmHome.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T14:45:39.779Z",
+              "WhenOpened": "2025-04-21T15:35:52.855Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

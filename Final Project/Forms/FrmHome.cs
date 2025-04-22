@@ -264,23 +264,106 @@ namespace Final_Project.Forms
             }
         }
 
+
         private void BtnPay_Click(object sender, EventArgs e)
         {
             decimal total = cartItems.Sum(item => item.SubTotal);
 
             if (total > 0)
             {
-                FrmPayment frmPayment = new FrmPayment(total);
-                var result = frmPayment.ShowDialog(); 
+                // Obtener el ID del cliente (este debe provenir de la sesión o una variable global)
+                int clientId = 1; // Asegúrate de reemplazar esto con el ID real del cliente
 
-                cartItems.Clear();
-                DisplayCartItems(); 
+                // Crear la conexión a la base de datos
+                string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+
+                try
+                {
+                    using (var connection = new MySqlConnection(connectionString))
+                    {
+                        connection.Open();
+
+                        // 1. Insertar la venta en la tabla Sales
+                        string insertSaleQuery = "INSERT INTO Sales (ClientID, SaleDate, Total, Status) VALUES (" + clientId + ", '" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "', " + total + ", 'pending')";
+                        using (var cmd = new MySqlCommand(insertSaleQuery, connection))
+                        {
+                            cmd.ExecuteNonQuery();
+                        }
+
+                        // Obtener el ID de la venta recién insertada (Usar LAST_INSERT_ID() para MySQL)
+                        string getSaleIdQuery = "SELECT LAST_INSERT_ID()";
+                        int saleId;
+                        using (var cmd = new MySqlCommand(getSaleIdQuery, connection))
+                        {
+                            saleId = Convert.ToInt32(cmd.ExecuteScalar());
+                            if (saleId <= 0)
+                            {
+                                MessageBox.Show("Error al obtener el ID de la venta.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                return;
+                            }
+                        }
+
+                        // 2. Insertar los detalles de la venta en la tabla SaleDetails
+                        foreach (var item in cartItems)
+                        {
+                            string insertSaleDetailQuery = "INSERT INTO SaleDetails (SaleID, ProductID, Quantity, Subtotal) VALUES (" + saleId + ", " + item.ProductID + ", " + item.Quantity + ", " + item.SubTotal + ")";
+                            using (var cmd = new MySqlCommand(insertSaleDetailQuery, connection))
+                            {
+                                cmd.ExecuteNonQuery();
+                            }
+                        }
+
+                        // 3. Insertar la factura en la tabla Invoices
+                        string insertInvoiceQuery = "INSERT INTO Invoices (ClientID, InvoiceDate, Total, Status) VALUES (" + clientId + ", '" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "', " + total + ", 'unpaid')";
+                        int invoiceId;
+                        using (var cmd = new MySqlCommand(insertInvoiceQuery, connection))
+                        {
+                            cmd.ExecuteNonQuery();
+                        }
+
+                        // Obtener el ID de la factura recién insertada
+                        string getInvoiceIdQuery = "SELECT LAST_INSERT_ID()";
+                        using (var cmd = new MySqlCommand(getInvoiceIdQuery, connection))
+                        {
+                            invoiceId = Convert.ToInt32(cmd.ExecuteScalar());
+                            if (invoiceId <= 0)
+                            {
+                                MessageBox.Show("Error al obtener el ID de la factura.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                return;
+                            }
+                        }
+
+                        // 4. Insertar los detalles de la factura en la tabla InvoiceDetails
+                        foreach (var item in cartItems)
+                        {
+                            string insertInvoiceDetailQuery = "INSERT INTO InvoiceDetails (InvoiceID, Description, Quantity, Price, Subtotal) VALUES (" + invoiceId + ", '" + item.Description + "', " + item.Quantity + ", " + item.Price + ", " + item.SubTotal + ")";
+                            using (var cmd = new MySqlCommand(insertInvoiceDetailQuery, connection))
+                            {
+                                cmd.ExecuteNonQuery();
+                            }
+                        }
+
+                        // Confirmar que todo se ha guardado correctamente
+                        MessageBox.Show("La compra se ha realizado con éxito.", "Compra exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+
+                    // Limpiar el carrito después de realizar la compra
+                    cartItems.Clear();
+                    DisplayCartItems();
+                }
+                catch (Exception ex)
+                {
+                    // Manejo de errores en caso de que algo falle
+                    MessageBox.Show("Error al procesar la compra: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
             else
             {
                 MessageBox.Show("El carrito está vacío.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+
 
 
     }

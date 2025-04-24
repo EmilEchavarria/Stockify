@@ -21,6 +21,9 @@ namespace Final_Project.Forms
     {
         private readonly ProductService _productService;
         private List<CartItem> cartItems; // Lista para almacenar los productos del carrito
+        private Timer refreshTimer;
+        private Timer refreshFacturasTimer;
+
 
         public FrmHome()
         {
@@ -36,6 +39,38 @@ namespace Final_Project.Forms
             var productRepository = new ProductRepository(connection);
             _productService = new ProductService(productRepository);
         }
+
+
+
+        private void FrmHome_Load(object sender, EventArgs e)
+        {
+            DgvCart.CellClick += DgvCart_CellClick;
+            CargarFacturasConDetalles();      // 👉 Muestra facturas
+
+            CargarComprasRealizadas(); // Cargar las compras realizadas al cargar el formulario
+
+            // Configurar el Timer para que ejecute la actualización cada 1000 milisegundos (1 segundo)
+            refreshTimer = new Timer();
+            refreshTimer.Interval = 15000; // 1000 milisegundos = 1 segundo
+            refreshTimer.Tick += (s, args) => CargarComprasRealizadas(); // Llama a la función cada vez que se cumpla el intervalo
+            refreshTimer.Start(); // Inicia el Timer
+
+
+
+            // Configurar el Timer para actualizar las facturas cada 15 segundos
+            refreshFacturasTimer = new Timer();
+            refreshFacturasTimer.Interval = 15000; // 15000 milisegundos = 15 segundos
+            refreshFacturasTimer.Tick += (s, args) => CargarFacturasConDetalles(); // Llama a la función cada vez que se cumpla el intervalo
+            refreshFacturasTimer.Start(); // Inicia el Timer
+        }
+
+        private void FrmHome_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            refreshTimer.Stop(); // Detener el Timer al cerrar el formulario
+            refreshTimer.Dispose(); // Liberar recursos del Timer
+        }
+
+
 
         private void BtnPSearch_Click(object sender, EventArgs e)
         {
@@ -231,11 +266,7 @@ namespace Final_Project.Forms
         }
 
 
-        private void FrmHome_Load(object sender, EventArgs e)
-        {
-            DgvCart.CellClick += DgvCart_CellClick;
-
-        }
+      
 
         private void DgvCart_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -267,14 +298,180 @@ namespace Final_Project.Forms
 
         private void BtnPay_Click(object sender, EventArgs e)
         {
+            // Verificar si hay items en el carrito
+            if (cartItems == null || cartItems.Count == 0)
+            {
+                MessageBox.Show("El carrito está vacío. Agregue productos antes de pagar.",
+                               "Carrito vacío",
+                               MessageBoxButtons.OK,
+                               MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Calcular el total del carrito
+            decimal total = cartItems.Sum(item => item.SubTotal);
+
+            // Crear instancia de FrmPayment pasando ambos parámetros requeridos
+            FrmPayment paymentForm = new FrmPayment(total, cartItems);
+
+            // Mostrar el formulario de pago de forma modal
+            DialogResult result = paymentForm.ShowDialog();
+
+            // Procesar el resultado si el pago fue exitoso
+            if (result == DialogResult.OK)
+            {
+                // Limpiar el carrito después de pago exitoso
+                cartItems.Clear();
+
+                // Actualizar la visualización del carrito (ejemplo)
+                RefrescarVisualizacionCarrito();
+
+                // Opcional: Mostrar mensaje de confirmación
+                MessageBox.Show("¡Pago completado con éxito!",
+                               "Éxito",
+                               MessageBoxButtons.OK,
+                               MessageBoxIcon.Information);
+            }
+        }
+
+        // Método para actualizar la visualización del carrito
+        private void RefrescarVisualizacionCarrito()
+        {
+            // Aquí va tu lógica para actualizar la UI del carrito
+            // Por ejemplo:
+            DgvCart.DataSource = null;
+            DgvCart.DataSource = cartItems;
+            LblTotal.Text = "RD$ 0.00"; // Reiniciar el total mostrado
+
+            // O si usas controles diferentes:
+            // listBoxCarrito.Items.Clear();
+            // lblTotal.Text = "Total: RD$ 0.00";
+        }
+
+      
+
+
+        private void CargarComprasRealizadas()
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+
+            using (var connection = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
+
+                    using (var cmd = new MySqlCommand("GetAllSales", connection))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+
+                        using (var adapter = new MySqlDataAdapter(cmd))
+                        {
+                            DataTable dt = new DataTable();
+                            adapter.Fill(dt);
+
+                            DgvComprasRealizadas.DataSource = dt;
+
+                            // Opcional: Renombrar columnas para mostrar en español
+                            DgvComprasRealizadas.Columns["SaleID"].HeaderText = "ID Venta";
+                            DgvComprasRealizadas.Columns["ClientName"].HeaderText = "Cliente";
+                            DgvComprasRealizadas.Columns["SaleDate"].HeaderText = "Fecha";
+                            DgvComprasRealizadas.Columns["Total"].HeaderText = "Total";
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al cargar las compras realizadas: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+
+        private void CargarFacturasConDetalles()
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+
+            using (var connection = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
+
+                    // Primero obtenés todas las facturas
+                    using (var cmdAll = new MySqlCommand("SELECT InvoiceID FROM Invoices", connection))
+                    {
+                        using (var reader = cmdAll.ExecuteReader())
+                        {
+                            List<int> invoiceIds = new List<int>();
+                            while (reader.Read())
+                            {
+                                invoiceIds.Add(reader.GetInt32("InvoiceID"));
+                            }
+                            reader.Close();
+
+                            DataTable dtGlobal = new DataTable();
+
+                            foreach (var invoiceId in invoiceIds)
+                            {
+                                using (var cmdDetail = new MySqlCommand("GetInvoiceFullById", connection))
+                                {
+                                    cmdDetail.CommandType = CommandType.StoredProcedure;
+                                    cmdDetail.Parameters.AddWithValue("p_InvoiceID", invoiceId);
+
+                                    using (var adapter = new MySqlDataAdapter(cmdDetail))
+                                    {
+                                        DataTable dt = new DataTable();
+                                        adapter.Fill(dt);
+
+                                        if (dtGlobal.Columns.Count == 0)
+                                            dtGlobal = dt.Clone(); // Clonás estructura solo una vez
+
+                                        foreach (DataRow row in dt.Rows)
+                                            dtGlobal.ImportRow(row);
+                                    }
+                                }
+                            }
+
+                            DgvFacturas.DataSource = dtGlobal;
+
+                            // Asegurarse de que el DataGridView tiene columnas
+                            if (DgvFacturas.Columns.Count > 0)
+                            {
+                                // Cambiar los encabezados
+                                DgvFacturas.Columns["InvoiceID"].HeaderText = "ID Factura";
+                                DgvFacturas.Columns["ClientName"].HeaderText = "Cliente";
+                                DgvFacturas.Columns["InvoiceDate"].HeaderText = "Fecha";
+                                DgvFacturas.Columns["Description"].HeaderText = "Producto";
+                                DgvFacturas.Columns["Quantity"].HeaderText = "Cantidad";
+                                DgvFacturas.Columns["UnitPrice"].HeaderText = "Precio Unitario";
+                                DgvFacturas.Columns["Subtotal"].HeaderText = "Subtotal";
+                                DgvFacturas.Columns["InvoiceTotal"].HeaderText = "Total Factura";
+                                DgvFacturas.Columns["Status"].HeaderText = "Estado";
+                            }
+                        
+
+
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al cargar las facturas con detalles: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+
+
+
+        /*private void BtnPay_Click(object sender, EventArgs e)
+        {
             decimal total = cartItems.Sum(item => item.SubTotal);
 
             if (total > 0)
             {
-                // Obtener el ID del cliente (este debe provenir de la sesión o una variable global)
-                int clientId = 1; // Asegúrate de reemplazar esto con el ID real del cliente
-
-                // Crear la conexión a la base de datos
+                int clientId = 1;
                 string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
 
                 try
@@ -282,78 +479,80 @@ namespace Final_Project.Forms
                     using (var connection = new MySqlConnection(connectionString))
                     {
                         connection.Open();
+                        int saleId = 0;
+                        int invoiceId = 0;
 
-                        // 1. Insertar la venta en la tabla Sales
-                        string insertSaleQuery = "INSERT INTO Sales (ClientID, SaleDate, Total, Status) VALUES (" + clientId + ", '" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "', " + total + ", 'pending')";
-                        using (var cmd = new MySqlCommand(insertSaleQuery, connection))
+                        // 1. Insertar venta
+                        using (var cmd = new MySqlCommand("InsertSale", connection))
                         {
+                            cmd.CommandType = CommandType.StoredProcedure;
+                            cmd.Parameters.AddWithValue("p_ClientID", clientId);
+                            cmd.Parameters.AddWithValue("p_SaleDate", DateTime.Now);
+                            cmd.Parameters.AddWithValue("p_Total", total);
+
+                            var saleIdParam = new MySqlParameter("p_SaleID", MySqlDbType.Int32);
+                            saleIdParam.Direction = ParameterDirection.Output;
+                            cmd.Parameters.Add(saleIdParam);
+
                             cmd.ExecuteNonQuery();
+                            saleId = Convert.ToInt32(saleIdParam.Value);
                         }
 
-                        // Obtener el ID de la venta recién insertada (Usar LAST_INSERT_ID() para MySQL)
-                        string getSaleIdQuery = "SELECT LAST_INSERT_ID()";
-                        int saleId;
-                        using (var cmd = new MySqlCommand(getSaleIdQuery, connection))
-                        {
-                            saleId = Convert.ToInt32(cmd.ExecuteScalar());
-                            if (saleId <= 0)
-                            {
-                                MessageBox.Show("Error al obtener el ID de la venta.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                return;
-                            }
-                        }
-
-                        // 2. Insertar los detalles de la venta en la tabla SaleDetails
+                        // 2. Detalles de venta
                         foreach (var item in cartItems)
                         {
-                            string insertSaleDetailQuery = "INSERT INTO SaleDetails (SaleID, ProductID, Quantity, Subtotal) VALUES (" + saleId + ", " + item.ProductID + ", " + item.Quantity + ", " + item.SubTotal + ")";
-                            using (var cmd = new MySqlCommand(insertSaleDetailQuery, connection))
+                            using (var cmd = new MySqlCommand("InsertSaleDetail", connection))
                             {
+                                cmd.CommandType = CommandType.StoredProcedure;
+                                cmd.Parameters.AddWithValue("p_SaleID", saleId);
+                                cmd.Parameters.AddWithValue("p_ProductID", item.ProductID);
+                                cmd.Parameters.AddWithValue("p_Quantity", item.Quantity);
+                                cmd.Parameters.AddWithValue("p_Subtotal", item.SubTotal);
+
                                 cmd.ExecuteNonQuery();
                             }
                         }
 
-                        // 3. Insertar la factura en la tabla Invoices
-                        string insertInvoiceQuery = "INSERT INTO Invoices (ClientID, InvoiceDate, Total, Status) VALUES (" + clientId + ", '" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "', " + total + ", 'unpaid')";
-                        int invoiceId;
-                        using (var cmd = new MySqlCommand(insertInvoiceQuery, connection))
+                        // 3. Insertar factura
+                        using (var cmd = new MySqlCommand("InsertInvoice", connection))
                         {
+                            cmd.CommandType = CommandType.StoredProcedure;
+                            cmd.Parameters.AddWithValue("p_ClientID", clientId);
+                            cmd.Parameters.AddWithValue("p_InvoiceDate", DateTime.Now);
+                            cmd.Parameters.AddWithValue("p_Total", total);
+
+                            var invoiceIdParam = new MySqlParameter("p_InvoiceID", MySqlDbType.Int32);
+                            invoiceIdParam.Direction = ParameterDirection.Output;
+                            cmd.Parameters.Add(invoiceIdParam);
+
                             cmd.ExecuteNonQuery();
+                            invoiceId = Convert.ToInt32(invoiceIdParam.Value);
                         }
 
-                        // Obtener el ID de la factura recién insertada
-                        string getInvoiceIdQuery = "SELECT LAST_INSERT_ID()";
-                        using (var cmd = new MySqlCommand(getInvoiceIdQuery, connection))
-                        {
-                            invoiceId = Convert.ToInt32(cmd.ExecuteScalar());
-                            if (invoiceId <= 0)
-                            {
-                                MessageBox.Show("Error al obtener el ID de la factura.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                return;
-                            }
-                        }
-
-                        // 4. Insertar los detalles de la factura en la tabla InvoiceDetails
+                        // 4. Detalles de factura
                         foreach (var item in cartItems)
                         {
-                            string insertInvoiceDetailQuery = "INSERT INTO InvoiceDetails (InvoiceID, Description, Quantity, Price, Subtotal) VALUES (" + invoiceId + ", '" + item.Description + "', " + item.Quantity + ", " + item.Price + ", " + item.SubTotal + ")";
-                            using (var cmd = new MySqlCommand(insertInvoiceDetailQuery, connection))
+                            using (var cmd = new MySqlCommand("InsertInvoiceDetail", connection))
                             {
+                                cmd.CommandType = CommandType.StoredProcedure;
+                                cmd.Parameters.AddWithValue("p_InvoiceID", invoiceId);
+                                cmd.Parameters.AddWithValue("p_Description", item.Description); // Verificá que esto exista
+                                cmd.Parameters.AddWithValue("p_Quantity", item.Quantity);
+                                cmd.Parameters.AddWithValue("p_Price", item.Price);
+                                cmd.Parameters.AddWithValue("p_Subtotal", item.SubTotal);
+
                                 cmd.ExecuteNonQuery();
                             }
                         }
 
-                        // Confirmar que todo se ha guardado correctamente
                         MessageBox.Show("La compra se ha realizado con éxito.", "Compra exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
 
-                    // Limpiar el carrito después de realizar la compra
                     cartItems.Clear();
                     DisplayCartItems();
                 }
                 catch (Exception ex)
                 {
-                    // Manejo de errores en caso de que algo falle
                     MessageBox.Show("Error al procesar la compra: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
@@ -363,6 +562,7 @@ namespace Final_Project.Forms
             }
         }
 
+        */
 
 
 

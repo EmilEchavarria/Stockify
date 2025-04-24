@@ -3,16 +3,29 @@
   "WorkspaceRootPath": "C:\\Users\\emile\\source\\Stockify\\Final Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|c:\\users\\emile\\source\\stockify\\final project\\forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDD34673-7059-4175-930B-75317D29E3AA}|..\\BusinessLayer\\BusinessLayer.csproj|c:\\users\\emile\\source\\stockify\\businesslayer\\implementations\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|c:\\users\\emile\\source\\stockify\\final project\\forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D86432C1-D5ED-4E87-8071-A79E47EAEE6C}|..\\DataLayer\\DataLayer.csproj|c:\\users\\emile\\source\\stockify\\datalayer\\implementations\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86432C1-D5ED-4E87-8071-A79E47EAEE6C}|..\\DataLayer\\DataLayer.csproj|c:\\users\\emile\\source\\stockify\\datalayer\\implementations\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86432C1-D5ED-4E87-8071-A79E47EAEE6C}|..\\DataLayer\\DataLayer.csproj|c:\\users\\emile\\source\\stockify\\datalayer\\connection\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918090E4-BD50-4BDD-8CBF-CC2A847F9E4A}|..\\FeatureLayer\\EntitiesLayer.csproj|c:\\users\\emile\\source\\stockify\\featurelayer\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918090E4-BD50-4BDD-8CBF-CC2A847F9E4A}|..\\FeatureLayer\\EntitiesLayer.csproj|c:\\users\\emile\\source\\stockify\\featurelayer\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDD34673-7059-4175-930B-75317D29E3AA}|..\\BusinessLayer\\BusinessLayer.csproj|c:\\users\\emile\\source\\stockify\\businesslayer\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|C:\\Users\\emile\\source\\Stockify\\Final Project\\forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|C:\\Users\\emile\\source\\Stockify\\Final Project\\forms\\frmadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ABA2B237-A9CD-4A26-9150-3CFE8814E3B0}|Presentation Layer.csproj|solutionrelative:forms\\frmadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +35,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,61 +47,99 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmHome.cs",
-              "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmHome.cs",
-              "RelativeDocumentMoniker": "Forms\\FrmHome.cs",
-              "ToolTip": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmHome.cs",
-              "RelativeToolTip": "Forms\\FrmHome.cs",
-              "ViewState": "AgIAAEwBAAAAAAAAAAAYwF0BAABHAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\BusinessLayer\\Implementations\\ProductService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLayer\\Implementations\\ProductService.cs",
+              "ToolTip": "C:\\Users\\emile\\source\\Stockify\\BusinessLayer\\Implementations\\ProductService.cs",
+              "RelativeToolTip": "..\\BusinessLayer\\Implementations\\ProductService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T03:25:49.065Z",
+              "WhenOpened": "2025-04-23T19:15:23.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\BusinessLayer\\Implementations\\ClientService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLayer\\Implementations\\ClientService.cs",
+              "ToolTip": "C:\\Users\\emile\\source\\Stockify\\BusinessLayer\\Implementations\\ClientService.cs",
+              "RelativeToolTip": "..\\BusinessLayer\\Implementations\\ClientService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwEsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T19:14:45.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\DataLayer\\Implementations\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataLayer\\Implementations\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\emile\\source\\Stockify\\DataLayer\\Implementations\\ProductRepository.cs",
+              "RelativeToolTip": "..\\DataLayer\\Implementations\\ProductRepository.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T19:14:15.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\DataLayer\\Implementations\\ClientRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataLayer\\Implementations\\ClientRepository.cs",
+              "ToolTip": "C:\\Users\\emile\\source\\Stockify\\DataLayer\\Implementations\\ClientRepository.cs",
+              "RelativeToolTip": "..\\DataLayer\\Implementations\\ClientRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T19:13:47.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbConnection.cs",
+              "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\DataLayer\\Connection\\DbConnection.cs",
+              "RelativeDocumentMoniker": "..\\DataLayer\\Connection\\DbConnection.cs",
+              "ToolTip": "C:\\Users\\emile\\source\\Stockify\\DataLayer\\Connection\\DbConnection.cs",
+              "RelativeToolTip": "..\\DataLayer\\Connection\\DbConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T19:13:21.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\FeatureLayer\\Product.cs",
+              "RelativeDocumentMoniker": "..\\FeatureLayer\\Product.cs",
+              "ToolTip": "C:\\Users\\emile\\source\\Stockify\\FeatureLayer\\Product.cs",
+              "RelativeToolTip": "..\\FeatureLayer\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T19:12:53.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\FeatureLayer\\Client.cs",
+              "RelativeDocumentMoniker": "..\\FeatureLayer\\Client.cs",
+              "ToolTip": "C:\\Users\\emile\\source\\Stockify\\FeatureLayer\\Client.cs",
+              "RelativeToolTip": "..\\FeatureLayer\\Client.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T19:12:32.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "FrmHome.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmHome.cs",
               "RelativeDocumentMoniker": "Forms\\FrmHome.cs",
               "ToolTip": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmHome.cs [Dise\u00F1o]",
               "RelativeToolTip": "Forms\\FrmHome.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T03:25:36.528Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "82a822a8-95ae-4a10-9ea4-2d4709214197",
-        "Display": 1,
-        "X": 40,
-        "Y": 143,
-        "Width": 1374,
-        "Height": 894,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmAdminDashboard.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmAdminDashboard.cs",
-              "RelativeDocumentMoniker": "Forms\\FrmAdminDashboard.cs",
-              "ToolTip": "C:\\Users\\emile\\source\\Stockify\\Final Project\\Forms\\FrmAdminDashboard.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "Forms\\FrmAdminDashboard.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T15:35:52.855Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-04-23T13:28:02.406Z"
             }
           ]
         }

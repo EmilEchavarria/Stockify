@@ -117,6 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="siticoneHtmlLabel8.Text" xml:space="preserve">
+    <value>Stockify es un sistema de gestión de inventario y ventas diseñado para negocios que buscan eficiencia, control y crecimiento. Con herramientas avanzadas y una interfaz intuitiva, permite gestionar productos de cualquier tipo, registrar ventas de manera automática y generar reportes financieros detallados.
+
+Gracias a su automatización inteligente, Stockify actualiza en tiempo real el stock disponible, emite facturas instantáneamente y proporciona análisis de ventas para optimizar la toma de decisiones. Ya sea que manejes una tienda de tecnología, moda, alimentos o cualquier otro sector, Stockify se adapta a tus necesidades y te ayuda a administrar tu negocio sin complicaciones.</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="BtnRegister.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -136,10 +141,5 @@
         nZa5OTerZr8hAFxWJljT+cqCLpRm9oU3+eXcj3IXZZbMfKUn1cS++VEUAFyNxqH0wg1RDObt3SEiIiIi
         IiIiIiIi+q/6DWifpOi2gCL4AAAAAElFTkSuQmCC
 </value>
-  </data>
-  <data name="siticoneHtmlLabel8.Text" xml:space="preserve">
-    <value>Stockify es un sistema de gestión de inventario y ventas diseñado para negocios que buscan eficiencia, control y crecimiento. Con herramientas avanzadas y una interfaz intuitiva, permite gestionar productos de cualquier tipo, registrar ventas de manera automática y generar reportes financieros detallados.
-
-Gracias a su automatización inteligente, Stockify actualiza en tiempo real el stock disponible, emite facturas instantáneamente y proporciona análisis de ventas para optimizar la toma de decisiones. Ya sea que manejes una tienda de tecnología, moda, alimentos o cualquier otro sector, Stockify se adapta a tus necesidades y te ayuda a administrar tu negocio sin complicaciones.</value>
   </data>
 </root>

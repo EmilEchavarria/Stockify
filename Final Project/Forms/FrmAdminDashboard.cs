@@ -18,68 +18,30 @@ namespace Final_Project.Forms
         private string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
         private Timer refreshTimer;
 
+
+
         public FrmAdminDashboard()
         {
             InitializeComponent();
-
-            // Configurar el timer para actualizaciones automáticas
-            refreshTimer = new Timer
-            {
-                Interval = 10000 // 10 segundos
-            };
-            refreshTimer.Tick += RefreshTimer_Tick;
         }
+
+
 
         private void FrmAdminDashboard_Load(object sender, EventArgs e)
         {
-            UpdateTotalClientsCount();
-            refreshTimer.Start();
+            CargarDetallesVentas();
+
+            CargarDetallesFacturas();
+
+            CargarComprasRealizadas();
+
+            DgvComprasRealizadas.CellClick += DgvComprasRealizadas_CellClick;
         }
 
-        private void UpdateTotalClientsCount()
-        {
-            try
-            {
-                using (MySqlConnection connection = new MySqlConnection(connectionString))
-                {
-                    connection.Open();
-                    string query = "SELECT COUNT(*) FROM Clients"; // Consulta modificada para Clients
-                    using (MySqlCommand command = new MySqlCommand(query, connection))
-                    {
-                        int totalClients = Convert.ToInt32(command.ExecuteScalar());
 
-                        // Actualizar el Label
-                        if (LblTotalUsers.InvokeRequired)
-                        {
-                            LblTotalUsers.Invoke((MethodInvoker)delegate {
-                                LblTotalUsers.Text = $"{totalClients}";
-                            });
-                        }
-                        else
-                        {
-                            LblTotalUsers.Text = $"{totalClients}";
-                        }
-                    }
-                }
-            }
-            catch (MySqlException sqlEx)
-            {
-                MessageBox.Show($"Error de MySQL: {sqlEx.Message}\nCódigo: {sqlEx.Number}",
-                              "Error de Base de Datos", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                LblTotalUsers.Text = "Error al cargar clientes";
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error: {ex.Message}", "Error",
-                              MessageBoxButtons.OK, MessageBoxIcon.Error);
-                LblTotalUsers.Text = "Error en sistema";
-            }
-        }
 
-        private void RefreshTimer_Tick(object sender, EventArgs e)
-        {
-            UpdateTotalClientsCount();
-        }
+
+
 
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
@@ -950,6 +912,182 @@ namespace Final_Project.Forms
                 catch (Exception ex)
                 {
                     MessageBox.Show("Error al activar el producto: " + ex.Message);
+                }
+            }
+        }
+
+
+
+
+
+
+
+        private void CargarDetallesVentas()
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+
+            using (var connection = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
+
+                    using (var cmd = new MySqlCommand("GetAllSaleDetails", connection))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+
+                        using (var adapter = new MySqlDataAdapter(cmd))
+                        {
+                            DataTable dt = new DataTable();
+                            adapter.Fill(dt);
+
+                            DgvDetallesVentas.DataSource = dt;
+
+                            // Renombrar columnas si existen
+                            if (DgvDetallesVentas.Columns.Count > 0)
+                            {
+                                DgvDetallesVentas.Columns["SaleDetailID"].HeaderText = "ID Detalle";
+                                DgvDetallesVentas.Columns["SaleID"].HeaderText = "ID Venta";
+                                DgvDetallesVentas.Columns["ProductID"].HeaderText = "ID Producto";
+                                DgvDetallesVentas.Columns["ProductName"].HeaderText = "Producto";
+                                DgvDetallesVentas.Columns["Quantity"].HeaderText = "Cantidad";
+                                DgvDetallesVentas.Columns["Subtotal"].HeaderText = "Subtotal";
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al cargar los detalles de ventas: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+
+
+        private void CargarDetallesFacturas()
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+
+            using (var connection = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
+
+                    using (var cmd = new MySqlCommand("GetAllInvoiceDetails", connection))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+
+                        using (var adapter = new MySqlDataAdapter(cmd))
+                        {
+                            DataTable dt = new DataTable();
+                            adapter.Fill(dt);
+
+                            DgvDetallesFacturas.DataSource = dt;
+
+                            // Renombrar columnas si existen
+                            if (DgvDetallesFacturas.Columns.Count > 0)
+                            {
+                                DgvDetallesFacturas.Columns["InvoiceDetailID"].HeaderText = "ID Detalle";
+                                DgvDetallesFacturas.Columns["InvoiceID"].HeaderText = "ID Factura";
+                                DgvDetallesFacturas.Columns["Quantity"].HeaderText = "Cantidad";
+                                DgvDetallesFacturas.Columns["Price"].HeaderText = "Precio Unitario";
+                                DgvDetallesFacturas.Columns["Subtotal"].HeaderText = "Subtotal";
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al cargar los detalles de facturas: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+
+
+        private void CargarComprasRealizadas()
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+
+            using (var connection = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
+
+                    using (var cmd = new MySqlCommand("GetAllSales", connection))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+
+                        using (var adapter = new MySqlDataAdapter(cmd))
+                        {
+                            DataTable dt = new DataTable();
+                            adapter.Fill(dt);
+
+                            DgvComprasRealizadas.DataSource = dt;
+
+                            // Renombrar columnas para mostrar en español
+                            DgvComprasRealizadas.Columns["SaleID"].HeaderText = "ID Venta";
+                            DgvComprasRealizadas.Columns["ClientName"].HeaderText = "Cliente";
+                            DgvComprasRealizadas.Columns["SaleDate"].HeaderText = "Fecha";
+                            DgvComprasRealizadas.Columns["Total"].HeaderText = "Total";
+
+                            // Agregar botón solo si aún no está
+                            if (!DgvComprasRealizadas.Columns.Contains("Enviar"))
+                            {
+                                DataGridViewButtonColumn btnEnviar = new DataGridViewButtonColumn();
+                                btnEnviar.Name = "Enviar";
+                                btnEnviar.HeaderText = "Acción";
+                                btnEnviar.Text = "Enviar";
+                                btnEnviar.UseColumnTextForButtonValue = true;
+                                DgvComprasRealizadas.Columns.Add(btnEnviar);
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al cargar las compras realizadas: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+
+
+
+
+        private void DgvComprasRealizadas_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0 && DgvComprasRealizadas.Columns[e.ColumnIndex].Name == "Enviar")
+            {
+                int saleId = Convert.ToInt32(DgvComprasRealizadas.Rows[e.RowIndex].Cells["SaleID"].Value);
+
+                string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+
+                using (var connection = new MySqlConnection(connectionString))
+                {
+                    try
+                    {
+                        connection.Open();
+
+                        using (var cmd = new MySqlCommand("MarkSaleAsCompleted", connection))
+                        {
+                            cmd.CommandType = CommandType.StoredProcedure;
+                            cmd.Parameters.AddWithValue("p_SaleID", saleId);
+                            cmd.ExecuteNonQuery();
+                        }
+
+                        // Refrescás la grilla después de actualizar
+                        CargarComprasRealizadas();
+
+                        MessageBox.Show("La venta ha sido marcada como completada.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Error al actualizar el estado de la venta: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
         }

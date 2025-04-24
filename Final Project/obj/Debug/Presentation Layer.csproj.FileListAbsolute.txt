@@ -121,3 +121,7 @@ C:\Users\emile\source\Stockify\Final Project\bin\Debug\Final Project.exe.config
 C:\Users\emile\source\Stockify\Final Project\bin\Debug\Final Project.pdb
 C:\Users\emile\source\Stockify\Final Project\obj\Debug\Presenta.B0A29D85.Up2Date
 C:\Users\emile\source\Stockify\Final Project\obj\Debug\Final_Project.Forms.FrmPayment.resources
+C:\Users\emile\source\Stockify\Final Project\bin\Debug\Final Project.exe.manifest
+C:\Users\emile\source\Stockify\Final Project\bin\Debug\Final Project.application
+C:\Users\emile\source\Stockify\Final Project\obj\Debug\Final Project.exe.manifest
+C:\Users\emile\source\Stockify\Final Project\obj\Debug\Final Project.application

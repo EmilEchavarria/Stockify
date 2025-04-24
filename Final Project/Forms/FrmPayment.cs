@@ -1,19 +1,31 @@
-﻿using System;
+﻿using BusinessLayer.Implementations;
+using FeatureLayer;
+using MySql.Data.MySqlClient;
+using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Windows.Forms;
+using System.IO;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Final_Project.Forms
 {
     public partial class FrmPayment : Form
     {
         private decimal totalAPagar;
+        private readonly ProductService _productService;
+        private List<CartItem> cartItems;
 
-        public FrmPayment(decimal total)
+        public FrmPayment(decimal total, List<CartItem> items)
         {
             InitializeComponent();
             totalAPagar = total;
+            cartItems = items ?? new List<CartItem>(); // Asegura que no sea null
         }
 
         private void FrmPayment_Load(object sender, EventArgs e)
@@ -58,8 +70,101 @@ namespace Final_Project.Forms
                 return;
             }
 
-            // Confirmación de pago
-            MessageBox.Show("¡Pago realizado exitosamente!", "Confirmación", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            // Verificar que haya items en el carrito
+            if (cartItems == null || cartItems.Count == 0)
+            {
+                MessageBox.Show("El carrito está vacío.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            int clientId = 1; // Deberías obtener el ID del cliente logueado
+            string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+
+            try
+            {
+                using (var connection = new MySqlConnection(connectionString))
+                {
+                    connection.Open();
+                    int saleId = 0;
+                    int invoiceId = 0;
+
+                    // 1. Insertar venta
+                    using (var cmd = new MySqlCommand("InsertSale", connection))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("p_ClientID", clientId);
+                        cmd.Parameters.AddWithValue("p_SaleDate", DateTime.Now);
+                        cmd.Parameters.AddWithValue("p_Total", totalAPagar);
+
+                        var saleIdParam = new MySqlParameter("p_SaleID", MySqlDbType.Int32);
+                        saleIdParam.Direction = ParameterDirection.Output;
+                        cmd.Parameters.Add(saleIdParam);
+
+                        cmd.ExecuteNonQuery();
+                        saleId = Convert.ToInt32(saleIdParam.Value);
+                    }
+
+                    // 2. Insertar detalles de la venta
+                    foreach (var item in cartItems)
+                    {
+                        using (var cmd = new MySqlCommand("InsertSaleDetail", connection))
+                        {
+                            cmd.CommandType = CommandType.StoredProcedure;
+                            cmd.Parameters.AddWithValue("p_SaleID", saleId);
+                            cmd.Parameters.AddWithValue("p_ProductID", item.ProductID);
+                            cmd.Parameters.AddWithValue("p_Quantity", item.Quantity);
+                            cmd.Parameters.AddWithValue("p_Subtotal", item.SubTotal);
+
+                            cmd.ExecuteNonQuery();
+                        }
+                    }
+
+                    // 3. Insertar factura
+                    using (var cmd = new MySqlCommand("InsertInvoice", connection))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("p_ClientID", clientId);
+                        cmd.Parameters.AddWithValue("p_InvoiceDate", DateTime.Now);
+                        cmd.Parameters.AddWithValue("p_Total", totalAPagar);
+
+                        var invoiceIdParam = new MySqlParameter("p_InvoiceID", MySqlDbType.Int32);
+                        invoiceIdParam.Direction = ParameterDirection.Output;
+                        cmd.Parameters.Add(invoiceIdParam);
+
+                        cmd.ExecuteNonQuery();
+                        invoiceId = Convert.ToInt32(invoiceIdParam.Value);
+                    }
+
+                    // 4. Insertar detalles de la factura
+                    foreach (var item in cartItems)
+                    {
+                        using (var cmd = new MySqlCommand("InsertInvoiceDetail", connection))
+                        {
+                            cmd.CommandType = CommandType.StoredProcedure;
+                            cmd.Parameters.AddWithValue("p_InvoiceID", invoiceId);
+                            cmd.Parameters.AddWithValue("p_Description", item.Description);
+                            cmd.Parameters.AddWithValue("p_Quantity", item.Quantity);
+                            cmd.Parameters.AddWithValue("p_Price", item.Price);
+                            cmd.Parameters.AddWithValue("p_Subtotal", item.SubTotal);
+
+                            cmd.ExecuteNonQuery();
+                        }
+                    }
+
+                    MessageBox.Show("¡Pago realizado exitosamente!", "Confirmación", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.DialogResult = DialogResult.OK; // Indica que el pago fue exitoso
+                    this.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al procesar la compra: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void BtnCancelar_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Cancel;
             this.Close();
         }
     }

@@ -34,7 +34,6 @@ namespace Final_Project.Forms
                 _clientService.RegisterClient(user);
 
                 // Mostrar un mensaje de éxito
-                MessageBox.Show("Cliente registrado correctamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 FrmHome homeForm = new FrmHome();
                 homeForm.Show();
                 this.Hide();

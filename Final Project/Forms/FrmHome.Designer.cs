@@ -1,4 +1,6 @@
-﻿namespace Final_Project.Forms
+﻿using System.Windows.Forms;
+
+namespace Final_Project.Forms
 {
     partial class FrmHome
     {
@@ -28,41 +30,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle81 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle82 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle83 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle84 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHome));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle85 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle86 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle87 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle88 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle89 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle90 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle91 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle92 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle93 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle94 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle95 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle96 = new System.Windows.Forms.DataGridViewCellStyle();
             this.TabControl = new Siticone.Desktop.UI.WinForms.SiticoneTabControl();
-            this.Dashboard = new System.Windows.Forms.TabPage();
-            this.siticoneCustomGradientPanel4 = new Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel();
-            this.siticoneHtmlLabel13 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneHtmlLabel11 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneCirclePictureBox4 = new Siticone.Desktop.UI.WinForms.SiticoneCirclePictureBox();
-            this.siticoneHtmlLabel12 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.siticoneHtmlLabel4 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneHtmlLabel2 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneCustomGradientPanel3 = new Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel();
-            this.siticoneHtmlLabel10 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneHtmlLabel8 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneCirclePictureBox3 = new Siticone.Desktop.UI.WinForms.SiticoneCirclePictureBox();
-            this.siticoneHtmlLabel9 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneCustomGradientPanel2 = new Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel();
-            this.siticoneHtmlLabel7 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneHtmlLabel5 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneCirclePictureBox2 = new Siticone.Desktop.UI.WinForms.SiticoneCirclePictureBox();
-            this.siticoneHtmlLabel6 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneCustomGradientPanel1 = new Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel();
-            this.siticoneHtmlLabel1 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneCirclePictureBox1 = new Siticone.Desktop.UI.WinForms.SiticoneCirclePictureBox();
-            this.siticoneHtmlLabel3 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.LblTotalUsers = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.Comprarproductos1 = new System.Windows.Forms.TabPage();
             this.siticoneTabControl2 = new Siticone.Desktop.UI.WinForms.SiticoneTabControl();
             this.BuscarProductos = new System.Windows.Forms.TabPage();
@@ -102,12 +87,17 @@
             this.siticoneHtmlLabel16 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel19 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.Comprasrealizadas = new System.Windows.Forms.TabPage();
+            this.DgvComprasRealizadas = new Siticone.Desktop.UI.WinForms.SiticoneDataGridView();
             this.panel18 = new System.Windows.Forms.Panel();
             this.siticoneHtmlLabel32 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel33 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel34 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.Reportesfinancieros = new System.Windows.Forms.TabPage();
-            this.siticoneHtmlLabel43 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.DgvFacturas = new Siticone.Desktop.UI.WinForms.SiticoneDataGridView();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.siticoneHtmlLabel22 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.siticoneHtmlLabel23 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.siticoneHtmlLabel24 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.Carrito = new System.Windows.Forms.TabPage();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
@@ -126,18 +116,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.DgvSales = new Siticone.Desktop.UI.WinForms.SiticoneDataGridView();
             this.TabControl.SuspendLayout();
-            this.Dashboard.SuspendLayout();
-            this.siticoneCustomGradientPanel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox4)).BeginInit();
-            this.panel1.SuspendLayout();
-            this.siticoneCustomGradientPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox3)).BeginInit();
-            this.siticoneCustomGradientPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox2)).BeginInit();
-            this.siticoneCustomGradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox1)).BeginInit();
             this.Comprarproductos1.SuspendLayout();
             this.siticoneTabControl2.SuspendLayout();
             this.BuscarProductos.SuspendLayout();
@@ -156,8 +135,11 @@
             this.panel41.SuspendLayout();
             this.panel11.SuspendLayout();
             this.Comprasrealizadas.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvComprasRealizadas)).BeginInit();
             this.panel18.SuspendLayout();
             this.Reportesfinancieros.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvFacturas)).BeginInit();
+            this.panel14.SuspendLayout();
             this.Carrito.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel12.SuspendLayout();
@@ -167,13 +149,11 @@
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgvCart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DgvSales)).BeginInit();
             this.SuspendLayout();
             // 
             // TabControl
             // 
             this.TabControl.Alignment = System.Windows.Forms.TabAlignment.Left;
-            this.TabControl.Controls.Add(this.Dashboard);
             this.TabControl.Controls.Add(this.Comprarproductos1);
             this.TabControl.Controls.Add(this.Comprasrealizadas);
             this.TabControl.Controls.Add(this.Reportesfinancieros);
@@ -202,297 +182,6 @@
             this.TabControl.TabButtonSize = new System.Drawing.Size(300, 70);
             this.TabControl.TabIndex = 3;
             this.TabControl.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
-            // 
-            // Dashboard
-            // 
-            this.Dashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.Dashboard.Controls.Add(this.siticoneCustomGradientPanel4);
-            this.Dashboard.Controls.Add(this.panel1);
-            this.Dashboard.Controls.Add(this.siticoneCustomGradientPanel3);
-            this.Dashboard.Controls.Add(this.siticoneCustomGradientPanel2);
-            this.Dashboard.Controls.Add(this.siticoneCustomGradientPanel1);
-            this.Dashboard.Location = new System.Drawing.Point(304, 4);
-            this.Dashboard.Name = "Dashboard";
-            this.Dashboard.Size = new System.Drawing.Size(1596, 960);
-            this.Dashboard.TabIndex = 5;
-            this.Dashboard.Text = "Dashboard";
-            // 
-            // siticoneCustomGradientPanel4
-            // 
-            this.siticoneCustomGradientPanel4.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneCustomGradientPanel4.BorderRadius = 31;
-            this.siticoneCustomGradientPanel4.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
-            this.siticoneCustomGradientPanel4.Controls.Add(this.siticoneHtmlLabel13);
-            this.siticoneCustomGradientPanel4.Controls.Add(this.siticoneHtmlLabel11);
-            this.siticoneCustomGradientPanel4.Controls.Add(this.siticoneCirclePictureBox4);
-            this.siticoneCustomGradientPanel4.Controls.Add(this.siticoneHtmlLabel12);
-            this.siticoneCustomGradientPanel4.Location = new System.Drawing.Point(1118, 74);
-            this.siticoneCustomGradientPanel4.Name = "siticoneCustomGradientPanel4";
-            this.siticoneCustomGradientPanel4.Size = new System.Drawing.Size(344, 119);
-            this.siticoneCustomGradientPanel4.TabIndex = 18;
-            // 
-            // siticoneHtmlLabel13
-            // 
-            this.siticoneHtmlLabel13.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.siticoneHtmlLabel13.Location = new System.Drawing.Point(152, 12);
-            this.siticoneHtmlLabel13.Name = "siticoneHtmlLabel13";
-            this.siticoneHtmlLabel13.Size = new System.Drawing.Size(66, 44);
-            this.siticoneHtmlLabel13.TabIndex = 14;
-            this.siticoneHtmlLabel13.Text = "324";
-            // 
-            // siticoneHtmlLabel11
-            // 
-            this.siticoneHtmlLabel11.AutoSize = false;
-            this.siticoneHtmlLabel11.BackColor = System.Drawing.Color.DimGray;
-            this.siticoneHtmlLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.siticoneHtmlLabel11.Location = new System.Drawing.Point(127, 12);
-            this.siticoneHtmlLabel11.Name = "siticoneHtmlLabel11";
-            this.siticoneHtmlLabel11.Size = new System.Drawing.Size(2, 88);
-            this.siticoneHtmlLabel11.TabIndex = 13;
-            this.siticoneHtmlLabel11.Text = null;
-            // 
-            // siticoneCirclePictureBox4
-            // 
-            this.siticoneCirclePictureBox4.FillColor = System.Drawing.Color.Transparent;
-            this.siticoneCirclePictureBox4.Image = global::Final_Project.Properties.Resources.user__1_;
-            this.siticoneCirclePictureBox4.ImageRotate = 0F;
-            this.siticoneCirclePictureBox4.Location = new System.Drawing.Point(30, 22);
-            this.siticoneCirclePictureBox4.Name = "siticoneCirclePictureBox4";
-            this.siticoneCirclePictureBox4.ShadowDecoration.Mode = Siticone.Desktop.UI.WinForms.Enums.ShadowMode.Circle;
-            this.siticoneCirclePictureBox4.Size = new System.Drawing.Size(70, 70);
-            this.siticoneCirclePictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.siticoneCirclePictureBox4.TabIndex = 0;
-            this.siticoneCirclePictureBox4.TabStop = false;
-            // 
-            // siticoneHtmlLabel12
-            // 
-            this.siticoneHtmlLabel12.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.siticoneHtmlLabel12.Location = new System.Drawing.Point(152, 69);
-            this.siticoneHtmlLabel12.Name = "siticoneHtmlLabel12";
-            this.siticoneHtmlLabel12.Size = new System.Drawing.Size(153, 22);
-            this.siticoneHtmlLabel12.TabIndex = 12;
-            this.siticoneHtmlLabel12.Text = "Clientes registrados";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.siticoneHtmlLabel4);
-            this.panel1.Controls.Add(this.siticoneHtmlLabel2);
-            this.panel1.Location = new System.Drawing.Point(3, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1593, 65);
-            this.panel1.TabIndex = 15;
-            // 
-            // siticoneHtmlLabel4
-            // 
-            this.siticoneHtmlLabel4.AutoSize = false;
-            this.siticoneHtmlLabel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
-            this.siticoneHtmlLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
-            this.siticoneHtmlLabel4.Location = new System.Drawing.Point(30, 46);
-            this.siticoneHtmlLabel4.Name = "siticoneHtmlLabel4";
-            this.siticoneHtmlLabel4.Size = new System.Drawing.Size(219, 2);
-            this.siticoneHtmlLabel4.TabIndex = 14;
-            this.siticoneHtmlLabel4.Text = null;
-            // 
-            // siticoneHtmlLabel2
-            // 
-            this.siticoneHtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.siticoneHtmlLabel2.Location = new System.Drawing.Point(45, 4);
-            this.siticoneHtmlLabel2.Name = "siticoneHtmlLabel2";
-            this.siticoneHtmlLabel2.Size = new System.Drawing.Size(187, 44);
-            this.siticoneHtmlLabel2.TabIndex = 4;
-            this.siticoneHtmlLabel2.Text = "Dashboard";
-            // 
-            // siticoneCustomGradientPanel3
-            // 
-            this.siticoneCustomGradientPanel3.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneCustomGradientPanel3.BorderRadius = 31;
-            this.siticoneCustomGradientPanel3.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
-            this.siticoneCustomGradientPanel3.Controls.Add(this.siticoneHtmlLabel10);
-            this.siticoneCustomGradientPanel3.Controls.Add(this.siticoneHtmlLabel8);
-            this.siticoneCustomGradientPanel3.Controls.Add(this.siticoneCirclePictureBox3);
-            this.siticoneCustomGradientPanel3.Controls.Add(this.siticoneHtmlLabel9);
-            this.siticoneCustomGradientPanel3.Location = new System.Drawing.Point(768, 74);
-            this.siticoneCustomGradientPanel3.Name = "siticoneCustomGradientPanel3";
-            this.siticoneCustomGradientPanel3.Size = new System.Drawing.Size(344, 119);
-            this.siticoneCustomGradientPanel3.TabIndex = 17;
-            // 
-            // siticoneHtmlLabel10
-            // 
-            this.siticoneHtmlLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.siticoneHtmlLabel10.Location = new System.Drawing.Point(152, 12);
-            this.siticoneHtmlLabel10.Name = "siticoneHtmlLabel10";
-            this.siticoneHtmlLabel10.Size = new System.Drawing.Size(66, 44);
-            this.siticoneHtmlLabel10.TabIndex = 14;
-            this.siticoneHtmlLabel10.Text = "324";
-            // 
-            // siticoneHtmlLabel8
-            // 
-            this.siticoneHtmlLabel8.AutoSize = false;
-            this.siticoneHtmlLabel8.BackColor = System.Drawing.Color.DimGray;
-            this.siticoneHtmlLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.siticoneHtmlLabel8.Location = new System.Drawing.Point(127, 12);
-            this.siticoneHtmlLabel8.Name = "siticoneHtmlLabel8";
-            this.siticoneHtmlLabel8.Size = new System.Drawing.Size(2, 88);
-            this.siticoneHtmlLabel8.TabIndex = 13;
-            this.siticoneHtmlLabel8.Text = null;
-            // 
-            // siticoneCirclePictureBox3
-            // 
-            this.siticoneCirclePictureBox3.FillColor = System.Drawing.Color.Transparent;
-            this.siticoneCirclePictureBox3.Image = global::Final_Project.Properties.Resources.user__1_;
-            this.siticoneCirclePictureBox3.ImageRotate = 0F;
-            this.siticoneCirclePictureBox3.Location = new System.Drawing.Point(30, 22);
-            this.siticoneCirclePictureBox3.Name = "siticoneCirclePictureBox3";
-            this.siticoneCirclePictureBox3.ShadowDecoration.Mode = Siticone.Desktop.UI.WinForms.Enums.ShadowMode.Circle;
-            this.siticoneCirclePictureBox3.Size = new System.Drawing.Size(70, 70);
-            this.siticoneCirclePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.siticoneCirclePictureBox3.TabIndex = 0;
-            this.siticoneCirclePictureBox3.TabStop = false;
-            // 
-            // siticoneHtmlLabel9
-            // 
-            this.siticoneHtmlLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.siticoneHtmlLabel9.Location = new System.Drawing.Point(152, 69);
-            this.siticoneHtmlLabel9.Name = "siticoneHtmlLabel9";
-            this.siticoneHtmlLabel9.Size = new System.Drawing.Size(122, 22);
-            this.siticoneHtmlLabel9.TabIndex = 12;
-            this.siticoneHtmlLabel9.Text = "Clientes activos";
-            // 
-            // siticoneCustomGradientPanel2
-            // 
-            this.siticoneCustomGradientPanel2.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneCustomGradientPanel2.BorderRadius = 31;
-            this.siticoneCustomGradientPanel2.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
-            this.siticoneCustomGradientPanel2.Controls.Add(this.siticoneHtmlLabel7);
-            this.siticoneCustomGradientPanel2.Controls.Add(this.siticoneHtmlLabel5);
-            this.siticoneCustomGradientPanel2.Controls.Add(this.siticoneCirclePictureBox2);
-            this.siticoneCustomGradientPanel2.Controls.Add(this.siticoneHtmlLabel6);
-            this.siticoneCustomGradientPanel2.Location = new System.Drawing.Point(403, 74);
-            this.siticoneCustomGradientPanel2.Name = "siticoneCustomGradientPanel2";
-            this.siticoneCustomGradientPanel2.Size = new System.Drawing.Size(344, 119);
-            this.siticoneCustomGradientPanel2.TabIndex = 16;
-            // 
-            // siticoneHtmlLabel7
-            // 
-            this.siticoneHtmlLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.siticoneHtmlLabel7.Location = new System.Drawing.Point(152, 12);
-            this.siticoneHtmlLabel7.Name = "siticoneHtmlLabel7";
-            this.siticoneHtmlLabel7.Size = new System.Drawing.Size(66, 44);
-            this.siticoneHtmlLabel7.TabIndex = 14;
-            this.siticoneHtmlLabel7.Text = "324";
-            // 
-            // siticoneHtmlLabel5
-            // 
-            this.siticoneHtmlLabel5.AutoSize = false;
-            this.siticoneHtmlLabel5.BackColor = System.Drawing.Color.DimGray;
-            this.siticoneHtmlLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.siticoneHtmlLabel5.Location = new System.Drawing.Point(127, 12);
-            this.siticoneHtmlLabel5.Name = "siticoneHtmlLabel5";
-            this.siticoneHtmlLabel5.Size = new System.Drawing.Size(2, 88);
-            this.siticoneHtmlLabel5.TabIndex = 13;
-            this.siticoneHtmlLabel5.Text = null;
-            // 
-            // siticoneCirclePictureBox2
-            // 
-            this.siticoneCirclePictureBox2.FillColor = System.Drawing.Color.Transparent;
-            this.siticoneCirclePictureBox2.Image = global::Final_Project.Properties.Resources.user__1_;
-            this.siticoneCirclePictureBox2.ImageRotate = 0F;
-            this.siticoneCirclePictureBox2.Location = new System.Drawing.Point(30, 22);
-            this.siticoneCirclePictureBox2.Name = "siticoneCirclePictureBox2";
-            this.siticoneCirclePictureBox2.ShadowDecoration.Mode = Siticone.Desktop.UI.WinForms.Enums.ShadowMode.Circle;
-            this.siticoneCirclePictureBox2.Size = new System.Drawing.Size(70, 70);
-            this.siticoneCirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.siticoneCirclePictureBox2.TabIndex = 0;
-            this.siticoneCirclePictureBox2.TabStop = false;
-            // 
-            // siticoneHtmlLabel6
-            // 
-            this.siticoneHtmlLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.siticoneHtmlLabel6.Location = new System.Drawing.Point(152, 69);
-            this.siticoneHtmlLabel6.Name = "siticoneHtmlLabel6";
-            this.siticoneHtmlLabel6.Size = new System.Drawing.Size(168, 22);
-            this.siticoneHtmlLabel6.TabIndex = 12;
-            this.siticoneHtmlLabel6.Text = "Productos  registrados";
-            // 
-            // siticoneCustomGradientPanel1
-            // 
-            this.siticoneCustomGradientPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneCustomGradientPanel1.BorderRadius = 31;
-            this.siticoneCustomGradientPanel1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
-            this.siticoneCustomGradientPanel1.Controls.Add(this.siticoneHtmlLabel1);
-            this.siticoneCustomGradientPanel1.Controls.Add(this.siticoneCirclePictureBox1);
-            this.siticoneCustomGradientPanel1.Controls.Add(this.siticoneHtmlLabel3);
-            this.siticoneCustomGradientPanel1.Controls.Add(this.LblTotalUsers);
-            this.siticoneCustomGradientPanel1.Location = new System.Drawing.Point(25, 74);
-            this.siticoneCustomGradientPanel1.Name = "siticoneCustomGradientPanel1";
-            this.siticoneCustomGradientPanel1.Size = new System.Drawing.Size(344, 119);
-            this.siticoneCustomGradientPanel1.TabIndex = 15;
-            // 
-            // siticoneHtmlLabel1
-            // 
-            this.siticoneHtmlLabel1.AutoSize = false;
-            this.siticoneHtmlLabel1.BackColor = System.Drawing.Color.DimGray;
-            this.siticoneHtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.siticoneHtmlLabel1.Location = new System.Drawing.Point(127, 12);
-            this.siticoneHtmlLabel1.Name = "siticoneHtmlLabel1";
-            this.siticoneHtmlLabel1.Size = new System.Drawing.Size(2, 88);
-            this.siticoneHtmlLabel1.TabIndex = 13;
-            this.siticoneHtmlLabel1.Text = null;
-            // 
-            // siticoneCirclePictureBox1
-            // 
-            this.siticoneCirclePictureBox1.FillColor = System.Drawing.Color.Transparent;
-            this.siticoneCirclePictureBox1.Image = global::Final_Project.Properties.Resources.user__1_;
-            this.siticoneCirclePictureBox1.ImageRotate = 0F;
-            this.siticoneCirclePictureBox1.Location = new System.Drawing.Point(30, 22);
-            this.siticoneCirclePictureBox1.Name = "siticoneCirclePictureBox1";
-            this.siticoneCirclePictureBox1.ShadowDecoration.Mode = Siticone.Desktop.UI.WinForms.Enums.ShadowMode.Circle;
-            this.siticoneCirclePictureBox1.Size = new System.Drawing.Size(70, 70);
-            this.siticoneCirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.siticoneCirclePictureBox1.TabIndex = 0;
-            this.siticoneCirclePictureBox1.TabStop = false;
-            // 
-            // siticoneHtmlLabel3
-            // 
-            this.siticoneHtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.siticoneHtmlLabel3.Location = new System.Drawing.Point(152, 69);
-            this.siticoneHtmlLabel3.Name = "siticoneHtmlLabel3";
-            this.siticoneHtmlLabel3.Size = new System.Drawing.Size(153, 22);
-            this.siticoneHtmlLabel3.TabIndex = 12;
-            this.siticoneHtmlLabel3.Text = "Clientes registrados";
-            // 
-            // LblTotalUsers
-            // 
-            this.LblTotalUsers.BackColor = System.Drawing.Color.Transparent;
-            this.LblTotalUsers.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblTotalUsers.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.LblTotalUsers.Location = new System.Drawing.Point(152, 19);
-            this.LblTotalUsers.Name = "LblTotalUsers";
-            this.LblTotalUsers.Size = new System.Drawing.Size(3, 2);
-            this.LblTotalUsers.TabIndex = 3;
-            this.LblTotalUsers.Text = null;
             // 
             // Comprarproductos1
             // 
@@ -571,35 +260,51 @@
             // 
             // DgvProducts
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.DgvProducts.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DgvProducts.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.DgvProducts.ColumnHeadersHeight = 50;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DgvProducts.DefaultCellStyle = dataGridViewCellStyle3;
+            this.DgvProducts.AllowUserToResizeRows = false;
+            dataGridViewCellStyle81.BackColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle81.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle81.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle81.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
+            dataGridViewCellStyle81.SelectionForeColor = System.Drawing.Color.White;
+            this.DgvProducts.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle81;
+            this.DgvProducts.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            dataGridViewCellStyle82.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle82.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle82.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle82.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle82.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle82.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle82.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvProducts.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle82;
+            this.DgvProducts.ColumnHeadersHeight = 70;
+            this.DgvProducts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle83.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle83.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle83.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle83.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle83.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
+            dataGridViewCellStyle83.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle83.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DgvProducts.DefaultCellStyle = dataGridViewCellStyle83;
             this.DgvProducts.GridColor = System.Drawing.Color.Black;
             this.DgvProducts.Location = new System.Drawing.Point(-1, 129);
             this.DgvProducts.Name = "DgvProducts";
             this.DgvProducts.ReadOnly = true;
+            this.DgvProducts.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle84.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle84.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle84.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle84.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle84.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle84.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle84.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvProducts.RowHeadersDefaultCellStyle = dataGridViewCellStyle84;
             this.DgvProducts.RowHeadersVisible = false;
             this.DgvProducts.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.White;
             this.DgvProducts.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DgvProducts.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
             this.DgvProducts.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.DgvProducts.RowTemplate.Height = 50;
+            this.DgvProducts.RowTemplate.Height = 60;
             this.DgvProducts.Size = new System.Drawing.Size(1587, 672);
             this.DgvProducts.TabIndex = 29;
             this.DgvProducts.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -613,14 +318,14 @@
             this.DgvProducts.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.DgvProducts.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DgvProducts.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.DgvProducts.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.DgvProducts.ThemeStyle.HeaderStyle.Height = 50;
+            this.DgvProducts.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.DgvProducts.ThemeStyle.HeaderStyle.Height = 70;
             this.DgvProducts.ThemeStyle.ReadOnly = true;
             this.DgvProducts.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.DgvProducts.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.DgvProducts.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DgvProducts.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.White;
-            this.DgvProducts.ThemeStyle.RowsStyle.Height = 50;
+            this.DgvProducts.ThemeStyle.RowsStyle.Height = 60;
             this.DgvProducts.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.DgvProducts.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
@@ -689,9 +394,9 @@
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
             this.panel9.Controls.Add(this.siticoneHtmlLabel17);
             this.panel9.ForeColor = System.Drawing.Color.White;
-            this.panel9.Location = new System.Drawing.Point(0, 0);
+            this.panel9.Location = new System.Drawing.Point(-2, 0);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1593, 65);
+            this.panel9.Size = new System.Drawing.Size(1595, 65);
             this.panel9.TabIndex = 16;
             // 
             // siticoneHtmlLabel17
@@ -827,9 +532,9 @@
             this.siticoneHtmlLabel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
             this.siticoneHtmlLabel15.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel15.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel15.Location = new System.Drawing.Point(69, 226);
+            this.siticoneHtmlLabel15.Location = new System.Drawing.Point(16, 227);
             this.siticoneHtmlLabel15.Name = "siticoneHtmlLabel15";
-            this.siticoneHtmlLabel15.Size = new System.Drawing.Size(373, 39);
+            this.siticoneHtmlLabel15.Size = new System.Drawing.Size(359, 39);
             this.siticoneHtmlLabel15.TabIndex = 44;
             this.siticoneHtmlLabel15.Text = "Cantidad disponible";
             this.siticoneHtmlLabel15.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -840,9 +545,9 @@
             this.siticoneHtmlLabel79.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
             this.siticoneHtmlLabel79.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel79.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel79.Location = new System.Drawing.Point(68, 340);
+            this.siticoneHtmlLabel79.Location = new System.Drawing.Point(15, 341);
             this.siticoneHtmlLabel79.Name = "siticoneHtmlLabel79";
-            this.siticoneHtmlLabel79.Size = new System.Drawing.Size(373, 39);
+            this.siticoneHtmlLabel79.Size = new System.Drawing.Size(359, 39);
             this.siticoneHtmlLabel79.TabIndex = 43;
             this.siticoneHtmlLabel79.Text = "Estado del producto";
             this.siticoneHtmlLabel79.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -852,9 +557,9 @@
             this.PbPImage.BackColor = System.Drawing.Color.Snow;
             this.PbPImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.PbPImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.PbPImage.Location = new System.Drawing.Point(1040, 1);
+            this.PbPImage.Location = new System.Drawing.Point(957, 16);
             this.PbPImage.Name = "PbPImage";
-            this.PbPImage.Size = new System.Drawing.Size(550, 500);
+            this.PbPImage.Size = new System.Drawing.Size(633, 468);
             this.PbPImage.TabIndex = 42;
             this.PbPImage.TabStop = false;
             // 
@@ -864,9 +569,9 @@
             this.siticoneHtmlLabel76.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
             this.siticoneHtmlLabel76.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel76.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel76.Location = new System.Drawing.Point(492, 44);
+            this.siticoneHtmlLabel76.Location = new System.Drawing.Point(436, 45);
             this.siticoneHtmlLabel76.Name = "siticoneHtmlLabel76";
-            this.siticoneHtmlLabel76.Size = new System.Drawing.Size(529, 39);
+            this.siticoneHtmlLabel76.Size = new System.Drawing.Size(488, 39);
             this.siticoneHtmlLabel76.TabIndex = 40;
             this.siticoneHtmlLabel76.Text = "Descripcion del producto";
             this.siticoneHtmlLabel76.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -877,9 +582,9 @@
             this.siticoneHtmlLabel78.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
             this.siticoneHtmlLabel78.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel78.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel78.Location = new System.Drawing.Point(68, 44);
+            this.siticoneHtmlLabel78.Location = new System.Drawing.Point(15, 45);
             this.siticoneHtmlLabel78.Name = "siticoneHtmlLabel78";
-            this.siticoneHtmlLabel78.Size = new System.Drawing.Size(375, 39);
+            this.siticoneHtmlLabel78.Size = new System.Drawing.Size(361, 39);
             this.siticoneHtmlLabel78.TabIndex = 39;
             this.siticoneHtmlLabel78.Text = "Datos del producto";
             this.siticoneHtmlLabel78.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -890,9 +595,9 @@
             this.LblPStock.BackColor = System.Drawing.Color.White;
             this.LblPStock.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblPStock.ForeColor = System.Drawing.Color.Black;
-            this.LblPStock.Location = new System.Drawing.Point(69, 276);
+            this.LblPStock.Location = new System.Drawing.Point(16, 277);
             this.LblPStock.Name = "LblPStock";
-            this.LblPStock.Size = new System.Drawing.Size(374, 39);
+            this.LblPStock.Size = new System.Drawing.Size(360, 39);
             this.LblPStock.TabIndex = 38;
             this.LblPStock.Text = null;
             this.LblPStock.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -902,12 +607,12 @@
             this.LblPDescription.AutoSize = false;
             this.LblPDescription.AutoSizeHeightOnly = true;
             this.LblPDescription.BackColor = System.Drawing.Color.White;
-            this.LblPDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblPDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblPDescription.ForeColor = System.Drawing.Color.Black;
-            this.LblPDescription.Location = new System.Drawing.Point(492, 94);
+            this.LblPDescription.Location = new System.Drawing.Point(436, 95);
             this.LblPDescription.MinimumSize = new System.Drawing.Size(0, 35);
             this.LblPDescription.Name = "LblPDescription";
-            this.LblPDescription.Size = new System.Drawing.Size(529, 35);
+            this.LblPDescription.Size = new System.Drawing.Size(488, 35);
             this.LblPDescription.TabIndex = 37;
             this.LblPDescription.Text = null;
             this.LblPDescription.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
@@ -918,9 +623,9 @@
             this.LblPStatus.BackColor = System.Drawing.Color.White;
             this.LblPStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblPStatus.ForeColor = System.Drawing.Color.Black;
-            this.LblPStatus.Location = new System.Drawing.Point(69, 389);
+            this.LblPStatus.Location = new System.Drawing.Point(16, 390);
             this.LblPStatus.Name = "LblPStatus";
-            this.LblPStatus.Size = new System.Drawing.Size(374, 39);
+            this.LblPStatus.Size = new System.Drawing.Size(360, 39);
             this.LblPStatus.TabIndex = 36;
             this.LblPStatus.Text = null;
             this.LblPStatus.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -931,9 +636,9 @@
             this.LblPPrice.BackColor = System.Drawing.Color.White;
             this.LblPPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblPPrice.ForeColor = System.Drawing.Color.Black;
-            this.LblPPrice.Location = new System.Drawing.Point(68, 154);
+            this.LblPPrice.Location = new System.Drawing.Point(15, 155);
             this.LblPPrice.Name = "LblPPrice";
-            this.LblPPrice.Size = new System.Drawing.Size(374, 39);
+            this.LblPPrice.Size = new System.Drawing.Size(360, 39);
             this.LblPPrice.TabIndex = 35;
             this.LblPPrice.Text = null;
             this.LblPPrice.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -944,9 +649,9 @@
             this.LblPName.BackColor = System.Drawing.Color.White;
             this.LblPName.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblPName.ForeColor = System.Drawing.Color.Black;
-            this.LblPName.Location = new System.Drawing.Point(66, 103);
+            this.LblPName.Location = new System.Drawing.Point(13, 104);
             this.LblPName.Name = "LblPName";
-            this.LblPName.Size = new System.Drawing.Size(376, 39);
+            this.LblPName.Size = new System.Drawing.Size(362, 39);
             this.LblPName.TabIndex = 34;
             this.LblPName.Text = null;
             this.LblPName.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1051,7 +756,7 @@
             this.panel11.Controls.Add(this.siticoneHtmlLabel16);
             this.panel11.Controls.Add(this.siticoneHtmlLabel19);
             this.panel11.ForeColor = System.Drawing.Color.White;
-            this.panel11.Location = new System.Drawing.Point(2, 2);
+            this.panel11.Location = new System.Drawing.Point(2, -1);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(1593, 97);
             this.panel11.TabIndex = 26;
@@ -1093,7 +798,7 @@
             // Comprasrealizadas
             // 
             this.Comprasrealizadas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(210)))), ((int)(((byte)(210)))));
-            this.Comprasrealizadas.Controls.Add(this.DgvSales);
+            this.Comprasrealizadas.Controls.Add(this.DgvComprasRealizadas);
             this.Comprasrealizadas.Controls.Add(this.panel18);
             this.Comprasrealizadas.Location = new System.Drawing.Point(304, 4);
             this.Comprasrealizadas.Name = "Comprasrealizadas";
@@ -1102,6 +807,77 @@
             this.Comprasrealizadas.TabIndex = 1;
             this.Comprasrealizadas.Text = "Compras realizadas";
             // 
+            // DgvComprasRealizadas
+            // 
+            this.DgvComprasRealizadas.AllowUserToResizeRows = false;
+            dataGridViewCellStyle85.BackColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle85.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle85.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle85.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
+            dataGridViewCellStyle85.SelectionForeColor = System.Drawing.Color.White;
+            this.DgvComprasRealizadas.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle85;
+            this.DgvComprasRealizadas.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            dataGridViewCellStyle86.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle86.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle86.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle86.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle86.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle86.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle86.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvComprasRealizadas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle86;
+            this.DgvComprasRealizadas.ColumnHeadersHeight = 70;
+            this.DgvComprasRealizadas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle87.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle87.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle87.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle87.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle87.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
+            dataGridViewCellStyle87.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle87.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DgvComprasRealizadas.DefaultCellStyle = dataGridViewCellStyle87;
+            this.DgvComprasRealizadas.GridColor = System.Drawing.Color.Black;
+            this.DgvComprasRealizadas.Location = new System.Drawing.Point(3, 96);
+            this.DgvComprasRealizadas.Name = "DgvComprasRealizadas";
+            this.DgvComprasRealizadas.ReadOnly = true;
+            this.DgvComprasRealizadas.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle88.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle88.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle88.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle88.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle88.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle88.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle88.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvComprasRealizadas.RowHeadersDefaultCellStyle = dataGridViewCellStyle88;
+            this.DgvComprasRealizadas.RowHeadersVisible = false;
+            this.DgvComprasRealizadas.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.White;
+            this.DgvComprasRealizadas.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DgvComprasRealizadas.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.DgvComprasRealizadas.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.DgvComprasRealizadas.RowTemplate.Height = 60;
+            this.DgvComprasRealizadas.Size = new System.Drawing.Size(1597, 861);
+            this.DgvComprasRealizadas.TabIndex = 32;
+            this.DgvComprasRealizadas.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.DgvComprasRealizadas.ThemeStyle.AlternatingRowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DgvComprasRealizadas.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.DgvComprasRealizadas.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.DgvComprasRealizadas.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.DgvComprasRealizadas.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.DgvComprasRealizadas.ThemeStyle.GridColor = System.Drawing.Color.Black;
+            this.DgvComprasRealizadas.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.DimGray;
+            this.DgvComprasRealizadas.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.DgvComprasRealizadas.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DgvComprasRealizadas.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.DgvComprasRealizadas.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.DgvComprasRealizadas.ThemeStyle.HeaderStyle.Height = 70;
+            this.DgvComprasRealizadas.ThemeStyle.ReadOnly = true;
+            this.DgvComprasRealizadas.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.DgvComprasRealizadas.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.DgvComprasRealizadas.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DgvComprasRealizadas.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.White;
+            this.DgvComprasRealizadas.ThemeStyle.RowsStyle.Height = 60;
+            this.DgvComprasRealizadas.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DgvComprasRealizadas.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            // 
             // panel18
             // 
             this.panel18.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -1109,7 +885,7 @@
             this.panel18.Controls.Add(this.siticoneHtmlLabel33);
             this.panel18.Controls.Add(this.siticoneHtmlLabel34);
             this.panel18.ForeColor = System.Drawing.Color.White;
-            this.panel18.Location = new System.Drawing.Point(2, 2);
+            this.panel18.Location = new System.Drawing.Point(0, -1);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(1593, 97);
             this.panel18.TabIndex = 31;
@@ -1122,7 +898,7 @@
             this.siticoneHtmlLabel32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
             this.siticoneHtmlLabel32.Location = new System.Drawing.Point(24, 56);
             this.siticoneHtmlLabel32.Name = "siticoneHtmlLabel32";
-            this.siticoneHtmlLabel32.Size = new System.Drawing.Size(350, 2);
+            this.siticoneHtmlLabel32.Size = new System.Drawing.Size(385, 2);
             this.siticoneHtmlLabel32.TabIndex = 16;
             this.siticoneHtmlLabel32.Text = null;
             // 
@@ -1133,9 +909,9 @@
             this.siticoneHtmlLabel33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.siticoneHtmlLabel33.Location = new System.Drawing.Point(47, 14);
             this.siticoneHtmlLabel33.Name = "siticoneHtmlLabel33";
-            this.siticoneHtmlLabel33.Size = new System.Drawing.Size(331, 44);
+            this.siticoneHtmlLabel33.Size = new System.Drawing.Size(335, 44);
             this.siticoneHtmlLabel33.TabIndex = 15;
-            this.siticoneHtmlLabel33.Text = "Control de Facturas";
+            this.siticoneHtmlLabel33.Text = "Compras realizadas";
             // 
             // siticoneHtmlLabel34
             // 
@@ -1144,31 +920,138 @@
             this.siticoneHtmlLabel34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.siticoneHtmlLabel34.Location = new System.Drawing.Point(25, 62);
             this.siticoneHtmlLabel34.Name = "siticoneHtmlLabel34";
-            this.siticoneHtmlLabel34.Size = new System.Drawing.Size(235, 22);
+            this.siticoneHtmlLabel34.Size = new System.Drawing.Size(246, 22);
             this.siticoneHtmlLabel34.TabIndex = 17;
-            this.siticoneHtmlLabel34.Text = "Dashboard > Gestion de clientes";
+            this.siticoneHtmlLabel34.Text = "Dashboard > Compras Realizadas";
             // 
             // Reportesfinancieros
             // 
-            this.Reportesfinancieros.Controls.Add(this.siticoneHtmlLabel43);
+            this.Reportesfinancieros.Controls.Add(this.DgvFacturas);
+            this.Reportesfinancieros.Controls.Add(this.panel14);
             this.Reportesfinancieros.Location = new System.Drawing.Point(304, 4);
             this.Reportesfinancieros.Name = "Reportesfinancieros";
             this.Reportesfinancieros.Padding = new System.Windows.Forms.Padding(3);
             this.Reportesfinancieros.Size = new System.Drawing.Size(1596, 960);
             this.Reportesfinancieros.TabIndex = 2;
-            this.Reportesfinancieros.Text = "Reportes financieros";
+            this.Reportesfinancieros.Text = "Reportes Financieros";
             this.Reportesfinancieros.UseVisualStyleBackColor = true;
             // 
-            // siticoneHtmlLabel43
+            // DgvFacturas
             // 
-            this.siticoneHtmlLabel43.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel43.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.siticoneHtmlLabel43.Location = new System.Drawing.Point(638, 444);
-            this.siticoneHtmlLabel43.Name = "siticoneHtmlLabel43";
-            this.siticoneHtmlLabel43.Size = new System.Drawing.Size(321, 44);
-            this.siticoneHtmlLabel43.TabIndex = 20;
-            this.siticoneHtmlLabel43.Text = "Reporte Financiero";
+            this.DgvFacturas.AllowUserToResizeRows = false;
+            dataGridViewCellStyle89.BackColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle89.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle89.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle89.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
+            dataGridViewCellStyle89.SelectionForeColor = System.Drawing.Color.White;
+            this.DgvFacturas.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle89;
+            this.DgvFacturas.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            dataGridViewCellStyle90.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle90.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle90.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle90.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle90.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle90.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle90.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvFacturas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle90;
+            this.DgvFacturas.ColumnHeadersHeight = 70;
+            this.DgvFacturas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle91.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle91.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle91.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle91.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle91.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
+            dataGridViewCellStyle91.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle91.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DgvFacturas.DefaultCellStyle = dataGridViewCellStyle91;
+            this.DgvFacturas.GridColor = System.Drawing.Color.Black;
+            this.DgvFacturas.Location = new System.Drawing.Point(3, 106);
+            this.DgvFacturas.Name = "DgvFacturas";
+            this.DgvFacturas.ReadOnly = true;
+            this.DgvFacturas.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle92.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle92.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle92.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle92.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle92.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle92.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle92.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvFacturas.RowHeadersDefaultCellStyle = dataGridViewCellStyle92;
+            this.DgvFacturas.RowHeadersVisible = false;
+            this.DgvFacturas.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.White;
+            this.DgvFacturas.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DgvFacturas.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.DgvFacturas.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.DgvFacturas.RowTemplate.Height = 60;
+            this.DgvFacturas.Size = new System.Drawing.Size(1587, 849);
+            this.DgvFacturas.TabIndex = 34;
+            this.DgvFacturas.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.DgvFacturas.ThemeStyle.AlternatingRowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DgvFacturas.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.DgvFacturas.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.DgvFacturas.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.DgvFacturas.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.DgvFacturas.ThemeStyle.GridColor = System.Drawing.Color.Black;
+            this.DgvFacturas.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.DimGray;
+            this.DgvFacturas.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.DgvFacturas.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DgvFacturas.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.DgvFacturas.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.DgvFacturas.ThemeStyle.HeaderStyle.Height = 70;
+            this.DgvFacturas.ThemeStyle.ReadOnly = true;
+            this.DgvFacturas.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.DgvFacturas.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.DgvFacturas.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DgvFacturas.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.White;
+            this.DgvFacturas.ThemeStyle.RowsStyle.Height = 60;
+            this.DgvFacturas.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DgvFacturas.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            // 
+            // panel14
+            // 
+            this.panel14.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel14.Controls.Add(this.siticoneHtmlLabel22);
+            this.panel14.Controls.Add(this.siticoneHtmlLabel23);
+            this.panel14.Controls.Add(this.siticoneHtmlLabel24);
+            this.panel14.ForeColor = System.Drawing.Color.White;
+            this.panel14.Location = new System.Drawing.Point(2, 5);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(1593, 97);
+            this.panel14.TabIndex = 33;
+            // 
+            // siticoneHtmlLabel22
+            // 
+            this.siticoneHtmlLabel22.AutoSize = false;
+            this.siticoneHtmlLabel22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
+            this.siticoneHtmlLabel22.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
+            this.siticoneHtmlLabel22.Location = new System.Drawing.Point(24, 56);
+            this.siticoneHtmlLabel22.Name = "siticoneHtmlLabel22";
+            this.siticoneHtmlLabel22.Size = new System.Drawing.Size(350, 2);
+            this.siticoneHtmlLabel22.TabIndex = 16;
+            this.siticoneHtmlLabel22.Text = null;
+            // 
+            // siticoneHtmlLabel23
+            // 
+            this.siticoneHtmlLabel23.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneHtmlLabel23.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.siticoneHtmlLabel23.Location = new System.Drawing.Point(47, 14);
+            this.siticoneHtmlLabel23.Name = "siticoneHtmlLabel23";
+            this.siticoneHtmlLabel23.Size = new System.Drawing.Size(359, 44);
+            this.siticoneHtmlLabel23.TabIndex = 15;
+            this.siticoneHtmlLabel23.Text = "Reportes Financieros";
+            // 
+            // siticoneHtmlLabel24
+            // 
+            this.siticoneHtmlLabel24.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneHtmlLabel24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.siticoneHtmlLabel24.Location = new System.Drawing.Point(25, 62);
+            this.siticoneHtmlLabel24.Name = "siticoneHtmlLabel24";
+            this.siticoneHtmlLabel24.Size = new System.Drawing.Size(251, 22);
+            this.siticoneHtmlLabel24.TabIndex = 17;
+            this.siticoneHtmlLabel24.Text = "Dashboard > Reportes Financieros";
             // 
             // Carrito
             // 
@@ -1350,35 +1233,51 @@
             // 
             // DgvCart
             // 
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-            this.DgvCart.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DgvCart.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
-            this.DgvCart.ColumnHeadersHeight = 50;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DgvCart.DefaultCellStyle = dataGridViewCellStyle9;
+            this.DgvCart.AllowUserToResizeRows = false;
+            dataGridViewCellStyle93.BackColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle93.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle93.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle93.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
+            dataGridViewCellStyle93.SelectionForeColor = System.Drawing.Color.White;
+            this.DgvCart.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle93;
+            this.DgvCart.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            dataGridViewCellStyle94.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle94.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle94.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle94.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle94.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            dataGridViewCellStyle94.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle94.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvCart.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle94;
+            this.DgvCart.ColumnHeadersHeight = 70;
+            this.DgvCart.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle95.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle95.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle95.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle95.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle95.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(58)))), ((int)(((byte)(113)))));
+            dataGridViewCellStyle95.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle95.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DgvCart.DefaultCellStyle = dataGridViewCellStyle95;
             this.DgvCart.GridColor = System.Drawing.Color.Black;
             this.DgvCart.Location = new System.Drawing.Point(0, 66);
             this.DgvCart.Name = "DgvCart";
             this.DgvCart.ReadOnly = true;
+            this.DgvCart.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle96.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle96.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle96.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle96.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle96.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle96.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle96.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgvCart.RowHeadersDefaultCellStyle = dataGridViewCellStyle96;
             this.DgvCart.RowHeadersVisible = false;
             this.DgvCart.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.White;
             this.DgvCart.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DgvCart.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
             this.DgvCart.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.DgvCart.RowTemplate.Height = 50;
+            this.DgvCart.RowTemplate.Height = 60;
             this.DgvCart.Size = new System.Drawing.Size(1593, 554);
             this.DgvCart.TabIndex = 30;
             this.DgvCart.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -1392,14 +1291,14 @@
             this.DgvCart.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.DgvCart.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DgvCart.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.DgvCart.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.DgvCart.ThemeStyle.HeaderStyle.Height = 50;
+            this.DgvCart.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.DgvCart.ThemeStyle.HeaderStyle.Height = 70;
             this.DgvCart.ThemeStyle.ReadOnly = true;
             this.DgvCart.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.DgvCart.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.DgvCart.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DgvCart.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.White;
-            this.DgvCart.ThemeStyle.RowsStyle.Height = 50;
+            this.DgvCart.ThemeStyle.RowsStyle.Height = 60;
             this.DgvCart.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.DgvCart.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
@@ -1438,61 +1337,6 @@
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
-            // DgvSales
-            // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.DgvSales.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DgvSales.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            this.DgvSales.ColumnHeadersHeight = 50;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DgvSales.DefaultCellStyle = dataGridViewCellStyle6;
-            this.DgvSales.GridColor = System.Drawing.Color.Black;
-            this.DgvSales.Location = new System.Drawing.Point(3, 103);
-            this.DgvSales.Name = "DgvSales";
-            this.DgvSales.ReadOnly = true;
-            this.DgvSales.RowHeadersVisible = false;
-            this.DgvSales.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.White;
-            this.DgvSales.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DgvSales.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.DgvSales.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.DgvSales.RowTemplate.Height = 50;
-            this.DgvSales.Size = new System.Drawing.Size(1587, 672);
-            this.DgvSales.TabIndex = 32;
-            this.DgvSales.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.DgvSales.ThemeStyle.AlternatingRowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DgvSales.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.DgvSales.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.DgvSales.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.DgvSales.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.DgvSales.ThemeStyle.GridColor = System.Drawing.Color.Black;
-            this.DgvSales.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.DimGray;
-            this.DgvSales.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.DgvSales.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DgvSales.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.DgvSales.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.DgvSales.ThemeStyle.HeaderStyle.Height = 50;
-            this.DgvSales.ThemeStyle.ReadOnly = true;
-            this.DgvSales.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.DgvSales.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.DgvSales.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DgvSales.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.White;
-            this.DgvSales.ThemeStyle.RowsStyle.Height = 50;
-            this.DgvSales.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.DgvSales.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            // 
             // FrmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1504,23 +1348,9 @@
             this.Controls.Add(this.TabControl);
             this.Name = "FrmHome";
             this.Text = "Home";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmHome_FormClosing);
             this.Load += new System.EventHandler(this.FrmHome_Load);
             this.TabControl.ResumeLayout(false);
-            this.Dashboard.ResumeLayout(false);
-            this.siticoneCustomGradientPanel4.ResumeLayout(false);
-            this.siticoneCustomGradientPanel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox4)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.siticoneCustomGradientPanel3.ResumeLayout(false);
-            this.siticoneCustomGradientPanel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox3)).EndInit();
-            this.siticoneCustomGradientPanel2.ResumeLayout(false);
-            this.siticoneCustomGradientPanel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox2)).EndInit();
-            this.siticoneCustomGradientPanel1.ResumeLayout(false);
-            this.siticoneCustomGradientPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.siticoneCirclePictureBox1)).EndInit();
             this.Comprarproductos1.ResumeLayout(false);
             this.siticoneTabControl2.ResumeLayout(false);
             this.BuscarProductos.ResumeLayout(false);
@@ -1543,10 +1373,13 @@
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
             this.Comprasrealizadas.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.DgvComprasRealizadas)).EndInit();
             this.panel18.ResumeLayout(false);
             this.panel18.PerformLayout();
             this.Reportesfinancieros.ResumeLayout(false);
-            this.Reportesfinancieros.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvFacturas)).EndInit();
+            this.panel14.ResumeLayout(false);
+            this.panel14.PerformLayout();
             this.Carrito.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel12.ResumeLayout(false);
@@ -1559,7 +1392,6 @@
             this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgvCart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DgvSales)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1567,30 +1399,6 @@
         #endregion
 
         private Siticone.Desktop.UI.WinForms.SiticoneTabControl TabControl;
-        private System.Windows.Forms.TabPage Dashboard;
-        private Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel siticoneCustomGradientPanel4;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel13;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel11;
-        private Siticone.Desktop.UI.WinForms.SiticoneCirclePictureBox siticoneCirclePictureBox4;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel12;
-        private System.Windows.Forms.Panel panel1;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel4;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel2;
-        private Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel siticoneCustomGradientPanel3;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel10;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel8;
-        private Siticone.Desktop.UI.WinForms.SiticoneCirclePictureBox siticoneCirclePictureBox3;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel9;
-        private Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel siticoneCustomGradientPanel2;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel7;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel5;
-        private Siticone.Desktop.UI.WinForms.SiticoneCirclePictureBox siticoneCirclePictureBox2;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel6;
-        private Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel siticoneCustomGradientPanel1;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel1;
-        private Siticone.Desktop.UI.WinForms.SiticoneCirclePictureBox siticoneCirclePictureBox1;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel3;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel LblTotalUsers;
         private System.Windows.Forms.TabPage Comprarproductos1;
         private System.Windows.Forms.TabPage Comprasrealizadas;
         private System.Windows.Forms.Panel panel18;
@@ -1598,7 +1406,6 @@
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel33;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel34;
         private System.Windows.Forms.TabPage Reportesfinancieros;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel43;
         private System.Windows.Forms.TabPage Carrito;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -1654,6 +1461,12 @@
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel45;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel46;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel LblTotal;
-        private Siticone.Desktop.UI.WinForms.SiticoneDataGridView DgvSales;
+        private Siticone.Desktop.UI.WinForms.SiticoneDataGridView DgvComprasRealizadas;
+        private Siticone.Desktop.UI.WinForms.SiticoneDataGridView DgvFacturas;
+        private Panel panel14;
+        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel22;
+        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel23;
+        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel24;
+        private Siticone.Desktop.UI.WinForms.SiticoneDataGridViewStyler siticoneDataGridViewStyler1;
     }
 }

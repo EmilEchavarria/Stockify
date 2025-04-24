@@ -30,26 +30,26 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmRegister));
             this.siticoneCustomGradientPanel1 = new Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel();
+            this.siticoneCustomGradientPanel2 = new Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel();
+            this.siticoneHtmlLabel9 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.siticoneHtmlLabel8 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.siticoneHtmlLabel6 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.siticoneHtmlLabel3 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel1 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.TxtUsername = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.TxtPassword = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.siticoneHtmlLabel7 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel2 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.TxtPhone = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.siticoneHtmlLabel4 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel5 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.TxtEmail = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.TxtClientName = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.BtnRegister = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.siticoneCustomGradientPanel2 = new Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel();
-            this.siticoneHtmlLabel3 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneHtmlLabel6 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneHtmlLabel8 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneHtmlLabel9 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneCustomGradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.siticoneCustomGradientPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // siticoneCustomGradientPanel1
@@ -73,6 +73,69 @@
             this.siticoneCustomGradientPanel1.Name = "siticoneCustomGradientPanel1";
             this.siticoneCustomGradientPanel1.Size = new System.Drawing.Size(930, 741);
             this.siticoneCustomGradientPanel1.TabIndex = 3;
+            // 
+            // siticoneCustomGradientPanel2
+            // 
+            this.siticoneCustomGradientPanel2.Controls.Add(this.siticoneHtmlLabel9);
+            this.siticoneCustomGradientPanel2.Controls.Add(this.siticoneHtmlLabel8);
+            this.siticoneCustomGradientPanel2.Controls.Add(this.siticoneHtmlLabel6);
+            this.siticoneCustomGradientPanel2.Controls.Add(this.siticoneHtmlLabel3);
+            this.siticoneCustomGradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(40)))), ((int)(((byte)(51)))));
+            this.siticoneCustomGradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(78)))), ((int)(((byte)(96)))));
+            this.siticoneCustomGradientPanel2.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(40)))), ((int)(((byte)(51)))));
+            this.siticoneCustomGradientPanel2.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(78)))), ((int)(((byte)(96)))));
+            this.siticoneCustomGradientPanel2.Location = new System.Drawing.Point(460, 0);
+            this.siticoneCustomGradientPanel2.Name = "siticoneCustomGradientPanel2";
+            this.siticoneCustomGradientPanel2.Size = new System.Drawing.Size(470, 741);
+            this.siticoneCustomGradientPanel2.TabIndex = 19;
+            // 
+            // siticoneHtmlLabel9
+            // 
+            this.siticoneHtmlLabel9.AutoSize = false;
+            this.siticoneHtmlLabel9.BackColor = System.Drawing.Color.White;
+            this.siticoneHtmlLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel9.ForeColor = System.Drawing.Color.White;
+            this.siticoneHtmlLabel9.Location = new System.Drawing.Point(25, 105);
+            this.siticoneHtmlLabel9.Name = "siticoneHtmlLabel9";
+            this.siticoneHtmlLabel9.Size = new System.Drawing.Size(425, 2);
+            this.siticoneHtmlLabel9.TabIndex = 23;
+            this.siticoneHtmlLabel9.Text = null;
+            // 
+            // siticoneHtmlLabel8
+            // 
+            this.siticoneHtmlLabel8.AutoSize = false;
+            this.siticoneHtmlLabel8.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneHtmlLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel8.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.siticoneHtmlLabel8.Location = new System.Drawing.Point(25, 207);
+            this.siticoneHtmlLabel8.Name = "siticoneHtmlLabel8";
+            this.siticoneHtmlLabel8.Size = new System.Drawing.Size(425, 516);
+            this.siticoneHtmlLabel8.TabIndex = 22;
+            this.siticoneHtmlLabel8.Text = resources.GetString("siticoneHtmlLabel8.Text");
+            this.siticoneHtmlLabel8.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // siticoneHtmlLabel6
+            // 
+            this.siticoneHtmlLabel6.AutoSize = false;
+            this.siticoneHtmlLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneHtmlLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel6.ForeColor = System.Drawing.Color.Silver;
+            this.siticoneHtmlLabel6.Location = new System.Drawing.Point(56, 112);
+            this.siticoneHtmlLabel6.Name = "siticoneHtmlLabel6";
+            this.siticoneHtmlLabel6.Size = new System.Drawing.Size(404, 29);
+            this.siticoneHtmlLabel6.TabIndex = 21;
+            this.siticoneHtmlLabel6.Text = "Inventario sin límites,\r\n éxito sin fronteras.";
+            // 
+            // siticoneHtmlLabel3
+            // 
+            this.siticoneHtmlLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneHtmlLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel3.ForeColor = System.Drawing.SystemColors.Window;
+            this.siticoneHtmlLabel3.Location = new System.Drawing.Point(158, 50);
+            this.siticoneHtmlLabel3.Name = "siticoneHtmlLabel3";
+            this.siticoneHtmlLabel3.Size = new System.Drawing.Size(170, 57);
+            this.siticoneHtmlLabel3.TabIndex = 20;
+            this.siticoneHtmlLabel3.Text = "Stockify";
             // 
             // siticoneHtmlLabel1
             // 
@@ -143,9 +206,9 @@
             this.siticoneHtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.siticoneHtmlLabel2.Location = new System.Drawing.Point(46, 539);
             this.siticoneHtmlLabel2.Name = "siticoneHtmlLabel2";
-            this.siticoneHtmlLabel2.Size = new System.Drawing.Size(93, 26);
+            this.siticoneHtmlLabel2.Size = new System.Drawing.Size(99, 26);
             this.siticoneHtmlLabel2.TabIndex = 11;
-            this.siticoneHtmlLabel2.Text = "Contrase;a";
+            this.siticoneHtmlLabel2.Text = "Contraseña";
             // 
             // TxtPhone
             // 
@@ -166,6 +229,17 @@
             this.TxtPhone.SelectedText = "";
             this.TxtPhone.Size = new System.Drawing.Size(375, 40);
             this.TxtPhone.TabIndex = 16;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = global::Final_Project.Properties.Resources.main_logo_black_transparent;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(135, 50);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(193, 88);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // siticoneHtmlLabel4
             // 
@@ -229,17 +303,6 @@
             this.TxtClientName.Size = new System.Drawing.Size(375, 40);
             this.TxtClientName.TabIndex = 12;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::Final_Project.Properties.Resources.main_logo_black_transparent;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(135, 50);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(193, 88);
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
             // BtnRegister
             // 
             this.BtnRegister.ActiveBorderThickness = 1;
@@ -267,69 +330,6 @@
             this.BtnRegister.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.BtnRegister.Click += new System.EventHandler(this.BtnRegister_Click);
             // 
-            // siticoneCustomGradientPanel2
-            // 
-            this.siticoneCustomGradientPanel2.Controls.Add(this.siticoneHtmlLabel9);
-            this.siticoneCustomGradientPanel2.Controls.Add(this.siticoneHtmlLabel8);
-            this.siticoneCustomGradientPanel2.Controls.Add(this.siticoneHtmlLabel6);
-            this.siticoneCustomGradientPanel2.Controls.Add(this.siticoneHtmlLabel3);
-            this.siticoneCustomGradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(40)))), ((int)(((byte)(51)))));
-            this.siticoneCustomGradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(78)))), ((int)(((byte)(96)))));
-            this.siticoneCustomGradientPanel2.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(40)))), ((int)(((byte)(51)))));
-            this.siticoneCustomGradientPanel2.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(78)))), ((int)(((byte)(96)))));
-            this.siticoneCustomGradientPanel2.Location = new System.Drawing.Point(460, 0);
-            this.siticoneCustomGradientPanel2.Name = "siticoneCustomGradientPanel2";
-            this.siticoneCustomGradientPanel2.Size = new System.Drawing.Size(470, 741);
-            this.siticoneCustomGradientPanel2.TabIndex = 19;
-            // 
-            // siticoneHtmlLabel3
-            // 
-            this.siticoneHtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel3.ForeColor = System.Drawing.SystemColors.Window;
-            this.siticoneHtmlLabel3.Location = new System.Drawing.Point(158, 50);
-            this.siticoneHtmlLabel3.Name = "siticoneHtmlLabel3";
-            this.siticoneHtmlLabel3.Size = new System.Drawing.Size(170, 57);
-            this.siticoneHtmlLabel3.TabIndex = 20;
-            this.siticoneHtmlLabel3.Text = "Stockify";
-            // 
-            // siticoneHtmlLabel6
-            // 
-            this.siticoneHtmlLabel6.AutoSize = false;
-            this.siticoneHtmlLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel6.ForeColor = System.Drawing.Color.Silver;
-            this.siticoneHtmlLabel6.Location = new System.Drawing.Point(56, 112);
-            this.siticoneHtmlLabel6.Name = "siticoneHtmlLabel6";
-            this.siticoneHtmlLabel6.Size = new System.Drawing.Size(404, 29);
-            this.siticoneHtmlLabel6.TabIndex = 21;
-            this.siticoneHtmlLabel6.Text = "Inventario sin límites,\r\n éxito sin fronteras.";
-            // 
-            // siticoneHtmlLabel8
-            // 
-            this.siticoneHtmlLabel8.AutoSize = false;
-            this.siticoneHtmlLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel8.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.siticoneHtmlLabel8.Location = new System.Drawing.Point(25, 207);
-            this.siticoneHtmlLabel8.Name = "siticoneHtmlLabel8";
-            this.siticoneHtmlLabel8.Size = new System.Drawing.Size(425, 516);
-            this.siticoneHtmlLabel8.TabIndex = 22;
-            this.siticoneHtmlLabel8.Text = resources.GetString("siticoneHtmlLabel8.Text");
-            this.siticoneHtmlLabel8.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // siticoneHtmlLabel9
-            // 
-            this.siticoneHtmlLabel9.AutoSize = false;
-            this.siticoneHtmlLabel9.BackColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel9.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel9.Location = new System.Drawing.Point(25, 105);
-            this.siticoneHtmlLabel9.Name = "siticoneHtmlLabel9";
-            this.siticoneHtmlLabel9.Size = new System.Drawing.Size(425, 2);
-            this.siticoneHtmlLabel9.TabIndex = 23;
-            this.siticoneHtmlLabel9.Text = null;
-            // 
             // FrmRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -343,9 +343,9 @@
             this.Text = "FrmRegister";
             this.siticoneCustomGradientPanel1.ResumeLayout(false);
             this.siticoneCustomGradientPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.siticoneCustomGradientPanel2.ResumeLayout(false);
             this.siticoneCustomGradientPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
